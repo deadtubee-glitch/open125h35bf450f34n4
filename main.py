@@ -451,49 +451,50 @@ def main():
             print("✅ Bot sicher beendet")
 
 def _get_default_parameters(config):
-    """
-    Standard-Parameter wenn keine Optimierungen verfügbar sind
-    (Fallback-Funktion für main.py)
-    """
-    parameter_ranges = config.get('parameter_ranges', {})
-    
-    # Mittlere Werte aus Ranges nehmen
-    default_params = {}
-    for key, values in parameter_ranges.items():
-        if isinstance(values, list) and values:
-            # Mittleren Wert nehmen
-            middle_idx = len(values) // 2
-            default_params[key] = values[middle_idx]
-        else:
-            # Fallback defaults
-            fallback_defaults = {
-                'rsi_period': 14,
-                'rsi_oversold': 30,
-                'rsi_overbought': 70,
-                'ema_fast': 12,
-                'ema_slow': 26,
-                'take_profit_pct': 0.015,
-                'stop_loss_pct': 0.02,
-                'trailing_sl_pct': 0.006,
-                'volume_threshold': 2.0,
-                'bb_period': 20,
-                'confidence_threshold': 0.7
-            }
-            default_params[key] = fallback_defaults.get(key, 0.5)
-    
-    return {
-        'parameters': default_params,
-        'score': 0.5,
-        'method': 'default',
-        'total_tests': 0,
-        'best_win_rate': 0.0,
-        'best_profit': 0.0,
-        'optimization_time': 0.0
-    }
+"""
+Standard-Parameter wenn keine Optimierungen verfügbar sind
+(Fallback-Funktion für main.py)
+"""
+parameter_ranges = config.get('parameter_ranges', {})
+
+# Mittlere Werte aus Ranges nehmen
+default_params = {}
+for key, values in parameter_ranges.items():
+    if isinstance(values, list) and values:
+        # Mittleren Wert nehmen
+        middle_idx = len(values) // 2
+        default_params[key] = values[middle_idx]
+    else:
+        # Fallback defaults
+        fallback_defaults = {
+            'rsi_period': 14,
+            'rsi_oversold': 30,
+            'rsi_overbought': 70,
+            'ema_fast': 12,
+            'ema_slow': 26,
+            'take_profit_pct': 0.015,
+            'stop_loss_pct': 0.02,
+            'trailing_sl_pct': 0.006,
+            'volume_threshold': 2.0,
+            'bb_period': 20,
+            'confidence_threshold': 0.7
+        }
+        default_params[key] = fallback_defaults.get(key, 0.5)
+
+return {
+    'parameters': default_params,
+    'score': 0.5,
+    'method': 'default',
+    'total_tests': 0,
+    'best_win_rate': 0.0,
+    'best_profit': 0.0,
+    'optimization_time': 0.0
+}
 
 
 if __name__ == "__main__":
     main()
+
 
 
 
