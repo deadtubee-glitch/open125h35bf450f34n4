@@ -1,0 +1,686 @@
+2025-08-13 17:18:09,753 - root - INFO - ✅ Logging system initialized
+2025-08-13 17:18:09,753 - root - INFO - 📁 Log file: C:\Users\domin\daytrading_bot\data\logs\trading_bot_20250813_171809.log
+2025-08-13 17:18:09,767 - root - INFO - ✅ Configuration loaded successfully
+2025-08-13 17:18:13,998 - optimization.threaded_optimizer - INFO - 🧵 Starte MULTI-THREADED Parameter-Optimierung...
+2025-08-13 17:18:13,998 - root - INFO - Starte MULTI-THREADED Parameter-Optimierung...
+2025-08-13 17:18:13,999 - root - INFO - Teste 100 Parameter-Kombinationen mit 8 Threads...
+2025-08-13 17:18:14,001 - root - INFO - Lade historische Daten für alle Symbole...
+2025-08-13 17:21:01,941 - root - INFO - ✅ Test 1/100: Score 0.6212, Profit: 16.38%, Win Rate: 62.65%
+2025-08-13 17:21:02,865 - root - INFO - ✅ Test 2/100: Score 0.5667, Profit: 11.55%, Win Rate: 59.92%
+2025-08-13 17:21:08,761 - root - INFO - ✅ Test 3/100: Score 0.5503, Profit: 9.04%, Win Rate: 60.53%
+2025-08-13 17:21:10,058 - root - INFO - ✅ Test 4/100: Score 0.6572, Profit: 18.91%, Win Rate: 64.68%
+2025-08-13 17:21:11,617 - root - INFO - ✅ Test 5/100: Score 0.5943, Profit: 13.31%, Win Rate: 60.83%
+2025-08-13 17:21:13,255 - root - INFO - ✅ Test 6/100: Score 0.5458, Profit: 8.70%, Win Rate: 59.62%
+2025-08-13 17:21:14,874 - root - INFO - ✅ Test 7/100: Score 0.6230, Profit: 16.39%, Win Rate: 60.77%
+2025-08-13 17:21:15,797 - root - INFO - ✅ Test 8/100: Score 0.5782, Profit: 9.64%, Win Rate: 63.42%
+2025-08-13 17:21:47,789 - root - INFO - ✅ Test 9/100: Score 0.6711, Profit: 20.35%, Win Rate: 64.22%
+2025-08-13 17:21:49,484 - root - INFO - ✅ Test 10/100: Score 0.6170, Profit: 15.06%, Win Rate: 63.20%
+2025-08-13 17:21:53,775 - root - INFO - ✅ Test 11/100: Score 0.5310, Profit: 6.01%, Win Rate: 62.68%
+2025-08-13 17:22:02,727 - root - INFO - ✅ Test 12/100: Score 0.5862, Profit: 11.04%, Win Rate: 63.05%
+2025-08-13 17:22:05,853 - root - INFO - ✅ Test 13/100: Score 0.5449, Profit: 10.17%, Win Rate: 58.22%
+2025-08-13 17:22:06,624 - root - INFO - ✅ Test 14/100: Score 0.5757, Profit: 10.32%, Win Rate: 62.75%
+2025-08-13 17:22:09,067 - root - INFO - ✅ Test 15/100: Score 0.5434, Profit: 7.64%, Win Rate: 60.20%
+2025-08-13 17:22:14,236 - root - INFO - ✅ Test 16/100: Score 0.5715, Profit: 10.14%, Win Rate: 60.80%
+2025-08-13 17:22:31,831 - root - INFO - ✅ Test 17/100: Score 0.5916, Profit: 11.98%, Win Rate: 62.89%
+2025-08-13 17:22:34,037 - root - INFO - ✅ Test 18/100: Score 0.5972, Profit: 13.67%, Win Rate: 60.52%
+2025-08-13 17:22:37,690 - root - INFO - ✅ Test 19/100: Score 0.5750, Profit: 11.32%, Win Rate: 61.69%
+2025-08-13 17:22:54,697 - root - INFO - ✅ Test 20/100: Score 0.5829, Profit: 11.41%, Win Rate: 63.38%
+2025-08-13 17:22:57,830 - root - INFO - ✅ Test 21/100: Score 0.5882, Profit: 11.15%, Win Rate: 63.32%
+2025-08-13 17:23:04,331 - root - INFO - ✅ Test 22/100: Score 0.5209, Profit: 5.72%, Win Rate: 60.81%
+2025-08-13 17:23:04,844 - root - INFO - ✅ Test 23/100: Score 0.6007, Profit: 13.33%, Win Rate: 62.52%
+2025-08-13 17:23:04,922 - root - INFO - ✅ Test 24/100: Score 0.6235, Profit: 16.77%, Win Rate: 61.30%
+2025-08-13 17:23:17,584 - root - INFO - ✅ Test 25/100: Score 0.5855, Profit: 11.29%, Win Rate: 64.28%
+2025-08-13 17:23:24,112 - root - INFO - ✅ Test 26/100: Score 0.5867, Profit: 11.56%, Win Rate: 62.49%
+2025-08-13 17:23:24,470 - root - INFO - ✅ Test 27/100: Score 0.5457, Profit: 7.97%, Win Rate: 60.75%
+2025-08-13 17:23:47,274 - root - INFO - ✅ Test 28/100: Score 0.5732, Profit: 13.27%, Win Rate: 58.44%
+2025-08-13 17:23:53,665 - root - INFO - ✅ Test 29/100: Score 0.5361, Profit: 5.39%, Win Rate: 62.27%
+2025-08-13 17:23:57,272 - root - INFO - ✅ Test 30/100: Score 0.6440, Profit: 18.75%, Win Rate: 62.28%
+2025-08-13 17:23:58,286 - root - INFO - ✅ Test 31/100: Score 0.6201, Profit: 15.24%, Win Rate: 62.33%
+2025-08-13 17:24:01,943 - root - INFO - ✅ Test 32/100: Score 0.6049, Profit: 14.63%, Win Rate: 60.95%
+2025-08-13 17:24:06,356 - root - INFO - ✅ Test 33/100: Score 0.5723, Profit: 8.84%, Win Rate: 64.33%
+2025-08-13 17:24:13,090 - root - INFO - ✅ Test 34/100: Score 0.5732, Profit: 13.27%, Win Rate: 58.44%
+2025-08-13 17:24:14,604 - root - INFO - ✅ Test 35/100: Score 0.6111, Profit: 14.84%, Win Rate: 62.27%
+2025-08-13 17:24:40,170 - root - INFO - ✅ Test 36/100: Score 0.6066, Profit: 12.76%, Win Rate: 63.23%
+2025-08-13 17:24:51,791 - root - INFO - ✅ Test 37/100: Score 0.5720, Profit: 10.38%, Win Rate: 61.17%
+2025-08-13 17:24:52,380 - root - INFO - ✅ Test 38/100: Score 0.5872, Profit: 13.45%, Win Rate: 59.81%
+2025-08-13 17:24:52,803 - root - INFO - ✅ Test 39/100: Score 0.5810, Profit: 11.13%, Win Rate: 63.31%
+2025-08-13 17:24:57,431 - root - INFO - ✅ Test 40/100: Score 0.6154, Profit: 15.14%, Win Rate: 62.90%
+2025-08-13 17:24:57,775 - root - INFO - ✅ Test 41/100: Score 0.5803, Profit: 11.40%, Win Rate: 61.20%
+2025-08-13 17:25:01,499 - root - INFO - ✅ Test 42/100: Score 0.5976, Profit: 13.32%, Win Rate: 62.25%
+2025-08-13 17:25:02,197 - root - INFO - ✅ Test 43/100: Score 0.6274, Profit: 16.78%, Win Rate: 63.05%
+2025-08-13 17:25:33,693 - root - INFO - ✅ Test 44/100: Score 0.5780, Profit: 10.28%, Win Rate: 63.30%
+2025-08-13 17:25:38,686 - root - INFO - ✅ Test 45/100: Score 0.5587, Profit: 7.78%, Win Rate: 62.70%
+2025-08-13 17:25:43,514 - root - INFO - ✅ Test 46/100: Score 0.5970, Profit: 12.29%, Win Rate: 64.52%
+2025-08-13 17:25:46,800 - root - INFO - ✅ Test 47/100: Score 0.5182, Profit: 6.95%, Win Rate: 58.89%
+2025-08-13 17:25:51,705 - root - INFO - ✅ Test 48/100: Score 0.6259, Profit: 16.49%, Win Rate: 61.73%
+2025-08-13 17:25:51,893 - root - INFO - ✅ Test 49/100: Score 0.5852, Profit: 12.19%, Win Rate: 63.33%
+2025-08-13 17:25:53,090 - root - INFO - ✅ Test 50/100: Score 0.5805, Profit: 12.30%, Win Rate: 59.39%
+2025-08-13 17:25:57,693 - root - INFO - ✅ Test 51/100: Score 0.5498, Profit: 7.68%, Win Rate: 62.46%
+2025-08-13 17:26:21,936 - root - INFO - ✅ Test 52/100: Score 0.4767, Profit: 4.70%, Win Rate: 55.35%
+2025-08-13 17:26:29,112 - root - INFO - ✅ Test 53/100: Score 0.6410, Profit: 17.31%, Win Rate: 64.16%
+2025-08-13 17:26:30,815 - root - INFO - ✅ Test 54/100: Score 0.5434, Profit: 7.64%, Win Rate: 60.20%
+2025-08-13 17:26:37,924 - root - INFO - ✅ Test 55/100: Score 0.5704, Profit: 8.85%, Win Rate: 63.27%
+2025-08-13 17:26:42,925 - root - INFO - ✅ Test 56/100: Score 0.5203, Profit: 5.79%, Win Rate: 60.44%
+2025-08-13 17:26:44,950 - root - INFO - ✅ Test 57/100: Score 0.6131, Profit: 14.36%, Win Rate: 63.30%
+2025-08-13 17:26:46,230 - root - INFO - ✅ Test 58/100: Score 0.5818, Profit: 10.37%, Win Rate: 63.71%
+2025-08-13 17:26:52,548 - root - INFO - ✅ Test 59/100: Score 0.6557, Profit: 19.04%, Win Rate: 64.58%
+2025-08-13 17:27:08,556 - root - INFO - ✅ Test 60/100: Score 0.6049, Profit: 16.31%, Win Rate: 59.21%
+2025-08-13 17:27:17,255 - root - INFO - ✅ Test 61/100: Score 0.6307, Profit: 17.21%, Win Rate: 61.98%
+2025-08-13 17:27:27,369 - root - INFO - ✅ Test 62/100: Score 0.5801, Profit: 10.48%, Win Rate: 62.07%
+2025-08-13 17:27:32,710 - root - INFO - ✅ Test 63/100: Score 0.5531, Profit: 9.21%, Win Rate: 61.06%
+2025-08-13 17:27:39,552 - root - INFO - ✅ Test 64/100: Score 0.5515, Profit: 7.91%, Win Rate: 63.69%
+2025-08-13 17:27:46,605 - root - INFO - ✅ Test 65/100: Score 0.6213, Profit: 16.22%, Win Rate: 61.34%
+2025-08-13 17:27:47,678 - root - INFO - ✅ Test 66/100: Score 0.5838, Profit: 10.84%, Win Rate: 63.11%
+2025-08-13 17:27:54,654 - root - INFO - ✅ Test 67/100: Score 0.5241, Profit: 5.41%, Win Rate: 59.95%
+2025-08-13 17:27:55,746 - root - INFO - ✅ Test 68/100: Score 0.6172, Profit: 16.11%, Win Rate: 62.35%
+2025-08-13 17:28:03,014 - root - INFO - ✅ Test 69/100: Score 0.5608, Profit: 11.51%, Win Rate: 58.93%
+2025-08-13 17:28:14,313 - root - INFO - ✅ Test 70/100: Score 0.5601, Profit: 9.64%, Win Rate: 62.08%
+2025-08-13 17:28:32,109 - root - INFO - ✅ Test 71/100: Score 0.5399, Profit: 7.65%, Win Rate: 60.23%
+2025-08-13 17:28:36,344 - root - INFO - ✅ Test 72/100: Score 0.5995, Profit: 12.74%, Win Rate: 62.50%
+2025-08-13 17:28:39,334 - root - INFO - ✅ Test 73/100: Score 0.5922, Profit: 11.58%, Win Rate: 63.71%
+2025-08-13 17:28:39,850 - root - INFO - ✅ Test 74/100: Score 0.5854, Profit: 11.94%, Win Rate: 61.75%
+2025-08-13 17:28:45,662 - root - INFO - ✅ Test 75/100: Score 0.6049, Profit: 14.84%, Win Rate: 61.74%
+2025-08-13 17:28:52,220 - root - INFO - ✅ Test 76/100: Score 0.6340, Profit: 17.18%, Win Rate: 62.70%
+2025-08-13 17:28:54,976 - root - INFO - ✅ Test 77/100: Score 0.6102, Profit: 13.99%, Win Rate: 63.01%
+2025-08-13 17:29:02,300 - root - INFO - ✅ Test 78/100: Score 0.6131, Profit: 14.36%, Win Rate: 63.30%
+2025-08-13 17:29:29,500 - root - INFO - ✅ Test 79/100: Score 0.5242, Profit: 5.24%, Win Rate: 63.75%
+2025-08-13 17:29:30,723 - root - INFO - ✅ Test 80/100: Score 0.5742, Profit: 9.68%, Win Rate: 62.65%
+2025-08-13 17:29:35,356 - root - INFO - ✅ Test 81/100: Score 0.6151, Profit: 15.90%, Win Rate: 61.61%
+2025-08-13 17:29:36,183 - root - INFO - ✅ Test 82/100: Score 0.6206, Profit: 14.68%, Win Rate: 64.03%
+2025-08-13 17:29:42,290 - root - INFO - ✅ Test 83/100: Score 0.5646, Profit: 10.04%, Win Rate: 60.72%
+2025-08-13 17:29:43,997 - root - INFO - ✅ Test 84/100: Score 0.6004, Profit: 14.28%, Win Rate: 61.15%
+2025-08-13 17:29:46,384 - root - INFO - ✅ Test 85/100: Score 0.5884, Profit: 11.69%, Win Rate: 62.06%
+2025-08-13 17:29:57,986 - root - INFO - ✅ Test 86/100: Score 0.5657, Profit: 8.91%, Win Rate: 62.37%
+2025-08-13 17:30:14,255 - root - INFO - ✅ Test 87/100: Score 0.6153, Profit: 17.84%, Win Rate: 58.27%
+2025-08-13 17:30:26,521 - root - INFO - ✅ Test 88/100: Score 0.6150, Profit: 15.30%, Win Rate: 62.73%
+2025-08-13 17:30:27,049 - root - INFO - ✅ Test 89/100: Score 0.5731, Profit: 12.88%, Win Rate: 58.57%
+2025-08-13 17:30:31,472 - root - INFO - ✅ Test 90/100: Score 0.5721, Profit: 8.77%, Win Rate: 63.61%
+2025-08-13 17:30:32,733 - root - INFO - ✅ Test 91/100: Score 0.6346, Profit: 16.66%, Win Rate: 64.47%
+2025-08-13 17:30:37,848 - root - INFO - ✅ Test 92/100: Score 0.6044, Profit: 14.09%, Win Rate: 62.35%
+2025-08-13 17:30:44,691 - root - INFO - ✅ Test 93/100: Score 0.5142, Profit: 4.26%, Win Rate: 60.08%
+2025-08-13 17:30:58,000 - root - INFO - ✅ Test 94/100: Score 0.5839, Profit: 15.97%, Win Rate: 55.12%
+2025-08-13 17:31:01,796 - root - INFO - ✅ Test 95/100: Score 0.6335, Profit: 18.26%, Win Rate: 61.20%
+2025-08-13 17:31:06,592 - root - INFO - ✅ Test 96/100: Score 0.5928, Profit: 13.35%, Win Rate: 61.39%
+2025-08-13 17:31:09,467 - root - INFO - ✅ Test 97/100: Score 0.5399, Profit: 7.72%, Win Rate: 60.45%
+2025-08-13 17:31:10,590 - root - INFO - ✅ Test 98/100: Score 0.5667, Profit: 11.55%, Win Rate: 59.92%
+2025-08-13 17:31:13,513 - root - INFO - ✅ Test 99/100: Score 0.6401, Profit: 19.00%, Win Rate: 60.94%
+2025-08-13 17:31:14,318 - root - INFO - ✅ Test 100/100: Score 0.6710, Profit: 20.50%, Win Rate: 64.21%
+2025-08-13 17:31:14,319 - root - INFO - 🎉 MULTI-THREADED Optimierung abgeschlossen!
+2025-08-13 17:31:14,319 - root - INFO - Beste Parameter: {'rsi_period': 10, 'rsi_oversold': 30, 'rsi_overbought': 80, 'ema_fast': 8, 'ema_slow': 12, 'take_profit_pct': 0.005, 'stop_loss_pct': 0.01, 'trailing_sl_pct': 0.002, 'volume_threshold': 1.2, 'bb_period': 16, 'confidence_threshold': 0.3}
+2025-08-13 17:31:14,319 - root - INFO - Bester Score: 0.6711
+2025-08-13 17:31:14,319 - root - INFO - Getestete Kombinationen: 100
+2025-08-13 17:31:14,319 - root - INFO - Gültige Ergebnisse: 100
+2025-08-13 17:31:14,319 - root - INFO - 🏆 TOP 5 Parameter-Sets:
+2025-08-13 17:31:14,320 - root - INFO -   #1: Score 0.6711, Profit: 20.35%, Win Rate: 64.22%, Trades: 2852
+2025-08-13 17:31:14,320 - root - INFO -   #2: Score 0.6710, Profit: 20.50%, Win Rate: 64.21%, Trades: 2898
+2025-08-13 17:31:14,320 - root - INFO -   #3: Score 0.6572, Profit: 18.91%, Win Rate: 64.68%, Trades: 2234
+2025-08-13 17:31:14,320 - root - INFO -   #4: Score 0.6557, Profit: 19.04%, Win Rate: 64.58%, Trades: 2413
+2025-08-13 17:31:14,321 - root - INFO -   #5: Score 0.6440, Profit: 18.75%, Win Rate: 62.28%, Trades: 4653
+2025-08-13 17:31:14,364 - optimization.threaded_optimizer - INFO - ✅ Optimierung abgeschlossen! Beste Parameter gefunden.
+2025-08-13 17:31:14,364 - optimization.threaded_optimizer - INFO - 🏆 Score: 0.0000
+2025-08-13 17:31:15,176 - root - INFO - TESTNET MODUS
+2025-08-13 17:31:15,179 - root - INFO - ML-Datenbank initialisiert
+2025-08-13 17:31:15,179 - root - INFO - Insgesamt 4 Modelle geladen
+2025-08-13 17:31:15,180 - root - INFO - ML Daytrading System aktiviert
+2025-08-13 17:31:15,183 - root - INFO - ML-System: Keine Trainingsdaten verfügbar - sammle Daten...
+2025-08-13 17:31:15,183 - core.enhanced_trader - INFO - 🧠 ML system successfully initialized
+2025-08-13 17:31:15,194 - root - INFO - News Sentiment Analyzer aktiviert
+2025-08-13 17:31:15,195 - core.enhanced_trader - INFO - 📰 Sentiment analyzer successfully initialized
+2025-08-13 17:31:15,195 - root - INFO - 🌐 Enhanced Flask Dashboard started on http://localhost:5000
+2025-08-13 17:31:15,195 - core.enhanced_trader - INFO - 🌐 Flask server started
+2025-08-13 17:31:15,195 - core.enhanced_trader - INFO - ✅ Enhanced trading bot initialized
+2025-08-13 17:31:15,203 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.178.39:5000
+2025-08-13 17:31:15,204 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-13 17:31:15,706 - root - INFO - Initial Balance: 136493.40
+2025-08-13 17:31:16,215 - core.enhanced_trader - INFO - Balance: 136493.40
+2025-08-13 17:31:16,216 - core.enhanced_trader - INFO - 🚀 Enhanced trading loop started
+2025-08-13 17:31:16,216 - core.enhanced_trader - INFO - 🚀 Bot started; dashboard at http://localhost:5000
+2025-08-13 17:31:17,629 - root - ERROR - Fehler beim News-Abruf für ETHUSDT: 'NoneType' object is not iterable
+2025-08-13 17:31:17,968 - root - ERROR - Fehler beim News-Abruf für BTCUSDT: 'NoneType' object is not iterable
+2025-08-13 17:31:18,017 - root - ERROR - Fehler beim News-Abruf für ADAUSDT: 'NoneType' object is not iterable
+2025-08-13 17:31:18,449 - root - ERROR - Fehler beim News-Abruf für BNBUSDT: 'NoneType' object is not iterable
+2025-08-13 17:31:19,108 - root - ERROR - Fehler beim News-Abruf für SOLUSDT: 'NoneType' object is not iterable
+2025-08-13 17:31:19,768 - root - ERROR - Fehler beim News-Abruf für XRPUSDT: 'NoneType' object is not iterable
+2025-08-13 17:31:19,880 - root - ERROR - Fehler beim News-Abruf für LINKUSDT: 'NoneType' object is not iterable
+2025-08-13 17:31:20,169 - root - ERROR - Fehler beim News-Abruf für AVAXUSDT: 'NoneType' object is not iterable
+2025-08-13 17:31:21,134 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:31:33,080 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:31:46,194 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:31:57,169 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:32:09,683 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:32:21,225 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:32:22,268 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:32:22] "GET / HTTP/1.1" 200 -
+2025-08-13 17:32:32,566 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:32:32] "GET / HTTP/1.1" 200 -
+2025-08-13 17:32:33,759 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:32:42,795 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:32:42] "GET / HTTP/1.1" 200 -
+2025-08-13 17:32:44,849 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:32:53,194 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:32:53] "GET / HTTP/1.1" 200 -
+2025-08-13 17:32:53,346 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:32:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-13 17:32:57,895 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:33:03,418 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:33:03] "GET / HTTP/1.1" 200 -
+2025-08-13 17:33:10,346 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:33:13,644 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:33:13] "GET / HTTP/1.1" 200 -
+2025-08-13 17:33:21,881 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:33:23,849 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:33:23] "GET / HTTP/1.1" 200 -
+2025-08-13 17:33:23,989 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:33:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-13 17:33:34,035 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:33:34] "GET / HTTP/1.1" 200 -
+2025-08-13 17:33:34,190 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:33:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-13 17:33:34,411 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:33:44,275 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:33:44] "GET / HTTP/1.1" 200 -
+2025-08-13 17:33:44,436 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:33:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-13 17:33:46,396 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:33:54,521 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:33:54] "GET / HTTP/1.1" 200 -
+2025-08-13 17:33:54,684 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:33:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-13 17:33:58,911 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:34:04,762 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:34:04] "GET / HTTP/1.1" 200 -
+2025-08-13 17:34:11,836 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:34:15,016 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:34:15] "GET / HTTP/1.1" 200 -
+2025-08-13 17:34:23,367 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:34:25,277 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:34:25] "GET / HTTP/1.1" 200 -
+2025-08-13 17:34:34,998 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:34:35,463 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:34:35] "GET / HTTP/1.1" 200 -
+2025-08-13 17:34:46,023 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:34:46] "GET / HTTP/1.1" 200 -
+2025-08-13 17:34:47,530 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:34:56,295 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:34:56] "GET / HTTP/1.1" 200 -
+2025-08-13 17:34:59,085 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:35:06,535 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:35:06] "GET / HTTP/1.1" 200 -
+2025-08-13 17:35:08,911 - root - ERROR - Fehler beim News-Abruf für ETHUSDT: 'NoneType' object is not iterable
+2025-08-13 17:35:09,124 - root - ERROR - Fehler beim News-Abruf für ADAUSDT: 'NoneType' object is not iterable
+2025-08-13 17:35:09,350 - root - ERROR - Fehler beim News-Abruf für BNBUSDT: 'NoneType' object is not iterable
+2025-08-13 17:35:09,375 - root - ERROR - Fehler beim News-Abruf für BTCUSDT: 'NoneType' object is not iterable
+2025-08-13 17:35:10,599 - root - ERROR - Fehler beim News-Abruf für XRPUSDT: 'NoneType' object is not iterable
+2025-08-13 17:35:11,116 - root - ERROR - Fehler beim News-Abruf für LINKUSDT: 'NoneType' object is not iterable
+2025-08-13 17:35:11,126 - root - ERROR - Fehler beim News-Abruf für AVAXUSDT: 'NoneType' object is not iterable
+2025-08-13 17:35:11,174 - root - ERROR - Fehler beim News-Abruf für SOLUSDT: 'NoneType' object is not iterable
+2025-08-13 17:35:12,091 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:35:16,762 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:35:16] "GET / HTTP/1.1" 200 -
+2025-08-13 17:35:16,923 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:35:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-13 17:35:23,920 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:35:27,249 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:35:27] "GET / HTTP/1.1" 200 -
+2025-08-13 17:35:27,393 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:35:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-13 17:35:35,909 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:35:37,475 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:35:37] "GET / HTTP/1.1" 200 -
+2025-08-13 17:35:47,703 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:35:47] "GET / HTTP/1.1" 200 -
+2025-08-13 17:35:47,966 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:35:58,220 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:35:58] "GET / HTTP/1.1" 200 -
+2025-08-13 17:35:58,380 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:35:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-13 17:36:00,965 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:36:08,507 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:36:08] "GET / HTTP/1.1" 200 -
+2025-08-13 17:36:13,453 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:36:18,750 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:36:18] "GET / HTTP/1.1" 200 -
+2025-08-13 17:36:18,906 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:36:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-13 17:36:25,067 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:36:29,005 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:36:29] "GET / HTTP/1.1" 200 -
+2025-08-13 17:36:29,168 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:36:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-13 17:36:37,593 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:36:39,252 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:36:39] "GET / HTTP/1.1" 200 -
+2025-08-13 17:36:39,400 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:36:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-13 17:36:49,187 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:36:50,019 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:36:50] "GET / HTTP/1.1" 200 -
+2025-08-13 17:37:00,676 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:37:00] "GET / HTTP/1.1" 200 -
+2025-08-13 17:37:02,057 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:37:11,284 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:37:11] "GET / HTTP/1.1" 200 -
+2025-08-13 17:37:13,610 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:37:21,534 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:37:21] "GET / HTTP/1.1" 200 -
+2025-08-13 17:37:26,589 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:37:32,279 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:37:32] "GET / HTTP/1.1" 200 -
+2025-08-13 17:37:39,231 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:37:42,471 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:37:42] "GET / HTTP/1.1" 200 -
+2025-08-13 17:37:50,243 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:37:52,668 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:37:52] "GET / HTTP/1.1" 200 -
+2025-08-13 17:38:02,954 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:38:02] "GET / HTTP/1.1" 200 -
+2025-08-13 17:38:03,211 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:38:13,208 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:38:13] "GET / HTTP/1.1" 200 -
+2025-08-13 17:38:15,238 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:38:23,455 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:38:23] "GET / HTTP/1.1" 200 -
+2025-08-13 17:38:27,236 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:38:33,634 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:38:33] "GET / HTTP/1.1" 200 -
+2025-08-13 17:38:33,782 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:38:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-13 17:38:39,787 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:38:43,879 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:38:43] "GET / HTTP/1.1" 200 -
+2025-08-13 17:38:51,370 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:38:54,124 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:38:54] "GET / HTTP/1.1" 200 -
+2025-08-13 17:39:03,920 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:39:04,652 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:39:04] "GET / HTTP/1.1" 200 -
+2025-08-13 17:39:14,892 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:39:14] "GET / HTTP/1.1" 200 -
+2025-08-13 17:39:15,978 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:39:25,125 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:39:25] "GET / HTTP/1.1" 200 -
+2025-08-13 17:39:28,016 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:39:35,328 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:39:35] "GET / HTTP/1.1" 200 -
+2025-08-13 17:39:35,474 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:39:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-13 17:39:40,046 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:39:45,578 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:39:45] "GET / HTTP/1.1" 200 -
+2025-08-13 17:39:45,722 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:39:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-13 17:39:51,649 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:39:55,815 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:39:55] "GET / HTTP/1.1" 200 -
+2025-08-13 17:40:01,475 - root - ERROR - Fehler beim News-Abruf für ETHUSDT: 'NoneType' object is not iterable
+2025-08-13 17:40:01,495 - root - ERROR - Fehler beim News-Abruf für BTCUSDT: 'NoneType' object is not iterable
+2025-08-13 17:40:01,880 - root - ERROR - Fehler beim News-Abruf für ADAUSDT: 'NoneType' object is not iterable
+2025-08-13 17:40:01,901 - root - ERROR - Fehler beim News-Abruf für BNBUSDT: 'NoneType' object is not iterable
+2025-08-13 17:40:02,986 - root - ERROR - Fehler beim News-Abruf für SOLUSDT: 'NoneType' object is not iterable
+2025-08-13 17:40:03,761 - root - ERROR - Fehler beim News-Abruf für XRPUSDT: 'NoneType' object is not iterable
+2025-08-13 17:40:03,863 - root - ERROR - Fehler beim News-Abruf für AVAXUSDT: 'NoneType' object is not iterable
+2025-08-13 17:40:04,104 - root - ERROR - Fehler beim News-Abruf für LINKUSDT: 'NoneType' object is not iterable
+2025-08-13 17:40:04,837 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:40:05,999 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:40:05] "GET / HTTP/1.1" 200 -
+2025-08-13 17:40:15,935 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:40:16,195 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:40:16] "GET / HTTP/1.1" 200 -
+2025-08-13 17:40:26,440 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:40:26] "GET / HTTP/1.1" 200 -
+2025-08-13 17:40:26,583 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:40:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-13 17:40:28,504 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:40:36,673 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:40:36] "GET / HTTP/1.1" 200 -
+2025-08-13 17:40:36,841 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:40:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-13 17:40:41,461 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:40:47,065 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:40:47] "GET / HTTP/1.1" 200 -
+2025-08-13 17:40:52,531 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:40:57,291 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:40:57] "GET / HTTP/1.1" 200 -
+2025-08-13 17:40:57,441 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:40:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-13 17:41:05,142 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:41:07,479 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:41:07] "GET / HTTP/1.1" 200 -
+2025-08-13 17:41:17,209 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:41:17,670 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:41:17] "GET / HTTP/1.1" 200 -
+2025-08-13 17:41:28,021 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:41:28] "GET / HTTP/1.1" 200 -
+2025-08-13 17:41:29,644 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:41:38,260 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:41:38] "GET / HTTP/1.1" 200 -
+2025-08-13 17:41:41,681 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:41:48,489 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:41:48] "GET / HTTP/1.1" 200 -
+2025-08-13 17:41:53,705 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:41:58,740 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:41:58] "GET / HTTP/1.1" 200 -
+2025-08-13 17:42:05,266 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:42:09,189 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:42:09] "GET / HTTP/1.1" 200 -
+2025-08-13 17:42:18,207 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:42:19,457 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:42:19] "GET / HTTP/1.1" 200 -
+2025-08-13 17:42:29,730 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:42:29] "GET / HTTP/1.1" 200 -
+2025-08-13 17:42:29,750 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:42:39,965 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:42:39] "GET / HTTP/1.1" 200 -
+2025-08-13 17:42:41,854 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:42:50,206 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:42:50] "GET / HTTP/1.1" 200 -
+2025-08-13 17:42:53,907 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:43:00,384 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:43:00] "GET / HTTP/1.1" 200 -
+2025-08-13 17:43:06,406 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:43:10,646 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:43:10] "GET / HTTP/1.1" 200 -
+2025-08-13 17:43:18,925 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:43:20,873 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:43:20] "GET / HTTP/1.1" 200 -
+2025-08-13 17:43:31,102 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:43:31] "GET / HTTP/1.1" 200 -
+2025-08-13 17:43:31,424 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:43:41,329 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:43:41] "GET / HTTP/1.1" 200 -
+2025-08-13 17:43:43,436 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:43:51,576 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:43:51] "GET / HTTP/1.1" 200 -
+2025-08-13 17:43:55,445 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:44:01,798 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:44:01] "GET / HTTP/1.1" 200 -
+2025-08-13 17:44:01,941 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:44:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-13 17:44:07,020 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:44:11,974 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:44:11] "GET / HTTP/1.1" 200 -
+2025-08-13 17:44:19,507 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:44:22,192 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:44:22] "GET / HTTP/1.1" 200 -
+2025-08-13 17:44:31,627 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:44:32,680 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:44:32] "GET / HTTP/1.1" 200 -
+2025-08-13 17:44:32,821 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:44:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-13 17:44:42,908 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:44:42] "GET / HTTP/1.1" 200 -
+2025-08-13 17:44:44,149 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:44:53,148 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:44:53] "GET / HTTP/1.1" 200 -
+2025-08-13 17:44:53,302 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:44:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-13 17:44:55,699 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:45:03,378 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:45:03] "GET / HTTP/1.1" 200 -
+2025-08-13 17:45:05,255 - root - ERROR - Fehler beim News-Abruf für ADAUSDT: 'NoneType' object is not iterable
+2025-08-13 17:45:05,261 - root - ERROR - Fehler beim News-Abruf für ETHUSDT: 'NoneType' object is not iterable
+2025-08-13 17:45:05,731 - root - ERROR - Fehler beim News-Abruf für BNBUSDT: 'NoneType' object is not iterable
+2025-08-13 17:45:05,997 - root - ERROR - Fehler beim News-Abruf für BTCUSDT: 'NoneType' object is not iterable
+2025-08-13 17:45:07,239 - root - ERROR - Fehler beim News-Abruf für SOLUSDT: 'NoneType' object is not iterable
+2025-08-13 17:45:07,551 - root - ERROR - Fehler beim News-Abruf für XRPUSDT: 'NoneType' object is not iterable
+2025-08-13 17:45:07,967 - root - ERROR - Fehler beim News-Abruf für LINKUSDT: 'NoneType' object is not iterable
+2025-08-13 17:45:08,412 - root - ERROR - Fehler beim News-Abruf für AVAXUSDT: 'NoneType' object is not iterable
+2025-08-13 17:45:08,919 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:45:13,601 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:45:13] "GET / HTTP/1.1" 200 -
+2025-08-13 17:45:13,749 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:45:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-13 17:45:20,870 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:45:23,831 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:45:23] "GET / HTTP/1.1" 200 -
+2025-08-13 17:45:32,421 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:45:34,015 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:45:34] "GET / HTTP/1.1" 200 -
+2025-08-13 17:45:44,251 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:45:44] "GET / HTTP/1.1" 200 -
+2025-08-13 17:45:44,516 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:45:54,441 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:45:54] "GET / HTTP/1.1" 200 -
+2025-08-13 17:45:57,080 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:46:04,710 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:46:04] "GET / HTTP/1.1" 200 -
+2025-08-13 17:46:09,150 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:46:14,968 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:46:14] "GET / HTTP/1.1" 200 -
+2025-08-13 17:46:15,111 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:46:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-13 17:46:21,174 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:46:25,514 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:46:25] "GET / HTTP/1.1" 200 -
+2025-08-13 17:46:33,252 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:46:35,695 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:46:35] "GET / HTTP/1.1" 200 -
+2025-08-13 17:46:45,284 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:46:45,915 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:46:45] "GET / HTTP/1.1" 200 -
+2025-08-13 17:46:56,297 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:46:56] "GET / HTTP/1.1" 200 -
+2025-08-13 17:46:57,274 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:47:06,567 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:47:06] "GET / HTTP/1.1" 200 -
+2025-08-13 17:47:09,794 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:47:16,816 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:47:16] "GET / HTTP/1.1" 200 -
+2025-08-13 17:47:16,959 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:47:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-13 17:47:22,190 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:47:27,033 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:47:27] "GET / HTTP/1.1" 200 -
+2025-08-13 17:47:33,784 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:47:37,402 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:47:37] "GET / HTTP/1.1" 200 -
+2025-08-13 17:47:46,421 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:47:48,249 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:47:48] "GET / HTTP/1.1" 200 -
+2025-08-13 17:47:58,804 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:47:58] "GET / HTTP/1.1" 200 -
+2025-08-13 17:47:58,910 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:48:09,036 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:48:09] "GET / HTTP/1.1" 200 -
+2025-08-13 17:48:09,182 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:48:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-13 17:48:11,351 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:48:19,437 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:48:19] "GET / HTTP/1.1" 200 -
+2025-08-13 17:48:23,004 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:48:29,692 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:48:29] "GET / HTTP/1.1" 200 -
+2025-08-13 17:48:35,520 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:48:40,166 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:48:40] "GET / HTTP/1.1" 200 -
+2025-08-13 17:48:47,974 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:48:50,363 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:48:50] "GET / HTTP/1.1" 200 -
+2025-08-13 17:49:00,547 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:49:00] "GET / HTTP/1.1" 200 -
+2025-08-13 17:49:00,703 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:49:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-13 17:49:00,950 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:49:10,793 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:49:10] "GET / HTTP/1.1" 200 -
+2025-08-13 17:49:12,500 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:49:21,029 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:49:21] "GET / HTTP/1.1" 200 -
+2025-08-13 17:49:24,512 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:49:31,266 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:49:31] "GET / HTTP/1.1" 200 -
+2025-08-13 17:49:31,409 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:49:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-13 17:49:36,051 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:49:41,497 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:49:41] "GET / HTTP/1.1" 200 -
+2025-08-13 17:49:48,522 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:49:51,699 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:49:51] "GET / HTTP/1.1" 200 -
+2025-08-13 17:50:00,391 - root - ERROR - Fehler beim News-Abruf für SOLUSDT: 'NoneType' object is not iterable
+2025-08-13 17:50:00,558 - root - ERROR - Fehler beim News-Abruf für LINKUSDT: 'NoneType' object is not iterable
+2025-08-13 17:50:01,020 - root - ERROR - Fehler beim News-Abruf für AVAXUSDT: 'NoneType' object is not iterable
+2025-08-13 17:50:01,524 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:50:01,929 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:50:01] "GET / HTTP/1.1" 200 -
+2025-08-13 17:50:10,535 - root - ERROR - Fehler beim News-Abruf für ETHUSDT: 'NoneType' object is not iterable
+2025-08-13 17:50:10,818 - root - ERROR - Fehler beim News-Abruf für ADAUSDT: 'NoneType' object is not iterable
+2025-08-13 17:50:10,932 - root - ERROR - Fehler beim News-Abruf für BNBUSDT: 'NoneType' object is not iterable
+2025-08-13 17:50:11,432 - root - ERROR - Fehler beim News-Abruf für BTCUSDT: 'NoneType' object is not iterable
+2025-08-13 17:50:12,154 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:50:12] "GET / HTTP/1.1" 200 -
+2025-08-13 17:50:12,771 - root - ERROR - Fehler beim News-Abruf für XRPUSDT: 'NoneType' object is not iterable
+2025-08-13 17:50:13,665 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:50:22,446 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:50:22] "GET / HTTP/1.1" 200 -
+2025-08-13 17:50:25,187 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:50:32,686 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:50:32] "GET / HTTP/1.1" 200 -
+2025-08-13 17:50:36,775 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:50:42,924 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:50:42] "GET / HTTP/1.1" 200 -
+2025-08-13 17:50:49,814 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:50:53,171 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:50:53] "GET / HTTP/1.1" 200 -
+2025-08-13 17:51:02,331 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:51:03,462 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:51:03] "GET / HTTP/1.1" 200 -
+2025-08-13 17:51:13,713 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:51:13] "GET / HTTP/1.1" 200 -
+2025-08-13 17:51:13,817 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:51:24,234 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:51:24] "GET / HTTP/1.1" 200 -
+2025-08-13 17:51:24,396 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:51:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-13 17:51:25,914 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:51:34,418 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:51:34] "GET / HTTP/1.1" 200 -
+2025-08-13 17:51:38,863 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:51:44,656 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:51:44] "GET / HTTP/1.1" 200 -
+2025-08-13 17:51:50,403 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:51:54,913 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:51:54] "GET / HTTP/1.1" 200 -
+2025-08-13 17:51:55,061 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:51:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-13 17:52:02,900 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:52:05,375 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:52:05] "GET / HTTP/1.1" 200 -
+2025-08-13 17:52:15,417 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:52:15,570 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:52:15] "GET / HTTP/1.1" 200 -
+2025-08-13 17:52:25,770 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:52:25] "GET / HTTP/1.1" 200 -
+2025-08-13 17:52:25,916 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:52:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-13 17:52:27,882 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:52:36,023 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:52:36] "GET / HTTP/1.1" 200 -
+2025-08-13 17:52:39,454 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:52:46,271 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:52:46] "GET / HTTP/1.1" 200 -
+2025-08-13 17:52:51,976 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:52:56,508 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:52:56] "GET / HTTP/1.1" 200 -
+2025-08-13 17:53:03,982 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:53:06,694 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:53:06] "GET / HTTP/1.1" 200 -
+2025-08-13 17:53:16,445 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:53:16,885 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:53:16] "GET / HTTP/1.1" 200 -
+2025-08-13 17:53:27,409 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:53:27] "GET / HTTP/1.1" 200 -
+2025-08-13 17:53:28,903 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:53:37,672 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:53:37] "GET / HTTP/1.1" 200 -
+2025-08-13 17:53:40,510 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:53:47,899 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:53:47] "GET / HTTP/1.1" 200 -
+2025-08-13 17:53:53,001 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:53:58,174 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:53:58] "GET / HTTP/1.1" 200 -
+2025-08-13 17:53:58,337 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:53:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-13 17:54:05,552 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:54:08,416 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:54:08] "GET / HTTP/1.1" 200 -
+2025-08-13 17:54:18,019 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:54:18,780 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:54:18] "GET / HTTP/1.1" 200 -
+2025-08-13 17:54:29,015 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:54:29] "GET / HTTP/1.1" 200 -
+2025-08-13 17:54:29,980 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:54:39,248 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:54:39] "GET / HTTP/1.1" 200 -
+2025-08-13 17:54:39,419 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:54:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-13 17:54:42,038 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:54:49,460 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:54:49] "GET / HTTP/1.1" 200 -
+2025-08-13 17:54:54,640 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:54:59,681 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:54:59] "GET / HTTP/1.1" 200 -
+2025-08-13 17:55:04,375 - root - ERROR - Fehler beim News-Abruf für ETHUSDT: 'NoneType' object is not iterable
+2025-08-13 17:55:04,405 - root - ERROR - Fehler beim News-Abruf für BTCUSDT: 'NoneType' object is not iterable
+2025-08-13 17:55:04,627 - root - ERROR - Fehler beim News-Abruf für ADAUSDT: 'NoneType' object is not iterable
+2025-08-13 17:55:04,700 - root - ERROR - Fehler beim News-Abruf für BNBUSDT: 'NoneType' object is not iterable
+2025-08-13 17:55:06,295 - root - ERROR - Fehler beim News-Abruf für XRPUSDT: 'NoneType' object is not iterable
+2025-08-13 17:55:06,701 - root - ERROR - Fehler beim News-Abruf für SOLUSDT: 'NoneType' object is not iterable
+2025-08-13 17:55:06,907 - root - ERROR - Fehler beim News-Abruf für LINKUSDT: 'NoneType' object is not iterable
+2025-08-13 17:55:06,920 - root - ERROR - Fehler beim News-Abruf für AVAXUSDT: 'NoneType' object is not iterable
+2025-08-13 17:55:07,427 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:55:09,902 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:55:09] "GET / HTTP/1.1" 200 -
+2025-08-13 17:55:10,081 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:55:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-13 17:55:19,408 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:55:20,099 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:55:20] "GET / HTTP/1.1" 200 -
+2025-08-13 17:55:30,413 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:55:30] "GET / HTTP/1.1" 200 -
+2025-08-13 17:55:31,772 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:55:40,633 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:55:40] "GET / HTTP/1.1" 200 -
+2025-08-13 17:55:44,278 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:55:51,295 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:55:51] "GET / HTTP/1.1" 200 -
+2025-08-13 17:55:55,784 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:56:02,326 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:56:02] "GET / HTTP/1.1" 200 -
+2025-08-13 17:56:08,284 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:56:12,541 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:56:12] "GET / HTTP/1.1" 200 -
+2025-08-13 17:56:21,254 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:56:23,290 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:56:23] "GET / HTTP/1.1" 200 -
+2025-08-13 17:56:33,316 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:56:33,495 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:56:33] "GET / HTTP/1.1" 200 -
+2025-08-13 17:56:43,701 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:56:43] "GET / HTTP/1.1" 200 -
+2025-08-13 17:56:44,845 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:56:53,940 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:56:53] "GET / HTTP/1.1" 200 -
+2025-08-13 17:56:56,954 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:57:04,172 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:57:04] "GET / HTTP/1.1" 200 -
+2025-08-13 17:57:09,879 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:57:14,684 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:57:14] "GET / HTTP/1.1" 200 -
+2025-08-13 17:57:21,938 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:57:24,882 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:57:24] "GET / HTTP/1.1" 200 -
+2025-08-13 17:57:34,052 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:57:35,572 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:57:35] "GET / HTTP/1.1" 200 -
+2025-08-13 17:57:45,890 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:57:45] "GET / HTTP/1.1" 200 -
+2025-08-13 17:57:46,032 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:57:56,589 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:57:56] "GET / HTTP/1.1" 200 -
+2025-08-13 17:57:58,594 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:58:07,276 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:58:07] "GET / HTTP/1.1" 200 -
+2025-08-13 17:58:07,439 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:58:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-13 17:58:10,277 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:58:17,530 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:58:17] "GET / HTTP/1.1" 200 -
+2025-08-13 17:58:22,847 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:58:27,724 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:58:27] "GET / HTTP/1.1" 200 -
+2025-08-13 17:58:35,265 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:58:37,954 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:58:37] "GET / HTTP/1.1" 200 -
+2025-08-13 17:58:46,790 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:58:48,257 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:58:48] "GET / HTTP/1.1" 200 -
+2025-08-13 17:58:58,455 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:58:58] "GET / HTTP/1.1" 200 -
+2025-08-13 17:59:00,178 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:59:08,675 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:59:08] "GET / HTTP/1.1" 200 -
+2025-08-13 17:59:08,867 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:59:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-13 17:59:11,722 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:59:18,905 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:59:18] "GET / HTTP/1.1" 200 -
+2025-08-13 17:59:24,651 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:59:29,134 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:59:29] "GET / HTTP/1.1" 200 -
+2025-08-13 17:59:36,616 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:59:39,591 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:59:39] "GET / HTTP/1.1" 200 -
+2025-08-13 17:59:48,169 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 17:59:49,787 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 17:59:49] "GET / HTTP/1.1" 200 -
+2025-08-13 18:00:00,000 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:00:00] "GET / HTTP/1.1" 200 -
+2025-08-13 18:00:00,715 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 18:00:09,750 - root - ERROR - Fehler beim News-Abruf für BTCUSDT: 'NoneType' object is not iterable
+2025-08-13 18:00:10,016 - root - ERROR - Fehler beim News-Abruf für BNBUSDT: 'NoneType' object is not iterable
+2025-08-13 18:00:10,228 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:00:10] "GET / HTTP/1.1" 200 -
+2025-08-13 18:00:10,228 - root - ERROR - Fehler beim News-Abruf für ETHUSDT: 'NoneType' object is not iterable
+2025-08-13 18:00:10,228 - root - ERROR - Fehler beim News-Abruf für ADAUSDT: 'NoneType' object is not iterable
+2025-08-13 18:00:10,384 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:00:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-13 18:00:11,735 - root - ERROR - Fehler beim News-Abruf für SOLUSDT: 'NoneType' object is not iterable
+2025-08-13 18:00:11,977 - root - ERROR - Fehler beim News-Abruf für LINKUSDT: 'NoneType' object is not iterable
+2025-08-13 18:00:12,445 - root - ERROR - Fehler beim News-Abruf für XRPUSDT: 'NoneType' object is not iterable
+2025-08-13 18:00:12,445 - root - ERROR - Fehler beim News-Abruf für AVAXUSDT: 'NoneType' object is not iterable
+2025-08-13 18:00:13,417 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 18:00:21,287 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:00:21] "GET / HTTP/1.1" 200 -
+2025-08-13 18:00:24,916 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 18:00:31,927 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:00:31] "GET / HTTP/1.1" 200 -
+2025-08-13 18:00:32,120 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:00:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-13 18:00:36,877 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 18:00:42,160 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:00:42] "GET / HTTP/1.1" 200 -
+2025-08-13 18:00:49,443 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 18:00:52,385 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:00:52] "GET / HTTP/1.1" 200 -
+2025-08-13 18:01:00,653 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 18:01:03,325 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:01:03] "GET / HTTP/1.1" 200 -
+2025-08-13 18:01:13,640 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 18:01:13,733 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:01:13] "GET / HTTP/1.1" 200 -
+2025-08-13 18:01:23,934 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:01:23] "GET / HTTP/1.1" 200 -
+2025-08-13 18:01:26,167 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 18:01:34,155 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:01:34] "GET / HTTP/1.1" 200 -
+2025-08-13 18:01:39,094 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 18:01:44,775 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:01:44] "GET / HTTP/1.1" 200 -
+2025-08-13 18:01:50,475 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 18:01:55,793 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:01:55] "GET / HTTP/1.1" 200 -
+2025-08-13 18:02:02,538 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 18:02:06,297 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:02:06] "GET / HTTP/1.1" 200 -
+2025-08-13 18:02:15,954 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 18:02:16,874 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:02:16] "GET / HTTP/1.1" 200 -
+2025-08-13 18:02:27,099 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:02:27] "GET / HTTP/1.1" 200 -
+2025-08-13 18:02:27,610 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 18:02:37,815 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:02:37] "GET / HTTP/1.1" 200 -
+2025-08-13 18:02:37,976 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:02:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-13 18:02:39,250 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 18:02:48,211 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:02:48] "GET / HTTP/1.1" 200 -
+2025-08-13 18:02:48,394 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:02:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-13 18:02:51,741 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 18:02:58,408 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:02:58] "GET / HTTP/1.1" 200 -
+2025-08-13 18:02:58,575 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:02:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-13 18:03:04,556 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 18:03:08,647 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:03:08] "GET / HTTP/1.1" 200 -
+2025-08-13 18:03:16,588 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 18:03:18,855 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:03:18] "GET / HTTP/1.1" 200 -
+2025-08-13 18:03:19,021 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:03:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-13 18:03:28,190 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 18:03:29,490 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:03:29] "GET / HTTP/1.1" 200 -
+2025-08-13 18:03:39,891 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:03:39] "GET / HTTP/1.1" 200 -
+2025-08-13 18:03:40,692 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 18:03:50,126 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:03:50] "GET / HTTP/1.1" 200 -
+2025-08-13 18:03:52,665 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 18:04:01,264 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:04:01] "GET / HTTP/1.1" 200 -
+2025-08-13 18:04:04,728 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 18:04:11,481 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:04:11] "GET / HTTP/1.1" 200 -
+2025-08-13 18:04:17,220 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 18:04:22,307 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:04:22] "GET / HTTP/1.1" 200 -
+2025-08-13 18:04:22,460 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:04:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-13 18:04:30,207 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 18:04:32,495 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:04:32] "GET / HTTP/1.1" 200 -
+2025-08-13 18:04:42,695 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:04:42] "GET / HTTP/1.1" 200 -
+2025-08-13 18:04:43,081 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 18:04:53,296 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:04:53] "GET / HTTP/1.1" 200 -
+2025-08-13 18:04:55,000 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 18:05:03,508 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:05:03] "GET / HTTP/1.1" 200 -
+2025-08-13 18:05:04,266 - root - ERROR - Fehler beim News-Abruf für BTCUSDT: 'NoneType' object is not iterable
+2025-08-13 18:05:04,498 - root - ERROR - Fehler beim News-Abruf für BNBUSDT: 'NoneType' object is not iterable
+2025-08-13 18:05:04,500 - root - ERROR - Fehler beim News-Abruf für ADAUSDT: 'NoneType' object is not iterable
+2025-08-13 18:05:04,826 - root - ERROR - Fehler beim News-Abruf für ETHUSDT: 'NoneType' object is not iterable
+2025-08-13 18:05:06,283 - root - ERROR - Fehler beim News-Abruf für LINKUSDT: 'NoneType' object is not iterable
+2025-08-13 18:05:06,741 - root - ERROR - Fehler beim News-Abruf für XRPUSDT: 'NoneType' object is not iterable
+2025-08-13 18:05:06,899 - root - ERROR - Fehler beim News-Abruf für AVAXUSDT: 'NoneType' object is not iterable
+2025-08-13 18:05:07,064 - root - ERROR - Fehler beim News-Abruf für SOLUSDT: 'NoneType' object is not iterable
+2025-08-13 18:05:07,571 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 18:05:14,016 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:05:14] "GET / HTTP/1.1" 200 -
+2025-08-13 18:05:19,529 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 18:05:24,218 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:05:24] "GET / HTTP/1.1" 200 -
+2025-08-13 18:05:31,518 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 18:05:34,425 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:05:34] "GET / HTTP/1.1" 200 -
+2025-08-13 18:05:44,023 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 18:05:44,851 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:05:44] "GET / HTTP/1.1" 200 -
+2025-08-13 18:05:55,065 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:05:55] "GET / HTTP/1.1" 200 -
+2025-08-13 18:05:56,017 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 18:06:05,264 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:06:05] "GET / HTTP/1.1" 200 -
+2025-08-13 18:06:08,557 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 18:06:16,580 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:06:16] "GET / HTTP/1.1" 200 -
+2025-08-13 18:06:20,615 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 18:06:26,811 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:06:26] "GET / HTTP/1.1" 200 -
+2025-08-13 18:06:26,972 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:06:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-13 18:06:33,011 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 18:06:37,345 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:06:37] "GET / HTTP/1.1" 200 -
+2025-08-13 18:06:37,517 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:06:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-13 18:06:44,853 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 18:06:47,560 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:06:47] "GET / HTTP/1.1" 200 -
+2025-08-13 18:06:47,735 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:06:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-13 18:06:56,935 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 18:06:58,367 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:06:58] "GET / HTTP/1.1" 200 -
+2025-08-13 18:06:58,725 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:06:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-13 18:07:08,593 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:07:08] "GET / HTTP/1.1" 200 -
+2025-08-13 18:07:09,876 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 18:07:18,806 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:07:18] "GET / HTTP/1.1" 200 -
+2025-08-13 18:07:18,990 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:07:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-13 18:07:21,573 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 18:07:29,321 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:07:29] "GET / HTTP/1.1" 200 -
+2025-08-13 18:07:34,192 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 18:07:39,518 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:07:39] "GET / HTTP/1.1" 200 -
+2025-08-13 18:07:46,201 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 18:07:50,277 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:07:50] "GET / HTTP/1.1" 200 -
+2025-08-13 18:07:58,198 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 18:08:01,279 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:08:01] "GET / HTTP/1.1" 200 -
+2025-08-13 18:08:11,494 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:08:11] "GET / HTTP/1.1" 200 -
+2025-08-13 18:08:11,631 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 18:08:22,347 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:08:22] "GET / HTTP/1.1" 200 -
+2025-08-13 18:08:24,048 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 18:08:32,572 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:08:32] "GET / HTTP/1.1" 200 -
+2025-08-13 18:08:32,751 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:08:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-13 18:08:36,484 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 18:08:42,778 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:08:42] "GET / HTTP/1.1" 200 -
+2025-08-13 18:08:48,456 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 18:08:53,284 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:08:53] "GET / HTTP/1.1" 200 -
+2025-08-13 18:09:00,479 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 18:09:03,490 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:09:03] "GET / HTTP/1.1" 200 -
+2025-08-13 18:09:03,651 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:09:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-13 18:09:12,451 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 18:09:13,956 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:09:13] "GET / HTTP/1.1" 200 -
+2025-08-13 18:09:24,169 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:09:24] "GET / HTTP/1.1" 200 -
+2025-08-13 18:09:24,330 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:09:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-13 18:09:24,964 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 18:09:34,369 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:09:34] "GET / HTTP/1.1" 200 -
+2025-08-13 18:09:37,369 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 18:09:44,925 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:09:44] "GET / HTTP/1.1" 200 -
+2025-08-13 18:09:49,785 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 18:09:55,145 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:09:55] "GET / HTTP/1.1" 200 -
+2025-08-13 18:10:00,891 - root - ERROR - Fehler beim News-Abruf für XRPUSDT: 'NoneType' object is not iterable
+2025-08-13 18:10:00,891 - root - ERROR - Fehler beim News-Abruf für AVAXUSDT: 'NoneType' object is not iterable
+2025-08-13 18:10:00,920 - root - ERROR - Fehler beim News-Abruf für SOLUSDT: 'NoneType' object is not iterable
+2025-08-13 18:10:01,038 - root - ERROR - Fehler beim News-Abruf für LINKUSDT: 'NoneType' object is not iterable
+2025-08-13 18:10:01,886 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 18:10:06,279 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:10:06] "GET / HTTP/1.1" 200 -
+2025-08-13 18:10:11,167 - root - ERROR - Fehler beim News-Abruf für BTCUSDT: 'NoneType' object is not iterable
+2025-08-13 18:10:11,307 - root - ERROR - Fehler beim News-Abruf für BNBUSDT: 'NoneType' object is not iterable
+2025-08-13 18:10:11,338 - root - ERROR - Fehler beim News-Abruf für ETHUSDT: 'NoneType' object is not iterable
+2025-08-13 18:10:12,057 - root - ERROR - Fehler beim News-Abruf für ADAUSDT: 'NoneType' object is not iterable
+2025-08-13 18:10:14,790 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 18:10:16,485 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:10:16] "GET / HTTP/1.1" 200 -
+2025-08-13 18:10:26,290 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 18:10:26,715 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:10:26] "GET / HTTP/1.1" 200 -
+2025-08-13 18:10:37,286 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:10:37] "GET / HTTP/1.1" 200 -
+2025-08-13 18:10:39,249 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 18:10:47,503 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:10:47] "GET / HTTP/1.1" 200 -
+2025-08-13 18:10:51,209 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 18:10:57,716 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:10:57] "GET / HTTP/1.1" 200 -
+2025-08-13 18:11:03,842 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-13 18:11:07,914 - werkzeug - INFO - 127.0.0.1 - - [13/Aug/2025 18:11:07] "GET / HTTP/1.1" 200 -
+2025-08-13 18:11:11,002 - root - INFO - ML-System: Keine Trainingsdaten verfügbar - sammle Daten...
+2025-08-13 18:11:11,002 - core.enhanced_trader - INFO - ML state saved
+2025-08-13 18:11:11,003 - core.enhanced_trader - INFO - 🛑 Bot stopped

@@ -1,0 +1,289 @@
+2025-08-14 10:29:30,981 - root - INFO - ✅ Logging system initialized
+2025-08-14 10:29:30,981 - root - INFO - 📁 Log file: C:\Users\domin\daytrading_bot\data\logs\trading_bot_20250814_102930.log
+2025-08-14 10:29:30,981 - root - INFO - ✅ Configuration loaded successfully
+2025-08-14 10:29:43,081 - optimization.symbol_optimizer - INFO - ⏭️ BTCUSDT übersprungen: Letzte Optimierung vor 16.2h (zu neu)
+2025-08-14 10:29:43,081 - optimization.symbol_optimizer - INFO - ⏭️ ETHUSDT übersprungen: Letzte Optimierung vor 16.1h (zu neu)
+2025-08-14 10:29:43,081 - optimization.symbol_optimizer - INFO - 📋 BNBUSDT wird optimiert: Noch nie optimiert
+2025-08-14 10:29:43,094 - optimization.symbol_optimizer - INFO - 📋 ADAUSDT wird optimiert: Noch nie optimiert
+2025-08-14 10:29:43,094 - optimization.symbol_optimizer - INFO - 📋 SOLUSDT wird optimiert: Noch nie optimiert
+2025-08-14 10:29:43,094 - optimization.symbol_optimizer - INFO - 📋 XRPUSDT wird optimiert: Noch nie optimiert
+2025-08-14 10:29:43,094 - optimization.symbol_optimizer - INFO - 📋 LINKUSDT wird optimiert: Noch nie optimiert
+2025-08-14 10:29:43,094 - optimization.symbol_optimizer - INFO - 📋 AVAXUSDT wird optimiert: Noch nie optimiert
+2025-08-14 10:29:43,094 - optimization.symbol_optimizer - INFO - 🚀 Starte Optimierung für 6 Symbole
+2025-08-14 10:29:43,094 - optimization.symbol_optimizer - INFO - 📊 Optimiere Symbol 1/6: BNBUSDT
+2025-08-14 10:29:43,094 - optimization.symbol_optimizer - INFO - 🎯 Starte Optimierung für BNBUSDT
+2025-08-14 10:30:04,198 - optimization.symbol_optimizer - INFO - 📊 20161 Kerzen für BNBUSDT geladen
+2025-08-14 10:30:04,229 - optimization.symbol_optimizer - INFO - 🔧 Teste 200 Kombinationen für BNBUSDT
+2025-08-14 10:30:13,917 - optimization.symbol_optimizer - INFO - ⏳ BNBUSDT: 10/200 getestet
+2025-08-14 10:30:22,358 - optimization.symbol_optimizer - INFO - ⏳ BNBUSDT: 20/200 getestet
+2025-08-14 10:30:30,544 - optimization.symbol_optimizer - INFO - ⏳ BNBUSDT: 30/200 getestet
+2025-08-14 10:30:38,674 - optimization.symbol_optimizer - INFO - ⏳ BNBUSDT: 40/200 getestet
+2025-08-14 10:30:46,868 - optimization.symbol_optimizer - INFO - ⏳ BNBUSDT: 50/200 getestet
+2025-08-14 10:30:57,091 - optimization.symbol_optimizer - INFO - ⏳ BNBUSDT: 60/200 getestet
+2025-08-14 10:31:05,447 - optimization.symbol_optimizer - INFO - ⏳ BNBUSDT: 70/200 getestet
+2025-08-14 10:31:12,936 - optimization.symbol_optimizer - INFO - ⏳ BNBUSDT: 80/200 getestet
+2025-08-14 10:31:20,960 - optimization.symbol_optimizer - INFO - ⏳ BNBUSDT: 90/200 getestet
+2025-08-14 10:31:29,046 - optimization.symbol_optimizer - INFO - ⏳ BNBUSDT: 100/200 getestet
+2025-08-14 10:31:39,421 - optimization.symbol_optimizer - INFO - ⏳ BNBUSDT: 110/200 getestet
+2025-08-14 10:31:46,297 - optimization.symbol_optimizer - INFO - ⏳ BNBUSDT: 120/200 getestet
+2025-08-14 10:31:54,274 - optimization.symbol_optimizer - INFO - ⏳ BNBUSDT: 130/200 getestet
+2025-08-14 10:32:02,517 - optimization.symbol_optimizer - INFO - ⏳ BNBUSDT: 140/200 getestet
+2025-08-14 10:32:10,982 - optimization.symbol_optimizer - INFO - ⏳ BNBUSDT: 150/200 getestet
+2025-08-14 10:32:18,815 - optimization.symbol_optimizer - INFO - ⏳ BNBUSDT: 160/200 getestet
+2025-08-14 10:32:27,057 - optimization.symbol_optimizer - INFO - ⏳ BNBUSDT: 170/200 getestet
+2025-08-14 10:32:34,386 - optimization.symbol_optimizer - INFO - ⏳ BNBUSDT: 180/200 getestet
+2025-08-14 10:32:43,192 - optimization.symbol_optimizer - INFO - ⏳ BNBUSDT: 190/200 getestet
+2025-08-14 10:32:50,664 - optimization.symbol_optimizer - INFO - ⏳ BNBUSDT: 200/200 getestet
+2025-08-14 10:32:50,664 - optimization.symbol_optimizer - WARNING - ❌ BNBUSDT: Keine Parameter mit ≥15% Profit gefunden
+2025-08-14 10:32:50,679 - optimization.symbol_optimizer - INFO - ✅ Results saved to optimization_results_per_symbol.json
+2025-08-14 10:32:50,679 - optimization.symbol_optimizer - INFO - 📊 Optimiere Symbol 2/6: ADAUSDT
+2025-08-14 10:32:50,679 - optimization.symbol_optimizer - INFO - 🎯 Starte Optimierung für ADAUSDT
+2025-08-14 10:33:11,089 - optimization.symbol_optimizer - INFO - 📊 20161 Kerzen für ADAUSDT geladen
+2025-08-14 10:33:11,105 - optimization.symbol_optimizer - INFO - 🔧 Teste 200 Kombinationen für ADAUSDT
+2025-08-14 10:33:21,323 - optimization.symbol_optimizer - INFO - ⏳ ADAUSDT: 10/200 getestet
+2025-08-14 10:33:28,718 - optimization.symbol_optimizer - INFO - ⏳ ADAUSDT: 20/200 getestet
+2025-08-14 10:33:36,392 - optimization.symbol_optimizer - INFO - ⏳ ADAUSDT: 30/200 getestet
+2025-08-14 10:33:44,429 - optimization.symbol_optimizer - INFO - ⏳ ADAUSDT: 40/200 getestet
+2025-08-14 10:33:53,959 - optimization.symbol_optimizer - INFO - ⏳ ADAUSDT: 50/200 getestet
+2025-08-14 10:34:01,979 - optimization.symbol_optimizer - INFO - ⏳ ADAUSDT: 60/200 getestet
+2025-08-14 10:34:10,423 - optimization.symbol_optimizer - INFO - ⏳ ADAUSDT: 70/200 getestet
+2025-08-14 10:34:18,226 - optimization.symbol_optimizer - INFO - ⏳ ADAUSDT: 80/200 getestet
+2025-08-14 10:34:27,331 - optimization.symbol_optimizer - INFO - ⏳ ADAUSDT: 90/200 getestet
+2025-08-14 10:34:34,721 - optimization.symbol_optimizer - INFO - ⏳ ADAUSDT: 100/200 getestet
+2025-08-14 10:34:44,439 - optimization.symbol_optimizer - INFO - ⏳ ADAUSDT: 110/200 getestet
+2025-08-14 10:34:51,611 - optimization.symbol_optimizer - INFO - ⏳ ADAUSDT: 120/200 getestet
+2025-08-14 10:35:00,666 - optimization.symbol_optimizer - INFO - ⏳ ADAUSDT: 130/200 getestet
+2025-08-14 10:35:09,176 - optimization.symbol_optimizer - INFO - ⏳ ADAUSDT: 140/200 getestet
+2025-08-14 10:35:17,061 - optimization.symbol_optimizer - INFO - ⏳ ADAUSDT: 150/200 getestet
+2025-08-14 10:35:25,159 - optimization.symbol_optimizer - INFO - ⏳ ADAUSDT: 160/200 getestet
+2025-08-14 10:35:34,405 - optimization.symbol_optimizer - INFO - ⏳ ADAUSDT: 170/200 getestet
+2025-08-14 10:35:43,130 - optimization.symbol_optimizer - INFO - ⏳ ADAUSDT: 180/200 getestet
+2025-08-14 10:35:51,261 - optimization.symbol_optimizer - INFO - ⏳ ADAUSDT: 190/200 getestet
+2025-08-14 10:35:59,420 - optimization.symbol_optimizer - INFO - ⏳ ADAUSDT: 200/200 getestet
+2025-08-14 10:35:59,420 - optimization.symbol_optimizer - WARNING - ❌ ADAUSDT: Keine Parameter mit ≥15% Profit gefunden
+2025-08-14 10:35:59,420 - optimization.symbol_optimizer - INFO - ✅ Results saved to optimization_results_per_symbol.json
+2025-08-14 10:35:59,420 - optimization.symbol_optimizer - INFO - 📊 Optimiere Symbol 3/6: SOLUSDT
+2025-08-14 10:35:59,420 - optimization.symbol_optimizer - INFO - 🎯 Starte Optimierung für SOLUSDT
+2025-08-14 10:36:19,091 - optimization.symbol_optimizer - INFO - 📊 20161 Kerzen für SOLUSDT geladen
+2025-08-14 10:36:19,091 - optimization.symbol_optimizer - INFO - 🔧 Teste 200 Kombinationen für SOLUSDT
+2025-08-14 10:36:28,771 - optimization.symbol_optimizer - INFO - ⏳ SOLUSDT: 10/200 getestet
+2025-08-14 10:36:37,532 - optimization.symbol_optimizer - INFO - ⏳ SOLUSDT: 20/200 getestet
+2025-08-14 10:36:44,984 - optimization.symbol_optimizer - INFO - ⏳ SOLUSDT: 30/200 getestet
+2025-08-14 10:36:54,866 - optimization.symbol_optimizer - INFO - ⏳ SOLUSDT: 40/200 getestet
+2025-08-14 10:37:02,306 - optimization.symbol_optimizer - INFO - ⏳ SOLUSDT: 50/200 getestet
+2025-08-14 10:37:09,953 - optimization.symbol_optimizer - INFO - ⏳ SOLUSDT: 60/200 getestet
+2025-08-14 10:37:18,254 - optimization.symbol_optimizer - INFO - ⏳ SOLUSDT: 70/200 getestet
+2025-08-14 10:37:26,603 - optimization.symbol_optimizer - INFO - ⏳ SOLUSDT: 80/200 getestet
+2025-08-14 10:37:37,262 - optimization.symbol_optimizer - INFO - ⏳ SOLUSDT: 90/200 getestet
+2025-08-14 10:37:44,199 - optimization.symbol_optimizer - INFO - ⏳ SOLUSDT: 100/200 getestet
+2025-08-14 10:37:51,924 - optimization.symbol_optimizer - INFO - ⏳ SOLUSDT: 110/200 getestet
+2025-08-14 10:38:00,031 - optimization.symbol_optimizer - INFO - ⏳ SOLUSDT: 120/200 getestet
+2025-08-14 10:38:09,116 - optimization.symbol_optimizer - INFO - ⏳ SOLUSDT: 130/200 getestet
+2025-08-14 10:38:16,916 - optimization.symbol_optimizer - INFO - ⏳ SOLUSDT: 140/200 getestet
+2025-08-14 10:38:25,315 - optimization.symbol_optimizer - INFO - ⏳ SOLUSDT: 150/200 getestet
+2025-08-14 10:38:34,482 - optimization.symbol_optimizer - INFO - ⏳ SOLUSDT: 160/200 getestet
+2025-08-14 10:38:42,517 - optimization.symbol_optimizer - INFO - ⏳ SOLUSDT: 170/200 getestet
+2025-08-14 10:38:49,737 - optimization.symbol_optimizer - INFO - ⏳ SOLUSDT: 180/200 getestet
+2025-08-14 10:38:59,342 - optimization.symbol_optimizer - INFO - ⏳ SOLUSDT: 190/200 getestet
+2025-08-14 10:39:06,464 - optimization.symbol_optimizer - INFO - ⏳ SOLUSDT: 200/200 getestet
+2025-08-14 10:39:06,464 - optimization.symbol_optimizer - WARNING - ❌ SOLUSDT: Keine Parameter mit ≥15% Profit gefunden
+2025-08-14 10:39:06,474 - optimization.symbol_optimizer - INFO - ✅ Results saved to optimization_results_per_symbol.json
+2025-08-14 10:39:06,474 - optimization.symbol_optimizer - INFO - 📊 Optimiere Symbol 4/6: XRPUSDT
+2025-08-14 10:39:06,474 - optimization.symbol_optimizer - INFO - 🎯 Starte Optimierung für XRPUSDT
+2025-08-14 10:39:25,451 - optimization.symbol_optimizer - INFO - 📊 20161 Kerzen für XRPUSDT geladen
+2025-08-14 10:39:25,467 - optimization.symbol_optimizer - INFO - 🔧 Teste 200 Kombinationen für XRPUSDT
+2025-08-14 10:39:34,827 - optimization.symbol_optimizer - INFO - ⏳ XRPUSDT: 10/200 getestet
+2025-08-14 10:39:42,220 - optimization.symbol_optimizer - INFO - ⏳ XRPUSDT: 20/200 getestet
+2025-08-14 10:39:50,227 - optimization.symbol_optimizer - INFO - ⏳ XRPUSDT: 30/200 getestet
+2025-08-14 10:40:00,323 - optimization.symbol_optimizer - INFO - ⏳ XRPUSDT: 40/200 getestet
+2025-08-14 10:40:07,126 - optimization.symbol_optimizer - INFO - ⏳ XRPUSDT: 50/200 getestet
+2025-08-14 10:40:16,465 - optimization.symbol_optimizer - INFO - ⏳ XRPUSDT: 60/200 getestet
+2025-08-14 10:40:25,240 - optimization.symbol_optimizer - INFO - ⏳ XRPUSDT: 70/200 getestet
+2025-08-14 10:40:33,651 - optimization.symbol_optimizer - INFO - ⏳ XRPUSDT: 80/200 getestet
+2025-08-14 10:40:42,315 - optimization.symbol_optimizer - INFO - ⏳ XRPUSDT: 90/200 getestet
+2025-08-14 10:40:51,192 - optimization.symbol_optimizer - INFO - ⏳ XRPUSDT: 100/200 getestet
+2025-08-14 10:40:59,676 - optimization.symbol_optimizer - INFO - ⏳ XRPUSDT: 110/200 getestet
+2025-08-14 10:41:08,201 - optimization.symbol_optimizer - INFO - ⏳ XRPUSDT: 120/200 getestet
+2025-08-14 10:41:16,914 - optimization.symbol_optimizer - INFO - ⏳ XRPUSDT: 130/200 getestet
+2025-08-14 10:41:25,064 - optimization.symbol_optimizer - INFO - ⏳ XRPUSDT: 140/200 getestet
+2025-08-14 10:41:34,420 - optimization.symbol_optimizer - INFO - ⏳ XRPUSDT: 150/200 getestet
+2025-08-14 10:41:41,641 - optimization.symbol_optimizer - INFO - ⏳ XRPUSDT: 160/200 getestet
+2025-08-14 10:41:51,688 - optimization.symbol_optimizer - INFO - ⏳ XRPUSDT: 170/200 getestet
+2025-08-14 10:41:58,736 - optimization.symbol_optimizer - INFO - ⏳ XRPUSDT: 180/200 getestet
+2025-08-14 10:42:08,291 - optimization.symbol_optimizer - INFO - ⏳ XRPUSDT: 190/200 getestet
+2025-08-14 10:42:15,668 - optimization.symbol_optimizer - INFO - ⏳ XRPUSDT: 200/200 getestet
+2025-08-14 10:42:15,668 - optimization.symbol_optimizer - WARNING - ❌ XRPUSDT: Keine Parameter mit ≥15% Profit gefunden
+2025-08-14 10:42:15,683 - optimization.symbol_optimizer - INFO - ✅ Results saved to optimization_results_per_symbol.json
+2025-08-14 10:42:15,683 - optimization.symbol_optimizer - INFO - 📊 Optimiere Symbol 5/6: LINKUSDT
+2025-08-14 10:42:15,683 - optimization.symbol_optimizer - INFO - 🎯 Starte Optimierung für LINKUSDT
+2025-08-14 10:42:34,952 - optimization.symbol_optimizer - INFO - 📊 20161 Kerzen für LINKUSDT geladen
+2025-08-14 10:42:34,967 - optimization.symbol_optimizer - INFO - 🔧 Teste 200 Kombinationen für LINKUSDT
+2025-08-14 10:42:45,657 - optimization.symbol_optimizer - INFO - ⏳ LINKUSDT: 10/200 getestet
+2025-08-14 10:42:53,239 - optimization.symbol_optimizer - INFO - ⏳ LINKUSDT: 20/200 getestet
+2025-08-14 10:43:00,539 - optimization.symbol_optimizer - INFO - ⏳ LINKUSDT: 30/200 getestet
+2025-08-14 10:43:11,506 - optimization.symbol_optimizer - INFO - ⏳ LINKUSDT: 40/200 getestet
+2025-08-14 10:43:18,430 - optimization.symbol_optimizer - INFO - ⏳ LINKUSDT: 50/200 getestet
+2025-08-14 10:43:27,930 - optimization.symbol_optimizer - INFO - ⏳ LINKUSDT: 60/200 getestet
+2025-08-14 10:43:35,795 - optimization.symbol_optimizer - INFO - ⏳ LINKUSDT: 70/200 getestet
+2025-08-14 10:43:43,548 - optimization.symbol_optimizer - INFO - ⏳ LINKUSDT: 80/200 getestet
+2025-08-14 10:43:51,662 - optimization.symbol_optimizer - INFO - ⏳ LINKUSDT: 90/200 getestet
+2025-08-14 10:44:01,074 - optimization.symbol_optimizer - INFO - ⏳ LINKUSDT: 100/200 getestet
+2025-08-14 10:44:08,045 - optimization.symbol_optimizer - INFO - ⏳ LINKUSDT: 110/200 getestet
+2025-08-14 10:44:17,791 - optimization.symbol_optimizer - INFO - ⏳ LINKUSDT: 120/200 getestet
+2025-08-14 10:44:24,884 - optimization.symbol_optimizer - INFO - ⏳ LINKUSDT: 130/200 getestet
+2025-08-14 10:44:34,572 - optimization.symbol_optimizer - INFO - ⏳ LINKUSDT: 140/200 getestet
+2025-08-14 10:44:42,075 - optimization.symbol_optimizer - INFO - ⏳ LINKUSDT: 150/200 getestet
+2025-08-14 10:44:50,112 - optimization.symbol_optimizer - INFO - ⏳ LINKUSDT: 160/200 getestet
+2025-08-14 10:44:58,653 - optimization.symbol_optimizer - INFO - ⏳ LINKUSDT: 170/200 getestet
+2025-08-14 10:45:08,762 - optimization.symbol_optimizer - INFO - ⏳ LINKUSDT: 180/200 getestet
+2025-08-14 10:45:16,329 - optimization.symbol_optimizer - INFO - ⏳ LINKUSDT: 190/200 getestet
+2025-08-14 10:45:23,974 - optimization.symbol_optimizer - INFO - ⏳ LINKUSDT: 200/200 getestet
+2025-08-14 10:45:23,974 - optimization.symbol_optimizer - WARNING - ❌ LINKUSDT: Keine Parameter mit ≥15% Profit gefunden
+2025-08-14 10:45:23,989 - optimization.symbol_optimizer - INFO - ✅ Results saved to optimization_results_per_symbol.json
+2025-08-14 10:45:23,989 - optimization.symbol_optimizer - INFO - 📊 Optimiere Symbol 6/6: AVAXUSDT
+2025-08-14 10:45:23,989 - optimization.symbol_optimizer - INFO - 🎯 Starte Optimierung für AVAXUSDT
+2025-08-14 10:45:40,277 - optimization.symbol_optimizer - INFO - 📊 20161 Kerzen für AVAXUSDT geladen
+2025-08-14 10:45:40,281 - optimization.symbol_optimizer - INFO - 🔧 Teste 200 Kombinationen für AVAXUSDT
+2025-08-14 10:45:49,573 - optimization.symbol_optimizer - INFO - ⏳ AVAXUSDT: 10/200 getestet
+2025-08-14 10:45:58,302 - optimization.symbol_optimizer - INFO - ⏳ AVAXUSDT: 20/200 getestet
+2025-08-14 10:46:05,680 - optimization.symbol_optimizer - INFO - ⏳ AVAXUSDT: 30/200 getestet
+2025-08-14 10:46:14,629 - optimization.symbol_optimizer - INFO - ⏳ AVAXUSDT: 40/200 getestet
+2025-08-14 10:46:24,566 - optimization.symbol_optimizer - INFO - ⏳ AVAXUSDT: 50/200 getestet
+2025-08-14 10:46:31,316 - optimization.symbol_optimizer - INFO - ⏳ AVAXUSDT: 60/200 getestet
+2025-08-14 10:46:41,018 - optimization.symbol_optimizer - INFO - ⏳ AVAXUSDT: 70/200 getestet
+2025-08-14 10:46:48,174 - optimization.symbol_optimizer - INFO - ⏳ AVAXUSDT: 80/200 getestet
+2025-08-14 10:46:57,719 - optimization.symbol_optimizer - INFO - ⏳ AVAXUSDT: 90/200 getestet
+2025-08-14 10:47:05,093 - optimization.symbol_optimizer - INFO - ⏳ AVAXUSDT: 100/200 getestet
+2025-08-14 10:47:12,348 - optimization.symbol_optimizer - INFO - ⏳ AVAXUSDT: 110/200 getestet
+2025-08-14 10:47:21,563 - optimization.symbol_optimizer - INFO - ⏳ AVAXUSDT: 120/200 getestet
+2025-08-14 10:47:28,738 - optimization.symbol_optimizer - INFO - ⏳ AVAXUSDT: 130/200 getestet
+2025-08-14 10:47:38,154 - optimization.symbol_optimizer - INFO - ⏳ AVAXUSDT: 140/200 getestet
+2025-08-14 10:47:45,186 - optimization.symbol_optimizer - INFO - ⏳ AVAXUSDT: 150/200 getestet
+2025-08-14 10:47:53,409 - optimization.symbol_optimizer - INFO - ⏳ AVAXUSDT: 160/200 getestet
+2025-08-14 10:48:03,504 - optimization.symbol_optimizer - INFO - ⏳ AVAXUSDT: 170/200 getestet
+2025-08-14 10:48:11,117 - optimization.symbol_optimizer - INFO - ⏳ AVAXUSDT: 180/200 getestet
+2025-08-14 10:48:18,480 - optimization.symbol_optimizer - INFO - ⏳ AVAXUSDT: 190/200 getestet
+2025-08-14 10:48:26,953 - optimization.symbol_optimizer - INFO - ⏳ AVAXUSDT: 200/200 getestet
+2025-08-14 10:48:26,953 - optimization.symbol_optimizer - WARNING - ❌ AVAXUSDT: Keine Parameter mit ≥15% Profit gefunden
+2025-08-14 10:48:26,953 - optimization.symbol_optimizer - INFO - ✅ Results saved to optimization_results_per_symbol.json
+2025-08-14 10:48:26,953 - optimization.symbol_optimizer - INFO - ✅ Symbol-Optimierung abgeschlossen für 6 Symbole
+2025-08-14 10:48:27,757 - root - INFO - TESTNET MODUS
+2025-08-14 10:48:27,757 - core.enhanced_trader - INFO - ✅ Symbol-spezifische Parameter für 2 Symbole geladen
+2025-08-14 10:48:27,757 - root - INFO - ML-Datenbank initialisiert
+2025-08-14 10:48:27,757 - root - INFO - Insgesamt 4 Modelle geladen
+2025-08-14 10:48:27,757 - root - INFO - ML Daytrading System deaktiviert
+2025-08-14 10:48:27,757 - core.enhanced_trader - INFO - 🧠 ML system successfully initialized
+2025-08-14 10:48:27,773 - root - INFO - News Sentiment Analyzer deaktiviert
+2025-08-14 10:48:27,773 - core.enhanced_trader - INFO - 📰 Sentiment analyzer successfully initialized
+2025-08-14 10:48:27,773 - root - INFO - 🌐 Enhanced Flask Dashboard started on http://localhost:5000
+2025-08-14 10:48:27,773 - core.enhanced_trader - INFO - 🌐 Flask server started
+2025-08-14 10:48:27,773 - core.enhanced_trader - INFO - ✅ Enhanced trading bot initialized
+2025-08-14 10:48:27,773 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.178.39:5000
+2025-08-14 10:48:27,773 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-14 10:48:30,890 - root - INFO - Initial Balance: 100705.52
+2025-08-14 10:48:33,531 - core.enhanced_trader - INFO - Balance: 100702.68
+2025-08-14 10:48:33,531 - core.enhanced_trader - INFO - 🎯 Symbol-spezifische Parameter aktiv für 2 Symbole
+2025-08-14 10:48:33,531 - core.enhanced_trader - INFO - 🚀 Enhanced trading loop started
+2025-08-14 10:48:33,531 - core.enhanced_trader - INFO - 🚀 Bot started; dashboard at http://localhost:5000
+2025-08-14 10:48:33,531 - core.enhanced_trader - INFO - 🛑 Bot stopped
+2025-08-14 10:48:35,966 - core.enhanced_trader - INFO - 🔍 BTCUSDT Volume Debug: current=0.06, sma=2.93, ratio=0.0221
+2025-08-14 10:48:35,966 - core.enhanced_trader - INFO - 🔧 BTCUSDT Type Fix: rsi_oversold=38.0 (type: <class 'float'>)
+2025-08-14 10:48:35,966 - core.enhanced_trader - INFO - 🔍 BTCUSDT Signal-Debug:
+2025-08-14 10:48:35,966 - core.enhanced_trader - INFO -    RSI: 42.0 (Oversold<38.0, Overbought>60.0)
+2025-08-14 10:48:35,966 - core.enhanced_trader - INFO -    EMA: Fast=121745.2940, Slow=121787.9326
+2025-08-14 10:48:35,966 - core.enhanced_trader - INFO -    MACD: -34.3359 vs Signal=-24.0798
+2025-08-14 10:48:35,966 - core.enhanced_trader - INFO -    Volume Ratio: 0.02 (Threshold=1.0)
+2025-08-14 10:48:35,966 - core.enhanced_trader - INFO -    ML: Enabled=False, Features=No
+2025-08-14 10:48:35,966 - core.enhanced_trader - INFO -    Sentiment: NEUTRAL, Score=0.00
+2025-08-14 10:48:35,966 - core.enhanced_trader - INFO -    🎯 RESULT: buy_signals=-1, confidence=0.000, threshold=0.4
+2025-08-14 10:48:35,966 - core.enhanced_trader - INFO -    Reasons: EMA Bearish
+2025-08-14 10:48:35,966 - core.enhanced_trader - INFO - ⏸️ BTCUSDT: No signal - buy_signals=-1 (need ≥1), confidence=0.0% (need ≥40.0%)
+2025-08-14 10:48:36,032 - core.enhanced_trader - INFO - 🔍 ADAUSDT Volume Debug: current=115.10, sma=6681.10, ratio=0.0172
+2025-08-14 10:48:36,032 - core.enhanced_trader - INFO - 🔍 ADAUSDT Signal-Debug:
+2025-08-14 10:48:36,032 - core.enhanced_trader - INFO -    RSI: 45.3 (Oversold<35.0, Overbought>70.0)
+2025-08-14 10:48:36,032 - core.enhanced_trader - INFO -    EMA: Fast=0.9855, Slow=0.9872
+2025-08-14 10:48:36,032 - core.enhanced_trader - INFO -    MACD: -0.0022 vs Signal=-0.0028
+2025-08-14 10:48:36,032 - core.enhanced_trader - INFO -    Volume Ratio: 0.02 (Threshold=1.5)
+2025-08-14 10:48:36,032 - core.enhanced_trader - INFO -    ML: Enabled=False, Features=No
+2025-08-14 10:48:36,032 - core.enhanced_trader - INFO -    Sentiment: NEUTRAL, Score=0.00
+2025-08-14 10:48:36,032 - core.enhanced_trader - INFO -    🎯 RESULT: buy_signals=0, confidence=0.100, threshold=0.6
+2025-08-14 10:48:36,032 - core.enhanced_trader - INFO -    Reasons: EMA Bearish, MACD Bullish
+2025-08-14 10:48:36,032 - core.enhanced_trader - INFO - ⏸️ ADAUSDT: No signal - buy_signals=0 (need ≥1), confidence=10.0% (need ≥60.0%)
+2025-08-14 10:48:36,484 - core.enhanced_trader - INFO - 🔍 ETHUSDT Volume Debug: current=3.07, sma=2.30, ratio=1.3331
+2025-08-14 10:48:36,484 - core.enhanced_trader - INFO - 🔍 ETHUSDT Signal-Debug:
+2025-08-14 10:48:36,484 - core.enhanced_trader - INFO -    RSI: 41.5 (Oversold<30.0, Overbought>70.0)
+2025-08-14 10:48:36,484 - core.enhanced_trader - INFO -    EMA: Fast=4727.3296, Slow=4729.7748
+2025-08-14 10:48:36,484 - core.enhanced_trader - INFO -    MACD: -2.5258 vs Signal=-2.4436
+2025-08-14 10:48:36,484 - core.enhanced_trader - INFO -    Volume Ratio: 1.33 (Threshold=1.2)
+2025-08-14 10:48:36,484 - core.enhanced_trader - INFO -    ML: Enabled=False, Features=No
+2025-08-14 10:48:36,484 - core.enhanced_trader - INFO -    Sentiment: NEUTRAL, Score=0.00
+2025-08-14 10:48:36,484 - core.enhanced_trader - INFO -    🎯 RESULT: buy_signals=-1, confidence=0.050, threshold=0.3
+2025-08-14 10:48:36,484 - core.enhanced_trader - INFO -    Reasons: EMA Bearish, High Volume
+2025-08-14 10:48:36,484 - core.enhanced_trader - INFO - ⏸️ ETHUSDT: No signal - buy_signals=-1 (need ≥1), confidence=5.0% (need ≥30.0%)
+2025-08-14 10:48:36,499 - core.enhanced_trader - INFO - 🔍 BNBUSDT Volume Debug: current=16.41, sma=8.20, ratio=2.0014
+2025-08-14 10:48:36,499 - core.enhanced_trader - INFO - 🔍 BNBUSDT Signal-Debug:
+2025-08-14 10:48:36,499 - core.enhanced_trader - INFO -    RSI: 45.7 (Oversold<35.0, Overbought>70.0)
+2025-08-14 10:48:36,499 - core.enhanced_trader - INFO -    EMA: Fast=856.7471, Slow=857.0589
+2025-08-14 10:48:36,499 - core.enhanced_trader - INFO -    MACD: -0.3647 vs Signal=-0.4092
+2025-08-14 10:48:36,499 - core.enhanced_trader - INFO -    Volume Ratio: 2.00 (Threshold=1.5)
+2025-08-14 10:48:36,499 - core.enhanced_trader - INFO -    ML: Enabled=False, Features=No
+2025-08-14 10:48:36,499 - core.enhanced_trader - INFO -    Sentiment: NEUTRAL, Score=0.00
+2025-08-14 10:48:36,499 - core.enhanced_trader - INFO -    🎯 RESULT: buy_signals=0, confidence=0.150, threshold=0.6
+2025-08-14 10:48:36,499 - core.enhanced_trader - INFO -    Reasons: EMA Bearish, MACD Bullish, High Volume
+2025-08-14 10:48:36,499 - core.enhanced_trader - INFO - ⏸️ BNBUSDT: No signal - buy_signals=0 (need ≥1), confidence=15.0% (need ≥60.0%)
+2025-08-14 10:48:37,275 - core.enhanced_trader - INFO - 📊 ADAUSDT Final Status: Action=HOLD, Confidence=0.0%, ML=NEUTRAL, Volume_Ratio=0.02
+2025-08-14 10:48:37,684 - core.enhanced_trader - INFO - 📊 BTCUSDT Final Status: Action=HOLD, Confidence=0.0%, ML=NEUTRAL, Volume_Ratio=0.02
+2025-08-14 10:48:37,747 - core.enhanced_trader - INFO - 📊 ETHUSDT Final Status: Action=HOLD, Confidence=0.0%, ML=NEUTRAL, Volume_Ratio=1.33
+2025-08-14 10:48:38,218 - core.enhanced_trader - INFO - 📊 BNBUSDT Final Status: Action=HOLD, Confidence=0.0%, ML=NEUTRAL, Volume_Ratio=2.00
+2025-08-14 10:48:39,255 - core.enhanced_trader - INFO - 🔍 SOLUSDT Volume Debug: current=20.11, sma=227.03, ratio=0.0886
+2025-08-14 10:48:39,255 - core.enhanced_trader - INFO - 🔍 SOLUSDT Signal-Debug:
+2025-08-14 10:48:39,255 - core.enhanced_trader - INFO -    RSI: 45.2 (Oversold<35.0, Overbought>70.0)
+2025-08-14 10:48:39,255 - core.enhanced_trader - INFO -    EMA: Fast=203.0288, Slow=203.3088
+2025-08-14 10:48:39,255 - core.enhanced_trader - INFO -    MACD: -0.3509 vs Signal=-0.4090
+2025-08-14 10:48:39,255 - core.enhanced_trader - INFO -    Volume Ratio: 0.09 (Threshold=1.5)
+2025-08-14 10:48:39,255 - core.enhanced_trader - INFO -    ML: Enabled=False, Features=No
+2025-08-14 10:48:39,255 - core.enhanced_trader - INFO -    Sentiment: NEUTRAL, Score=0.00
+2025-08-14 10:48:39,255 - core.enhanced_trader - INFO -    🎯 RESULT: buy_signals=0, confidence=0.100, threshold=0.6
+2025-08-14 10:48:39,255 - core.enhanced_trader - INFO -    Reasons: EMA Bearish, MACD Bullish
+2025-08-14 10:48:39,255 - core.enhanced_trader - INFO - ⏸️ SOLUSDT: No signal - buy_signals=0 (need ≥1), confidence=10.0% (need ≥60.0%)
+2025-08-14 10:48:40,182 - core.enhanced_trader - INFO - 🔍 LINKUSDT Volume Debug: current=0.00, sma=267.96, ratio=0.0000
+2025-08-14 10:48:40,182 - core.enhanced_trader - INFO - 🔍 LINKUSDT Signal-Debug:
+2025-08-14 10:48:40,182 - core.enhanced_trader - INFO -    RSI: 56.2 (Oversold<35.0, Overbought>70.0)
+2025-08-14 10:48:40,182 - core.enhanced_trader - INFO -    EMA: Fast=23.3171, Slow=23.3219
+2025-08-14 10:48:40,182 - core.enhanced_trader - INFO -    MACD: -0.0180 vs Signal=-0.0317
+2025-08-14 10:48:40,182 - core.enhanced_trader - INFO -    Volume Ratio: 0.00 (Threshold=1.5)
+2025-08-14 10:48:40,182 - core.enhanced_trader - INFO -    ML: Enabled=False, Features=No
+2025-08-14 10:48:40,182 - core.enhanced_trader - INFO -    Sentiment: NEUTRAL, Score=0.00
+2025-08-14 10:48:40,182 - core.enhanced_trader - INFO -    🎯 RESULT: buy_signals=0, confidence=0.100, threshold=0.6
+2025-08-14 10:48:40,182 - core.enhanced_trader - INFO -    Reasons: EMA Bearish, MACD Bullish
+2025-08-14 10:48:40,182 - core.enhanced_trader - INFO - ⏸️ LINKUSDT: No signal - buy_signals=0 (need ≥1), confidence=10.0% (need ≥60.0%)
+2025-08-14 10:48:40,605 - core.enhanced_trader - INFO - 🔍 XRPUSDT Volume Debug: current=4361.60, sma=3744.32, ratio=1.1649
+2025-08-14 10:48:40,605 - core.enhanced_trader - INFO - 🔍 XRPUSDT Signal-Debug:
+2025-08-14 10:48:40,605 - core.enhanced_trader - INFO -    RSI: 41.6 (Oversold<35.0, Overbought>70.0)
+2025-08-14 10:48:40,605 - core.enhanced_trader - INFO -    EMA: Fast=3.2292, Slow=3.2319
+2025-08-14 10:48:40,605 - core.enhanced_trader - INFO -    MACD: -0.0031 vs Signal=-0.0032
+2025-08-14 10:48:40,605 - core.enhanced_trader - INFO -    Volume Ratio: 1.16 (Threshold=1.5)
+2025-08-14 10:48:40,605 - core.enhanced_trader - INFO -    ML: Enabled=False, Features=No
+2025-08-14 10:48:40,605 - core.enhanced_trader - INFO -    Sentiment: NEUTRAL, Score=0.00
+2025-08-14 10:48:40,605 - core.enhanced_trader - INFO -    🎯 RESULT: buy_signals=0, confidence=0.100, threshold=0.6
+2025-08-14 10:48:40,605 - core.enhanced_trader - INFO -    Reasons: EMA Bearish, MACD Bullish
+2025-08-14 10:48:40,605 - core.enhanced_trader - INFO - ⏸️ XRPUSDT: No signal - buy_signals=0 (need ≥1), confidence=10.0% (need ≥60.0%)
+2025-08-14 10:48:40,668 - core.enhanced_trader - INFO - 🔍 AVAXUSDT Volume Debug: current=0.00, sma=684.36, ratio=0.0000
+2025-08-14 10:48:40,668 - core.enhanced_trader - INFO - 🔍 AVAXUSDT Signal-Debug:
+2025-08-14 10:48:40,668 - core.enhanced_trader - INFO -    RSI: 44.6 (Oversold<35.0, Overbought>70.0)
+2025-08-14 10:48:40,668 - core.enhanced_trader - INFO -    EMA: Fast=25.0247, Slow=25.0451
+2025-08-14 10:48:40,668 - core.enhanced_trader - INFO -    MACD: -0.0262 vs Signal=-0.0309
+2025-08-14 10:48:40,668 - core.enhanced_trader - INFO -    Volume Ratio: 0.00 (Threshold=1.5)
+2025-08-14 10:48:40,668 - core.enhanced_trader - INFO -    ML: Enabled=False, Features=No
+2025-08-14 10:48:40,668 - core.enhanced_trader - INFO -    Sentiment: NEUTRAL, Score=0.00
+2025-08-14 10:48:40,668 - core.enhanced_trader - INFO -    🎯 RESULT: buy_signals=0, confidence=0.100, threshold=0.6
+2025-08-14 10:48:40,668 - core.enhanced_trader - INFO -    Reasons: EMA Bearish, MACD Bullish
+2025-08-14 10:48:40,668 - core.enhanced_trader - INFO - ⏸️ AVAXUSDT: No signal - buy_signals=0 (need ≥1), confidence=10.0% (need ≥60.0%)
+2025-08-14 10:48:40,968 - core.enhanced_trader - INFO - 📊 SOLUSDT Final Status: Action=HOLD, Confidence=0.0%, ML=NEUTRAL, Volume_Ratio=0.09
+2025-08-14 10:48:41,863 - core.enhanced_trader - INFO - 📊 XRPUSDT Final Status: Action=HOLD, Confidence=0.0%, ML=NEUTRAL, Volume_Ratio=1.16
+2025-08-14 10:48:41,910 - core.enhanced_trader - INFO - 📊 LINKUSDT Final Status: Action=HOLD, Confidence=0.0%, ML=NEUTRAL, Volume_Ratio=0.00
+2025-08-14 10:48:41,942 - core.enhanced_trader - INFO - 📊 AVAXUSDT Final Status: Action=HOLD, Confidence=0.0%, ML=NEUTRAL, Volume_Ratio=0.00
+2025-08-14 10:48:41,947 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win

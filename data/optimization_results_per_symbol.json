@@ -1,0 +1,48 @@
+{
+  "BTCUSDT": {
+    "best_params": {
+      "rsi_period": "10",
+      "rsi_oversold": "38",
+      "rsi_overbought": "60",
+      "ema_fast": "6",
+      "ema_slow": "26",
+      "take_profit_pct": 0.045,
+      "stop_loss_pct": 0.01,
+      "trailing_sl_pct": 0.019,
+      "volume_threshold": 1.0,
+      "bb_period": "34",
+      "confidence_threshold": 0.4
+    },
+    "best_score": 5.129820946594188,
+    "total_profit": 2.146378757852267,
+    "win_rate": 0.6294416243654822,
+    "total_trades": 591,
+    "max_drawdown": 0.08009515273050123,
+    "last_optimization": "2025-08-13T18:18:45.519934",
+    "optimization_type": "fine_tuning",
+    "profit_meets_threshold": "True"
+  },
+  "ETHUSDT": {
+    "best_params": {
+      "rsi_period": 7,
+      "rsi_oversold": 30,
+      "rsi_overbought": 70,
+      "ema_fast": 5,
+      "ema_slow": 12,
+      "take_profit_pct": 0.01,
+      "stop_loss_pct": 0.005,
+      "trailing_sl_pct": 0.002,
+      "volume_threshold": 1.2,
+      "bb_period": 16,
+      "confidence_threshold": 0.3
+    },
+    "best_score": 0.6306032589275086,
+    "total_profit": 0.3426057905093976,
+    "win_rate": 0.6426174496644296,
+    "total_trades": 596,
+    "max_drawdown": 0.029564715192476054,
+    "last_optimization": "2025-08-13T18:21:50.817763",
+    "optimization_type": "standard",
+    "profit_meets_threshold": "True"
+  }
+}

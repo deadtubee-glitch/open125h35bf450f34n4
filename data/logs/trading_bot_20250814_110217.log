@@ -1,0 +1,416 @@
+2025-08-14 11:02:17,911 - root - INFO - ✅ Logging system initialized
+2025-08-14 11:02:17,911 - root - INFO - 📁 Log file: C:\Users\domin\daytrading_bot\data\logs\trading_bot_20250814_110217.log
+2025-08-14 11:02:17,919 - root - INFO - ✅ Configuration loaded successfully
+2025-08-14 11:02:22,964 - root - INFO - TESTNET MODUS
+2025-08-14 11:02:22,964 - core.enhanced_trader - INFO - ✅ Symbol-spezifische Parameter für 2 Symbole geladen
+2025-08-14 11:02:22,972 - root - INFO - ML-Datenbank initialisiert
+2025-08-14 11:02:22,972 - root - INFO - Insgesamt 4 Modelle geladen
+2025-08-14 11:02:22,972 - root - INFO - ML Daytrading System deaktiviert
+2025-08-14 11:02:22,972 - core.enhanced_trader - INFO - 🧠 ML system successfully initialized
+2025-08-14 11:02:22,988 - root - INFO - News Sentiment Analyzer deaktiviert
+2025-08-14 11:02:22,988 - core.enhanced_trader - INFO - 📰 Sentiment analyzer successfully initialized
+2025-08-14 11:02:22,988 - root - INFO - 🌐 Enhanced Flask Dashboard started on http://localhost:5000
+2025-08-14 11:02:22,988 - core.enhanced_trader - INFO - 🌐 Flask server started
+2025-08-14 11:02:22,988 - core.enhanced_trader - INFO - ✅ Enhanced trading bot initialized
+2025-08-14 11:02:23,004 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.178.39:5000
+2025-08-14 11:02:23,006 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-14 11:02:24,232 - root - INFO - Initial Balance: 100645.69
+2025-08-14 11:02:25,462 - core.enhanced_trader - INFO - Balance: 100648.78
+2025-08-14 11:02:25,462 - core.enhanced_trader - INFO - 🎯 Symbol-spezifische Parameter aktiv für 2 Symbole
+2025-08-14 11:02:25,462 - core.enhanced_trader - INFO - 🚀 Enhanced trading loop started
+2025-08-14 11:02:25,462 - core.enhanced_trader - INFO - 🚀 Bot started; dashboard at http://localhost:5000
+2025-08-14 11:02:26,973 - core.enhanced_trader - INFO - 🔍 BTCUSDT Volume Debug: current=0.00, sma=0.55, ratio=0.0064
+2025-08-14 11:02:26,980 - core.enhanced_trader - INFO - 🔧 BTCUSDT Type Fix: rsi_oversold=38.0 (type: <class 'float'>)
+2025-08-14 11:02:26,980 - core.enhanced_trader - INFO - 🔍 BTCUSDT Signal-Debug:
+2025-08-14 11:02:26,980 - core.enhanced_trader - INFO -    RSI: 33.6 (Oversold<38.0, Overbought>60.0)
+2025-08-14 11:02:26,980 - core.enhanced_trader - INFO -    EMA: Fast=121608.2264, Slow=121663.8350
+2025-08-14 11:02:26,980 - core.enhanced_trader - INFO -    MACD: -54.5708 vs Signal=-50.7353
+2025-08-14 11:02:26,980 - core.enhanced_trader - INFO -    Volume Ratio: 0.01 (Threshold=1.0)
+2025-08-14 11:02:26,980 - core.enhanced_trader - INFO -    ML: Enabled=False, Features=No
+2025-08-14 11:02:26,980 - core.enhanced_trader - INFO -    Sentiment: NEUTRAL, Score=0.00
+2025-08-14 11:02:26,980 - core.enhanced_trader - INFO -    🎯 RESULT: buy_signals=1, confidence=0.200, threshold=0.4
+2025-08-14 11:02:26,980 - core.enhanced_trader - INFO -    Reasons: RSI Oversold (33.6 < 38.0), EMA Bearish
+2025-08-14 11:02:26,980 - core.enhanced_trader - INFO - ⏸️ BTCUSDT: No signal - buy_signals=1 (need ≥1), confidence=20.0% (need ≥40.0%)
+2025-08-14 11:02:27,012 - core.enhanced_trader - INFO - 🔍 ADAUSDT Volume Debug: current=30.60, sma=8528.90, ratio=0.0036
+2025-08-14 11:02:27,012 - core.enhanced_trader - INFO - 🔍 ADAUSDT Signal-Debug:
+2025-08-14 11:02:27,012 - core.enhanced_trader - INFO - 🔍 ETHUSDT Volume Debug: current=0.03, sma=2.43, ratio=0.0140
+2025-08-14 11:02:27,012 - core.enhanced_trader - INFO -    RSI: 36.2 (Oversold<35.0, Overbought>70.0)
+2025-08-14 11:02:27,012 - core.enhanced_trader - INFO - 🔍 ETHUSDT Signal-Debug:
+2025-08-14 11:02:27,012 - core.enhanced_trader - INFO -    EMA: Fast=0.9846, Slow=0.9860
+2025-08-14 11:02:27,012 - core.enhanced_trader - INFO -    RSI: 40.9 (Oversold<30.0, Overbought>70.0)
+2025-08-14 11:02:27,012 - core.enhanced_trader - INFO -    MACD: -0.0013 vs Signal=-0.0011
+2025-08-14 11:02:27,012 - core.enhanced_trader - INFO -    EMA: Fast=4723.4948, Slow=4725.1819
+2025-08-14 11:02:27,012 - core.enhanced_trader - INFO -    Volume Ratio: 0.00 (Threshold=1.5)
+2025-08-14 11:02:27,012 - core.enhanced_trader - INFO -    MACD: -2.0183 vs Signal=-2.2396
+2025-08-14 11:02:27,012 - core.enhanced_trader - INFO -    ML: Enabled=False, Features=No
+2025-08-14 11:02:27,020 - core.enhanced_trader - INFO -    Volume Ratio: 0.01 (Threshold=1.2)
+2025-08-14 11:02:27,020 - core.enhanced_trader - INFO -    Sentiment: NEUTRAL, Score=0.00
+2025-08-14 11:02:27,020 - core.enhanced_trader - INFO -    ML: Enabled=False, Features=No
+2025-08-14 11:02:27,020 - core.enhanced_trader - INFO -    🎯 RESULT: buy_signals=-1, confidence=0.000, threshold=0.6
+2025-08-14 11:02:27,020 - core.enhanced_trader - INFO -    Sentiment: NEUTRAL, Score=0.00
+2025-08-14 11:02:27,020 - core.enhanced_trader - INFO -    Reasons: EMA Bearish
+2025-08-14 11:02:27,020 - core.enhanced_trader - INFO -    🎯 RESULT: buy_signals=0, confidence=0.100, threshold=0.3
+2025-08-14 11:02:27,020 - core.enhanced_trader - INFO - ⏸️ ADAUSDT: No signal - buy_signals=-1 (need ≥1), confidence=0.0% (need ≥60.0%)
+2025-08-14 11:02:27,020 - core.enhanced_trader - INFO -    Reasons: EMA Bearish, MACD Bullish
+2025-08-14 11:02:27,020 - core.enhanced_trader - INFO - ⏸️ ETHUSDT: No signal - buy_signals=0 (need ≥1), confidence=10.0% (need ≥30.0%)
+2025-08-14 11:02:27,443 - core.enhanced_trader - INFO - 🔍 BNBUSDT Volume Debug: current=2.38, sma=7.53, ratio=0.3164
+2025-08-14 11:02:27,443 - core.enhanced_trader - INFO - 🔍 BNBUSDT Signal-Debug:
+2025-08-14 11:02:27,443 - core.enhanced_trader - INFO -    RSI: 49.5 (Oversold<35.0, Overbought>70.0)
+2025-08-14 11:02:27,443 - core.enhanced_trader - INFO -    EMA: Fast=858.0455, Slow=857.7144
+2025-08-14 11:02:27,443 - core.enhanced_trader - INFO -    MACD: 0.2546 vs Signal=0.1602
+2025-08-14 11:02:27,443 - core.enhanced_trader - INFO -    Volume Ratio: 0.32 (Threshold=1.5)
+2025-08-14 11:02:27,443 - core.enhanced_trader - INFO -    ML: Enabled=False, Features=No
+2025-08-14 11:02:27,443 - core.enhanced_trader - INFO -    Sentiment: NEUTRAL, Score=0.00
+2025-08-14 11:02:27,443 - core.enhanced_trader - INFO -    🎯 RESULT: buy_signals=2, confidence=0.250, threshold=0.6
+2025-08-14 11:02:27,443 - core.enhanced_trader - INFO -    Reasons: EMA Bullish, MACD Bullish
+2025-08-14 11:02:27,443 - core.enhanced_trader - INFO - ⏸️ BNBUSDT: No signal - buy_signals=2 (need ≥1), confidence=25.0% (need ≥60.0%)
+2025-08-14 11:02:28,197 - core.enhanced_trader - INFO - 📊 BTCUSDT Final Status: Action=HOLD, Confidence=0.0%, ML=NEUTRAL, Volume_Ratio=0.01
+2025-08-14 11:02:28,230 - core.enhanced_trader - INFO - 📊 ETHUSDT Final Status: Action=HOLD, Confidence=0.0%, ML=NEUTRAL, Volume_Ratio=0.01
+2025-08-14 11:02:28,230 - core.enhanced_trader - INFO - 📊 ADAUSDT Final Status: Action=HOLD, Confidence=0.0%, ML=NEUTRAL, Volume_Ratio=0.00
+2025-08-14 11:02:28,660 - core.enhanced_trader - INFO - 📊 BNBUSDT Final Status: Action=HOLD, Confidence=0.0%, ML=NEUTRAL, Volume_Ratio=0.32
+2025-08-14 11:02:29,184 - werkzeug - INFO - 127.0.0.1 - - [14/Aug/2025 11:02:29] "GET / HTTP/1.1" 200 -
+2025-08-14 11:02:29,392 - werkzeug - INFO - 127.0.0.1 - - [14/Aug/2025 11:02:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-14 11:02:29,674 - core.enhanced_trader - INFO - 🔍 SOLUSDT Volume Debug: current=49.41, sma=307.04, ratio=0.1609
+2025-08-14 11:02:29,674 - core.enhanced_trader - INFO - 🔍 SOLUSDT Signal-Debug:
+2025-08-14 11:02:29,674 - core.enhanced_trader - INFO -    RSI: 39.8 (Oversold<35.0, Overbought>70.0)
+2025-08-14 11:02:29,674 - core.enhanced_trader - INFO -    EMA: Fast=203.0498, Slow=203.1473
+2025-08-14 11:02:29,674 - core.enhanced_trader - INFO -    MACD: -0.1356 vs Signal=-0.1625
+2025-08-14 11:02:29,674 - core.enhanced_trader - INFO -    Volume Ratio: 0.16 (Threshold=1.5)
+2025-08-14 11:02:29,674 - core.enhanced_trader - INFO -    ML: Enabled=False, Features=No
+2025-08-14 11:02:29,674 - core.enhanced_trader - INFO -    Sentiment: NEUTRAL, Score=0.00
+2025-08-14 11:02:29,674 - core.enhanced_trader - INFO -    🎯 RESULT: buy_signals=0, confidence=0.100, threshold=0.6
+2025-08-14 11:02:29,674 - core.enhanced_trader - INFO -    Reasons: EMA Bearish, MACD Bullish
+2025-08-14 11:02:29,674 - core.enhanced_trader - INFO - ⏸️ SOLUSDT: No signal - buy_signals=0 (need ≥1), confidence=10.0% (need ≥60.0%)
+2025-08-14 11:02:29,690 - core.enhanced_trader - INFO - 🔍 XRPUSDT Volume Debug: current=1352.80, sma=2456.24, ratio=0.5508
+2025-08-14 11:02:29,692 - core.enhanced_trader - INFO - 🔍 XRPUSDT Signal-Debug:
+2025-08-14 11:02:29,692 - core.enhanced_trader - INFO -    RSI: 41.1 (Oversold<35.0, Overbought>70.0)
+2025-08-14 11:02:29,692 - core.enhanced_trader - INFO -    EMA: Fast=3.2303, Slow=3.2308
+2025-08-14 11:02:29,692 - core.enhanced_trader - INFO -    MACD: -0.0009 vs Signal=-0.0012
+2025-08-14 11:02:29,692 - core.enhanced_trader - INFO -    Volume Ratio: 0.55 (Threshold=1.5)
+2025-08-14 11:02:29,692 - core.enhanced_trader - INFO -    ML: Enabled=False, Features=No
+2025-08-14 11:02:29,692 - core.enhanced_trader - INFO -    Sentiment: NEUTRAL, Score=0.00
+2025-08-14 11:02:29,692 - core.enhanced_trader - INFO -    🎯 RESULT: buy_signals=0, confidence=0.100, threshold=0.6
+2025-08-14 11:02:29,692 - core.enhanced_trader - INFO -    Reasons: EMA Bearish, MACD Bullish
+2025-08-14 11:02:29,692 - core.enhanced_trader - INFO - ⏸️ XRPUSDT: No signal - buy_signals=0 (need ≥1), confidence=10.0% (need ≥60.0%)
+2025-08-14 11:02:30,123 - core.enhanced_trader - INFO - 🔍 LINKUSDT Volume Debug: current=0.00, sma=10.97, ratio=0.0000
+2025-08-14 11:02:30,123 - core.enhanced_trader - INFO - 🔍 LINKUSDT Signal-Debug:
+2025-08-14 11:02:30,123 - core.enhanced_trader - INFO -    RSI: 36.6 (Oversold<35.0, Overbought>70.0)
+2025-08-14 11:02:30,123 - core.enhanced_trader - INFO -    EMA: Fast=23.3138, Slow=23.3258
+2025-08-14 11:02:30,123 - core.enhanced_trader - INFO -    MACD: -0.0091 vs Signal=-0.0043
+2025-08-14 11:02:30,123 - core.enhanced_trader - INFO -    Volume Ratio: 0.00 (Threshold=1.5)
+2025-08-14 11:02:30,123 - core.enhanced_trader - INFO -    ML: Enabled=False, Features=No
+2025-08-14 11:02:30,123 - core.enhanced_trader - INFO -    Sentiment: NEUTRAL, Score=0.00
+2025-08-14 11:02:30,123 - core.enhanced_trader - INFO -    🎯 RESULT: buy_signals=-1, confidence=0.000, threshold=0.6
+2025-08-14 11:02:30,123 - core.enhanced_trader - INFO -    Reasons: EMA Bearish
+2025-08-14 11:02:30,123 - core.enhanced_trader - INFO - ⏸️ LINKUSDT: No signal - buy_signals=-1 (need ≥1), confidence=0.0% (need ≥60.0%)
+2025-08-14 11:02:30,139 - core.enhanced_trader - INFO - 🔍 AVAXUSDT Volume Debug: current=0.60, sma=670.53, ratio=0.0009
+2025-08-14 11:02:30,139 - core.enhanced_trader - INFO - 🔍 AVAXUSDT Signal-Debug:
+2025-08-14 11:02:30,139 - core.enhanced_trader - INFO -    RSI: 29.4 (Oversold<35.0, Overbought>70.0)
+2025-08-14 11:02:30,139 - core.enhanced_trader - INFO -    EMA: Fast=25.0371, Slow=25.0464
+2025-08-14 11:02:30,139 - core.enhanced_trader - INFO -    MACD: -0.0085 vs Signal=-0.0063
+2025-08-14 11:02:30,139 - core.enhanced_trader - INFO -    Volume Ratio: 0.00 (Threshold=1.5)
+2025-08-14 11:02:30,139 - core.enhanced_trader - INFO -    ML: Enabled=False, Features=No
+2025-08-14 11:02:30,139 - core.enhanced_trader - INFO -    Sentiment: NEUTRAL, Score=0.00
+2025-08-14 11:02:30,139 - core.enhanced_trader - INFO -    🎯 RESULT: buy_signals=1, confidence=0.200, threshold=0.6
+2025-08-14 11:02:30,139 - core.enhanced_trader - INFO -    Reasons: RSI Oversold (29.4 < 35.0), EMA Bearish
+2025-08-14 11:02:30,139 - core.enhanced_trader - INFO - 🧪 TEST MODE ACTIVE for AVAXUSDT: buy_signals=1, confidence=0.200
+2025-08-14 11:02:30,139 - core.enhanced_trader - INFO - 🧪 AVAXUSDT: TEST MODE BUY - Action=BUY, Confidence=20.0%
+2025-08-14 11:02:30,873 - core.enhanced_trader - INFO - AVAXUSDT: Kaufsignal - Confidence: 0.20
+2025-08-14 11:02:30,881 - core.enhanced_trader - INFO - Parameter-Set: TP=3.0%, SL=2.0%
+2025-08-14 11:02:30,881 - core.enhanced_trader - INFO - Signale: RSI Oversold (29.4 < 35.0), EMA Bearish
+2025-08-14 11:02:30,881 - core.enhanced_trader - INFO - Order: 177.900000 für 4445.72 USDT
+2025-08-14 11:02:31,147 - core.enhanced_trader - INFO - ✅ KAUF ERFOLGREICH AVAXUSDT: Preis: 25.0300, Menge: 177.900000
+2025-08-14 11:02:31,147 - core.enhanced_trader - INFO - Symbol-spezifischer Trailing Stop: 24.6546
+2025-08-14 11:02:31,302 - core.enhanced_trader - INFO - 📊 SOLUSDT Final Status: Action=HOLD, Confidence=0.0%, ML=NEUTRAL, Volume_Ratio=0.16
+2025-08-14 11:02:31,324 - core.enhanced_trader - INFO - 📊 XRPUSDT Final Status: Action=HOLD, Confidence=0.0%, ML=NEUTRAL, Volume_Ratio=0.55
+2025-08-14 11:02:31,401 - core.enhanced_trader - INFO - 📊 LINKUSDT Final Status: Action=HOLD, Confidence=0.0%, ML=NEUTRAL, Volume_Ratio=0.00
+2025-08-14 11:02:32,817 - core.enhanced_trader - INFO - 📊 AVAXUSDT Final Status: Action=BUY, Confidence=20.0%, ML=NEUTRAL, Volume_Ratio=0.00
+2025-08-14 11:02:32,823 - core.enhanced_trader - INFO - Active positions: ['AVAXUSDT']
+2025-08-14 11:02:32,823 - core.enhanced_trader - INFO - Daily PnL: 0.00
+2025-08-14 11:02:32,823 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-14 11:02:33,830 - root - WARNING - Not enough data
+2025-08-14 11:02:33,830 - core.enhanced_trader - ERROR - Error in fast check: 'NoneType' object is not subscriptable
+2025-08-14 11:02:36,830 - root - WARNING - Not enough data
+2025-08-14 11:02:36,830 - core.enhanced_trader - ERROR - Error in fast check: 'NoneType' object is not subscriptable
+2025-08-14 11:02:39,383 - core.enhanced_trader - INFO - 🔍 BTCUSDT Volume Debug: current=0.01, sma=0.56, ratio=0.0092
+2025-08-14 11:02:39,383 - core.enhanced_trader - INFO - 🔧 BTCUSDT Type Fix: rsi_oversold=38.0 (type: <class 'float'>)
+2025-08-14 11:02:39,383 - core.enhanced_trader - INFO - 🔍 BTCUSDT Signal-Debug:
+2025-08-14 11:02:39,383 - core.enhanced_trader - INFO -    RSI: 34.3 (Oversold<38.0, Overbought>60.0)
+2025-08-14 11:02:39,383 - core.enhanced_trader - INFO -    EMA: Fast=121609.8397, Slow=121664.4950
+2025-08-14 11:02:39,383 - core.enhanced_trader - INFO -    MACD: -53.9917 vs Signal=-50.6195
+2025-08-14 11:02:39,383 - core.enhanced_trader - INFO -    Volume Ratio: 0.01 (Threshold=1.0)
+2025-08-14 11:02:39,383 - core.enhanced_trader - INFO -    ML: Enabled=False, Features=No
+2025-08-14 11:02:39,383 - core.enhanced_trader - INFO -    Sentiment: NEUTRAL, Score=0.00
+2025-08-14 11:02:39,383 - core.enhanced_trader - INFO -    🎯 RESULT: buy_signals=1, confidence=0.200, threshold=0.4
+2025-08-14 11:02:39,383 - core.enhanced_trader - INFO -    Reasons: RSI Oversold (34.3 < 38.0), EMA Bearish
+2025-08-14 11:02:39,383 - core.enhanced_trader - INFO - ⏸️ BTCUSDT: No signal - buy_signals=1 (need ≥1), confidence=20.0% (need ≥40.0%)
+2025-08-14 11:02:39,383 - core.enhanced_trader - INFO - 🔍 BNBUSDT Volume Debug: current=2.42, sma=7.53, ratio=0.3211
+2025-08-14 11:02:39,383 - core.enhanced_trader - INFO - 🔍 BNBUSDT Signal-Debug:
+2025-08-14 11:02:39,383 - core.enhanced_trader - INFO -    RSI: 50.1 (Oversold<35.0, Overbought>70.0)
+2025-08-14 11:02:39,383 - core.enhanced_trader - INFO -    EMA: Fast=858.0633, Slow=857.7216
+2025-08-14 11:02:39,383 - core.enhanced_trader - INFO -    MACD: 0.2610 vs Signal=0.1615
+2025-08-14 11:02:39,383 - core.enhanced_trader - INFO -    Volume Ratio: 0.32 (Threshold=1.5)
+2025-08-14 11:02:39,383 - core.enhanced_trader - INFO -    ML: Enabled=False, Features=No
+2025-08-14 11:02:39,383 - core.enhanced_trader - INFO -    Sentiment: NEUTRAL, Score=0.00
+2025-08-14 11:02:39,383 - core.enhanced_trader - INFO -    🎯 RESULT: buy_signals=2, confidence=0.250, threshold=0.6
+2025-08-14 11:02:39,383 - core.enhanced_trader - INFO -    Reasons: EMA Bullish, MACD Bullish
+2025-08-14 11:02:39,383 - core.enhanced_trader - INFO - ⏸️ BNBUSDT: No signal - buy_signals=2 (need ≥1), confidence=25.0% (need ≥60.0%)
+2025-08-14 11:02:39,409 - werkzeug - INFO - 127.0.0.1 - - [14/Aug/2025 11:02:39] "GET / HTTP/1.1" 200 -
+2025-08-14 11:02:39,784 - core.enhanced_trader - INFO - 🔍 ETHUSDT Volume Debug: current=0.48, sma=2.45, ratio=0.1961
+2025-08-14 11:02:39,797 - core.enhanced_trader - INFO - 🔍 ETHUSDT Signal-Debug:
+2025-08-14 11:02:39,797 - core.enhanced_trader - INFO -    RSI: 41.0 (Oversold<30.0, Overbought>70.0)
+2025-08-14 11:02:39,797 - core.enhanced_trader - INFO -    EMA: Fast=4723.5081, Slow=4725.1874
+2025-08-14 11:02:39,797 - core.enhanced_trader - INFO -    MACD: -2.0135 vs Signal=-2.2386
+2025-08-14 11:02:39,797 - core.enhanced_trader - INFO -    Volume Ratio: 0.20 (Threshold=1.2)
+2025-08-14 11:02:39,797 - core.enhanced_trader - INFO -    ML: Enabled=False, Features=No
+2025-08-14 11:02:39,797 - core.enhanced_trader - INFO -    Sentiment: NEUTRAL, Score=0.00
+2025-08-14 11:02:39,797 - core.enhanced_trader - INFO -    🎯 RESULT: buy_signals=0, confidence=0.100, threshold=0.3
+2025-08-14 11:02:39,797 - core.enhanced_trader - INFO -    Reasons: EMA Bearish, MACD Bullish
+2025-08-14 11:02:39,797 - core.enhanced_trader - INFO - ⏸️ ETHUSDT: No signal - buy_signals=0 (need ≥1), confidence=10.0% (need ≥30.0%)
+2025-08-14 11:02:39,810 - core.enhanced_trader - INFO - 🔍 ADAUSDT Volume Debug: current=72.30, sma=8530.98, ratio=0.0085
+2025-08-14 11:02:39,810 - core.enhanced_trader - INFO - 🔍 ADAUSDT Signal-Debug:
+2025-08-14 11:02:39,810 - core.enhanced_trader - INFO -    RSI: 37.1 (Oversold<35.0, Overbought>70.0)
+2025-08-14 11:02:39,810 - core.enhanced_trader - INFO -    EMA: Fast=0.9847, Slow=0.9860
+2025-08-14 11:02:39,810 - core.enhanced_trader - INFO -    MACD: -0.0013 vs Signal=-0.0011
+2025-08-14 11:02:39,810 - core.enhanced_trader - INFO -    Volume Ratio: 0.01 (Threshold=1.5)
+2025-08-14 11:02:39,810 - core.enhanced_trader - INFO -    ML: Enabled=False, Features=No
+2025-08-14 11:02:39,810 - core.enhanced_trader - INFO -    Sentiment: NEUTRAL, Score=0.00
+2025-08-14 11:02:39,810 - core.enhanced_trader - INFO -    🎯 RESULT: buy_signals=-1, confidence=0.000, threshold=0.6
+2025-08-14 11:02:39,810 - core.enhanced_trader - INFO -    Reasons: EMA Bearish
+2025-08-14 11:02:39,823 - core.enhanced_trader - INFO - ⏸️ ADAUSDT: No signal - buy_signals=-1 (need ≥1), confidence=0.0% (need ≥60.0%)
+2025-08-14 11:02:41,021 - core.enhanced_trader - INFO - 📊 BNBUSDT Final Status: Action=HOLD, Confidence=0.0%, ML=NEUTRAL, Volume_Ratio=0.32
+2025-08-14 11:02:41,021 - core.enhanced_trader - INFO - 📊 BTCUSDT Final Status: Action=HOLD, Confidence=0.0%, ML=NEUTRAL, Volume_Ratio=0.01
+2025-08-14 11:02:41,021 - core.enhanced_trader - INFO - 📊 ETHUSDT Final Status: Action=HOLD, Confidence=0.0%, ML=NEUTRAL, Volume_Ratio=0.20
+2025-08-14 11:02:41,034 - core.enhanced_trader - INFO - 📊 ADAUSDT Final Status: Action=HOLD, Confidence=0.0%, ML=NEUTRAL, Volume_Ratio=0.01
+2025-08-14 11:02:42,502 - core.enhanced_trader - INFO - 🔍 SOLUSDT Volume Debug: current=92.70, sma=309.21, ratio=0.2998
+2025-08-14 11:02:42,502 - core.enhanced_trader - INFO - 🔍 SOLUSDT Signal-Debug:
+2025-08-14 11:02:42,502 - core.enhanced_trader - INFO -    RSI: 45.7 (Oversold<35.0, Overbought>70.0)
+2025-08-14 11:02:42,502 - core.enhanced_trader - INFO -    EMA: Fast=203.1187, Slow=203.1755
+2025-08-14 11:02:42,502 - core.enhanced_trader - INFO -    MACD: -0.1109 vs Signal=-0.1576
+2025-08-14 11:02:42,502 - core.enhanced_trader - INFO -    Volume Ratio: 0.30 (Threshold=1.5)
+2025-08-14 11:02:42,502 - core.enhanced_trader - INFO -    ML: Enabled=False, Features=No
+2025-08-14 11:02:42,502 - core.enhanced_trader - INFO -    Sentiment: NEUTRAL, Score=0.00
+2025-08-14 11:02:42,502 - core.enhanced_trader - INFO -    🎯 RESULT: buy_signals=0, confidence=0.100, threshold=0.6
+2025-08-14 11:02:42,502 - core.enhanced_trader - INFO -    Reasons: EMA Bearish, MACD Bullish
+2025-08-14 11:02:42,502 - core.enhanced_trader - INFO - ⏸️ SOLUSDT: No signal - buy_signals=0 (need ≥1), confidence=10.0% (need ≥60.0%)
+2025-08-14 11:02:42,513 - core.enhanced_trader - INFO - 🔍 XRPUSDT Volume Debug: current=2397.50, sma=2508.48, ratio=0.9558
+2025-08-14 11:02:42,513 - core.enhanced_trader - INFO - 🔍 XRPUSDT Signal-Debug:
+2025-08-14 11:02:42,527 - core.enhanced_trader - INFO -    RSI: 41.1 (Oversold<35.0, Overbought>70.0)
+2025-08-14 11:02:42,527 - core.enhanced_trader - INFO -    EMA: Fast=3.2303, Slow=3.2308
+2025-08-14 11:02:42,527 - core.enhanced_trader - INFO -    MACD: -0.0009 vs Signal=-0.0012
+2025-08-14 11:02:42,527 - core.enhanced_trader - INFO -    Volume Ratio: 0.96 (Threshold=1.5)
+2025-08-14 11:02:42,527 - core.enhanced_trader - INFO -    ML: Enabled=False, Features=No
+2025-08-14 11:02:42,527 - core.enhanced_trader - INFO -    Sentiment: NEUTRAL, Score=0.00
+2025-08-14 11:02:42,527 - core.enhanced_trader - INFO -    🎯 RESULT: buy_signals=0, confidence=0.100, threshold=0.6
+2025-08-14 11:02:42,527 - core.enhanced_trader - INFO -    Reasons: EMA Bearish, MACD Bullish
+2025-08-14 11:02:42,527 - core.enhanced_trader - INFO - ⏸️ XRPUSDT: No signal - buy_signals=0 (need ≥1), confidence=10.0% (need ≥60.0%)
+2025-08-14 11:02:42,929 - core.enhanced_trader - INFO - 🔍 LINKUSDT Volume Debug: current=0.00, sma=10.97, ratio=0.0000
+2025-08-14 11:02:42,929 - core.enhanced_trader - INFO - 🔍 LINKUSDT Signal-Debug:
+2025-08-14 11:02:42,929 - core.enhanced_trader - INFO -    RSI: 36.6 (Oversold<35.0, Overbought>70.0)
+2025-08-14 11:02:42,929 - core.enhanced_trader - INFO -    EMA: Fast=23.3138, Slow=23.3258
+2025-08-14 11:02:42,929 - core.enhanced_trader - INFO -    MACD: -0.0091 vs Signal=-0.0043
+2025-08-14 11:02:42,929 - core.enhanced_trader - INFO -    Volume Ratio: 0.00 (Threshold=1.5)
+2025-08-14 11:02:42,929 - core.enhanced_trader - INFO -    ML: Enabled=False, Features=No
+2025-08-14 11:02:42,929 - core.enhanced_trader - INFO -    Sentiment: NEUTRAL, Score=0.00
+2025-08-14 11:02:42,929 - core.enhanced_trader - INFO -    🎯 RESULT: buy_signals=-1, confidence=0.000, threshold=0.6
+2025-08-14 11:02:42,929 - core.enhanced_trader - INFO -    Reasons: EMA Bearish
+2025-08-14 11:02:42,929 - core.enhanced_trader - INFO - ⏸️ LINKUSDT: No signal - buy_signals=-1 (need ≥1), confidence=0.0% (need ≥60.0%)
+2025-08-14 11:02:43,744 - core.enhanced_trader - INFO - 📊 XRPUSDT Final Status: Action=HOLD, Confidence=0.0%, ML=NEUTRAL, Volume_Ratio=0.96
+2025-08-14 11:02:43,744 - core.enhanced_trader - INFO - 📊 SOLUSDT Final Status: Action=HOLD, Confidence=0.0%, ML=NEUTRAL, Volume_Ratio=0.30
+2025-08-14 11:02:43,744 - core.enhanced_trader - INFO - 📊 AVAXUSDT Final Status: Action=HOLD, Confidence=0.0%, ML=NEUTRAL, Volume_Ratio=0.32
+2025-08-14 11:02:44,154 - core.enhanced_trader - INFO - 📊 LINKUSDT Final Status: Action=HOLD, Confidence=0.0%, ML=NEUTRAL, Volume_Ratio=0.00
+2025-08-14 11:02:44,167 - core.enhanced_trader - INFO - Active positions: ['AVAXUSDT']
+2025-08-14 11:02:44,167 - core.enhanced_trader - INFO - Daily PnL: 0.00
+2025-08-14 11:02:44,167 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-14 11:02:45,150 - root - WARNING - Not enough data
+2025-08-14 11:02:45,150 - core.enhanced_trader - ERROR - Error in fast check: 'NoneType' object is not subscriptable
+2025-08-14 11:02:48,655 - root - WARNING - Not enough data
+2025-08-14 11:02:48,655 - core.enhanced_trader - ERROR - Error in fast check: 'NoneType' object is not subscriptable
+2025-08-14 11:02:49,602 - werkzeug - INFO - 127.0.0.1 - - [14/Aug/2025 11:02:49] "GET / HTTP/1.1" 200 -
+2025-08-14 11:02:51,653 - core.enhanced_trader - INFO - 🔍 BNBUSDT Volume Debug: current=2.49, sma=7.54, ratio=0.3305
+2025-08-14 11:02:51,666 - core.enhanced_trader - INFO - 🔍 BNBUSDT Signal-Debug:
+2025-08-14 11:02:51,666 - core.enhanced_trader - INFO -    RSI: 51.5 (Oversold<35.0, Overbought>70.0)
+2025-08-14 11:02:51,666 - core.enhanced_trader - INFO -    EMA: Fast=858.1011, Slow=857.7371
+2025-08-14 11:02:51,666 - core.enhanced_trader - INFO -    MACD: 0.2745 vs Signal=0.1642
+2025-08-14 11:02:51,666 - core.enhanced_trader - INFO -    Volume Ratio: 0.33 (Threshold=1.5)
+2025-08-14 11:02:51,666 - core.enhanced_trader - INFO -    ML: Enabled=False, Features=No
+2025-08-14 11:02:51,666 - core.enhanced_trader - INFO -    Sentiment: NEUTRAL, Score=0.00
+2025-08-14 11:02:51,666 - core.enhanced_trader - INFO -    🎯 RESULT: buy_signals=2, confidence=0.250, threshold=0.6
+2025-08-14 11:02:51,666 - core.enhanced_trader - INFO -    Reasons: EMA Bullish, MACD Bullish
+2025-08-14 11:02:51,666 - core.enhanced_trader - INFO - ⏸️ BNBUSDT: No signal - buy_signals=2 (need ≥1), confidence=25.0% (need ≥60.0%)
+2025-08-14 11:02:52,080 - core.enhanced_trader - INFO - 🔍 BTCUSDT Volume Debug: current=0.01, sma=0.56, ratio=0.0129
+2025-08-14 11:02:52,080 - core.enhanced_trader - INFO - 🔍 ETHUSDT Volume Debug: current=1.31, sma=2.50, ratio=0.5231
+2025-08-14 11:02:52,080 - core.enhanced_trader - INFO - 🔧 BTCUSDT Type Fix: rsi_oversold=38.0 (type: <class 'float'>)
+2025-08-14 11:02:52,080 - core.enhanced_trader - INFO - 🔍 ETHUSDT Signal-Debug:
+2025-08-14 11:02:52,080 - core.enhanced_trader - INFO - 🔍 BTCUSDT Signal-Debug:
+2025-08-14 11:02:52,080 - core.enhanced_trader - INFO -    RSI: 46.9 (Oversold<30.0, Overbought>70.0)
+2025-08-14 11:02:52,080 - core.enhanced_trader - INFO -    RSI: 35.0 (Oversold<38.0, Overbought>60.0)
+2025-08-14 11:02:52,080 - core.enhanced_trader - INFO -    EMA: Fast=4724.1659, Slow=4725.4565
+2025-08-14 11:02:52,080 - core.enhanced_trader - INFO -    EMA: Fast=121611.6953, Slow=121665.2541
+2025-08-14 11:02:52,080 - core.enhanced_trader - INFO -    MACD: -1.7774 vs Signal=-2.1914
+2025-08-14 11:02:52,080 - core.enhanced_trader - INFO -    MACD: -53.3256 vs Signal=-50.4863
+2025-08-14 11:02:52,080 - core.enhanced_trader - INFO -    Volume Ratio: 0.52 (Threshold=1.2)
+2025-08-14 11:02:52,080 - core.enhanced_trader - INFO -    Volume Ratio: 0.01 (Threshold=1.0)
+2025-08-14 11:02:52,080 - core.enhanced_trader - INFO -    ML: Enabled=False, Features=No
+2025-08-14 11:02:52,080 - core.enhanced_trader - INFO -    ML: Enabled=False, Features=No
+2025-08-14 11:02:52,080 - core.enhanced_trader - INFO -    Sentiment: NEUTRAL, Score=0.00
+2025-08-14 11:02:52,080 - core.enhanced_trader - INFO -    Sentiment: NEUTRAL, Score=0.00
+2025-08-14 11:02:52,080 - core.enhanced_trader - INFO -    🎯 RESULT: buy_signals=0, confidence=0.100, threshold=0.3
+2025-08-14 11:02:52,080 - core.enhanced_trader - INFO -    🎯 RESULT: buy_signals=1, confidence=0.200, threshold=0.4
+2025-08-14 11:02:52,080 - core.enhanced_trader - INFO -    Reasons: EMA Bearish, MACD Bullish
+2025-08-14 11:02:52,080 - core.enhanced_trader - INFO -    Reasons: RSI Oversold (35.0 < 38.0), EMA Bearish
+2025-08-14 11:02:52,080 - core.enhanced_trader - INFO - ⏸️ ETHUSDT: No signal - buy_signals=0 (need ≥1), confidence=10.0% (need ≥30.0%)
+2025-08-14 11:02:52,080 - core.enhanced_trader - INFO - ⏸️ BTCUSDT: No signal - buy_signals=1 (need ≥1), confidence=20.0% (need ≥40.0%)
+2025-08-14 11:02:52,519 - core.enhanced_trader - INFO - 🔍 ADAUSDT Volume Debug: current=102.90, sma=8532.51, ratio=0.0121
+2025-08-14 11:02:52,519 - core.enhanced_trader - INFO - 🔍 ADAUSDT Signal-Debug:
+2025-08-14 11:02:52,529 - core.enhanced_trader - INFO -    RSI: 36.7 (Oversold<35.0, Overbought>70.0)
+2025-08-14 11:02:52,529 - core.enhanced_trader - INFO -    EMA: Fast=0.9847, Slow=0.9860
+2025-08-14 11:02:52,529 - core.enhanced_trader - INFO -    MACD: -0.0013 vs Signal=-0.0011
+2025-08-14 11:02:52,529 - core.enhanced_trader - INFO -    Volume Ratio: 0.01 (Threshold=1.5)
+2025-08-14 11:02:52,529 - core.enhanced_trader - INFO -    ML: Enabled=False, Features=No
+2025-08-14 11:02:52,529 - core.enhanced_trader - INFO -    Sentiment: NEUTRAL, Score=0.00
+2025-08-14 11:02:52,529 - core.enhanced_trader - INFO -    🎯 RESULT: buy_signals=-1, confidence=0.000, threshold=0.6
+2025-08-14 11:02:52,529 - core.enhanced_trader - INFO -    Reasons: EMA Bearish
+2025-08-14 11:02:52,529 - core.enhanced_trader - INFO - ⏸️ ADAUSDT: No signal - buy_signals=-1 (need ≥1), confidence=0.0% (need ≥60.0%)
+2025-08-14 11:02:52,886 - core.enhanced_trader - INFO - 📊 BNBUSDT Final Status: Action=HOLD, Confidence=0.0%, ML=NEUTRAL, Volume_Ratio=0.33
+2025-08-14 11:02:53,294 - core.enhanced_trader - INFO - 📊 ETHUSDT Final Status: Action=HOLD, Confidence=0.0%, ML=NEUTRAL, Volume_Ratio=0.52
+2025-08-14 11:02:53,734 - core.enhanced_trader - INFO - 📊 BTCUSDT Final Status: Action=HOLD, Confidence=0.0%, ML=NEUTRAL, Volume_Ratio=0.01
+2025-08-14 11:02:53,747 - core.enhanced_trader - INFO - 📊 ADAUSDT Final Status: Action=HOLD, Confidence=0.0%, ML=NEUTRAL, Volume_Ratio=0.01
+2025-08-14 11:02:54,370 - core.enhanced_trader - INFO - 🔍 SOLUSDT Volume Debug: current=112.40, sma=310.19, ratio=0.3624
+2025-08-14 11:02:54,370 - core.enhanced_trader - INFO - 🔍 SOLUSDT Signal-Debug:
+2025-08-14 11:02:54,370 - core.enhanced_trader - INFO -    RSI: 45.7 (Oversold<35.0, Overbought>70.0)
+2025-08-14 11:02:54,370 - core.enhanced_trader - INFO -    EMA: Fast=203.1187, Slow=203.1755
+2025-08-14 11:02:54,370 - core.enhanced_trader - INFO -    MACD: -0.1109 vs Signal=-0.1576
+2025-08-14 11:02:54,370 - core.enhanced_trader - INFO -    Volume Ratio: 0.36 (Threshold=1.5)
+2025-08-14 11:02:54,383 - core.enhanced_trader - INFO -    ML: Enabled=False, Features=No
+2025-08-14 11:02:54,383 - core.enhanced_trader - INFO -    Sentiment: NEUTRAL, Score=0.00
+2025-08-14 11:02:54,383 - core.enhanced_trader - INFO -    🎯 RESULT: buy_signals=0, confidence=0.100, threshold=0.6
+2025-08-14 11:02:54,383 - core.enhanced_trader - INFO -    Reasons: EMA Bearish, MACD Bullish
+2025-08-14 11:02:54,383 - core.enhanced_trader - INFO - ⏸️ SOLUSDT: No signal - buy_signals=0 (need ≥1), confidence=10.0% (need ≥60.0%)
+2025-08-14 11:02:55,197 - core.enhanced_trader - INFO - 🔍 LINKUSDT Volume Debug: current=0.00, sma=10.97, ratio=0.0000
+2025-08-14 11:02:55,206 - core.enhanced_trader - INFO - 🔍 LINKUSDT Signal-Debug:
+2025-08-14 11:02:55,206 - core.enhanced_trader - INFO -    RSI: 36.6 (Oversold<35.0, Overbought>70.0)
+2025-08-14 11:02:55,206 - core.enhanced_trader - INFO -    EMA: Fast=23.3138, Slow=23.3258
+2025-08-14 11:02:55,206 - core.enhanced_trader - INFO -    MACD: -0.0091 vs Signal=-0.0043
+2025-08-14 11:02:55,206 - core.enhanced_trader - INFO -    Volume Ratio: 0.00 (Threshold=1.5)
+2025-08-14 11:02:55,208 - core.enhanced_trader - INFO -    ML: Enabled=False, Features=No
+2025-08-14 11:02:55,208 - core.enhanced_trader - INFO -    Sentiment: NEUTRAL, Score=0.00
+2025-08-14 11:02:55,208 - core.enhanced_trader - INFO -    🎯 RESULT: buy_signals=-1, confidence=0.000, threshold=0.6
+2025-08-14 11:02:55,208 - core.enhanced_trader - INFO -    Reasons: EMA Bearish
+2025-08-14 11:02:55,208 - core.enhanced_trader - INFO - ⏸️ LINKUSDT: No signal - buy_signals=-1 (need ≥1), confidence=0.0% (need ≥60.0%)
+2025-08-14 11:02:55,210 - core.enhanced_trader - INFO - 🔍 XRPUSDT Volume Debug: current=3019.30, sma=2539.57, ratio=1.1889
+2025-08-14 11:02:55,210 - core.enhanced_trader - INFO - 🔍 XRPUSDT Signal-Debug:
+2025-08-14 11:02:55,210 - core.enhanced_trader - INFO -    RSI: 46.0 (Oversold<35.0, Overbought>70.0)
+2025-08-14 11:02:55,210 - core.enhanced_trader - INFO -    EMA: Fast=3.2307, Slow=3.2310
+2025-08-14 11:02:55,210 - core.enhanced_trader - INFO -    MACD: -0.0008 vs Signal=-0.0012
+2025-08-14 11:02:55,210 - core.enhanced_trader - INFO -    Volume Ratio: 1.19 (Threshold=1.5)
+2025-08-14 11:02:55,210 - core.enhanced_trader - INFO -    ML: Enabled=False, Features=No
+2025-08-14 11:02:55,210 - core.enhanced_trader - INFO -    Sentiment: NEUTRAL, Score=0.00
+2025-08-14 11:02:55,210 - core.enhanced_trader - INFO -    🎯 RESULT: buy_signals=0, confidence=0.100, threshold=0.6
+2025-08-14 11:02:55,210 - core.enhanced_trader - INFO -    Reasons: EMA Bearish, MACD Bullish
+2025-08-14 11:02:55,210 - core.enhanced_trader - INFO - ⏸️ XRPUSDT: No signal - buy_signals=0 (need ≥1), confidence=10.0% (need ≥60.0%)
+2025-08-14 11:02:55,616 - core.enhanced_trader - INFO - 📊 SOLUSDT Final Status: Action=HOLD, Confidence=0.0%, ML=NEUTRAL, Volume_Ratio=0.36
+2025-08-14 11:02:56,413 - core.enhanced_trader - INFO - 📊 LINKUSDT Final Status: Action=HOLD, Confidence=0.0%, ML=NEUTRAL, Volume_Ratio=0.00
+2025-08-14 11:02:56,427 - core.enhanced_trader - INFO - 📊 XRPUSDT Final Status: Action=HOLD, Confidence=0.0%, ML=NEUTRAL, Volume_Ratio=1.19
+2025-08-14 11:02:56,873 - core.enhanced_trader - INFO - 📊 AVAXUSDT Final Status: Action=HOLD, Confidence=0.0%, ML=NEUTRAL, Volume_Ratio=0.32
+2025-08-14 11:02:56,873 - core.enhanced_trader - INFO - Active positions: ['AVAXUSDT']
+2025-08-14 11:02:56,873 - core.enhanced_trader - INFO - Daily PnL: 0.00
+2025-08-14 11:02:56,873 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
+2025-08-14 11:02:57,863 - root - WARNING - Not enough data
+2025-08-14 11:02:57,863 - core.enhanced_trader - ERROR - Error in fast check: 'NoneType' object is not subscriptable
+2025-08-14 11:02:59,825 - werkzeug - INFO - 127.0.0.1 - - [14/Aug/2025 11:02:59] "GET / HTTP/1.1" 200 -
+2025-08-14 11:03:01,354 - root - WARNING - Not enough data
+2025-08-14 11:03:01,354 - core.enhanced_trader - ERROR - Error in fast check: 'NoneType' object is not subscriptable
+2025-08-14 11:03:02,839 - core.enhanced_trader - INFO - 🛑 Bot stopped
+2025-08-14 11:03:03,833 - core.enhanced_trader - INFO - 🔍 BNBUSDT Volume Debug: current=0.00, sma=6.70, ratio=0.0000
+2025-08-14 11:03:03,849 - core.enhanced_trader - INFO - 🔍 BTCUSDT Volume Debug: current=0.01, sma=0.56, ratio=0.0163
+2025-08-14 11:03:03,849 - core.enhanced_trader - INFO - 🔍 BNBUSDT Signal-Debug:
+2025-08-14 11:03:03,849 - core.enhanced_trader - INFO - 🔧 BTCUSDT Type Fix: rsi_oversold=38.0 (type: <class 'float'>)
+2025-08-14 11:03:03,849 - core.enhanced_trader - INFO -    RSI: 50.6 (Oversold<35.0, Overbought>70.0)
+2025-08-14 11:03:03,849 - core.enhanced_trader - INFO - 🔍 BTCUSDT Signal-Debug:
+2025-08-14 11:03:03,849 - core.enhanced_trader - INFO - 🔍 ADAUSDT Volume Debug: current=133.50, sma=8534.05, ratio=0.0156
+2025-08-14 11:03:03,849 - core.enhanced_trader - INFO -    EMA: Fast=858.0018, Slow=857.7283
+2025-08-14 11:03:03,849 - core.enhanced_trader - INFO -    RSI: 35.0 (Oversold<38.0, Overbought>60.0)
+2025-08-14 11:03:03,849 - core.enhanced_trader - INFO - 🔍 ADAUSDT Signal-Debug:
+2025-08-14 11:03:03,849 - core.enhanced_trader - INFO -    MACD: 0.2295 vs Signal=0.1753
+2025-08-14 11:03:03,849 - core.enhanced_trader - INFO -    EMA: Fast=121611.6975, Slow=121665.2550
+2025-08-14 11:03:03,849 - core.enhanced_trader - INFO -    RSI: 36.7 (Oversold<35.0, Overbought>70.0)
+2025-08-14 11:03:03,849 - core.enhanced_trader - INFO -    Volume Ratio: 0.00 (Threshold=1.5)
+2025-08-14 11:03:03,849 - core.enhanced_trader - INFO -    MACD: -53.3248 vs Signal=-50.4861
+2025-08-14 11:03:03,849 - core.enhanced_trader - INFO -    EMA: Fast=0.9847, Slow=0.9860
+2025-08-14 11:03:03,849 - core.enhanced_trader - INFO -    ML: Enabled=False, Features=No
+2025-08-14 11:03:03,849 - core.enhanced_trader - INFO -    Volume Ratio: 0.02 (Threshold=1.0)
+2025-08-14 11:03:03,849 - core.enhanced_trader - INFO -    MACD: -0.0013 vs Signal=-0.0011
+2025-08-14 11:03:03,864 - core.enhanced_trader - INFO -    Sentiment: NEUTRAL, Score=0.00
+2025-08-14 11:03:03,864 - core.enhanced_trader - INFO -    ML: Enabled=False, Features=No
+2025-08-14 11:03:03,864 - core.enhanced_trader - INFO -    Volume Ratio: 0.02 (Threshold=1.5)
+2025-08-14 11:03:03,864 - core.enhanced_trader - INFO -    🎯 RESULT: buy_signals=2, confidence=0.250, threshold=0.6
+2025-08-14 11:03:03,864 - core.enhanced_trader - INFO -    Sentiment: NEUTRAL, Score=0.00
+2025-08-14 11:03:03,864 - core.enhanced_trader - INFO -    ML: Enabled=False, Features=No
+2025-08-14 11:03:03,864 - core.enhanced_trader - INFO -    Reasons: EMA Bullish, MACD Bullish
+2025-08-14 11:03:03,864 - core.enhanced_trader - INFO -    🎯 RESULT: buy_signals=1, confidence=0.200, threshold=0.4
+2025-08-14 11:03:03,864 - core.enhanced_trader - INFO -    Sentiment: NEUTRAL, Score=0.00
+2025-08-14 11:03:03,864 - core.enhanced_trader - INFO - ⏸️ BNBUSDT: No signal - buy_signals=2 (need ≥1), confidence=25.0% (need ≥60.0%)
+2025-08-14 11:03:03,864 - core.enhanced_trader - INFO -    Reasons: RSI Oversold (35.0 < 38.0), EMA Bearish
+2025-08-14 11:03:03,864 - core.enhanced_trader - INFO -    🎯 RESULT: buy_signals=-1, confidence=0.000, threshold=0.6
+2025-08-14 11:03:03,864 - core.enhanced_trader - INFO - ⏸️ BTCUSDT: No signal - buy_signals=1 (need ≥1), confidence=20.0% (need ≥40.0%)
+2025-08-14 11:03:03,864 - core.enhanced_trader - INFO -    Reasons: EMA Bearish
+2025-08-14 11:03:03,864 - core.enhanced_trader - INFO - ⏸️ ADAUSDT: No signal - buy_signals=-1 (need ≥1), confidence=0.0% (need ≥60.0%)
+2025-08-14 11:03:04,275 - core.enhanced_trader - INFO - 🔍 ETHUSDT Volume Debug: current=0.00, sma=2.28, ratio=0.0009
+2025-08-14 11:03:04,275 - core.enhanced_trader - INFO - 🔍 ETHUSDT Signal-Debug:
+2025-08-14 11:03:04,275 - core.enhanced_trader - INFO -    RSI: 48.6 (Oversold<30.0, Overbought>70.0)
+2025-08-14 11:03:04,275 - core.enhanced_trader - INFO -    EMA: Fast=4724.6601, Slow=4725.5535
+2025-08-14 11:03:04,275 - core.enhanced_trader - INFO -    MACD: -1.4894 vs Signal=-2.0414
+2025-08-14 11:03:04,275 - core.enhanced_trader - INFO -    Volume Ratio: 0.00 (Threshold=1.2)
+2025-08-14 11:03:04,275 - core.enhanced_trader - INFO -    ML: Enabled=False, Features=No
+2025-08-14 11:03:04,275 - core.enhanced_trader - INFO -    Sentiment: NEUTRAL, Score=0.00
+2025-08-14 11:03:04,275 - core.enhanced_trader - INFO -    🎯 RESULT: buy_signals=0, confidence=0.100, threshold=0.3
+2025-08-14 11:03:04,275 - core.enhanced_trader - INFO -    Reasons: EMA Bearish, MACD Bullish
+2025-08-14 11:03:04,275 - core.enhanced_trader - INFO - ⏸️ ETHUSDT: No signal - buy_signals=0 (need ≥1), confidence=10.0% (need ≥30.0%)
+2025-08-14 11:03:05,092 - core.enhanced_trader - INFO - 📊 BTCUSDT Final Status: Action=HOLD, Confidence=0.0%, ML=NEUTRAL, Volume_Ratio=0.02
+2025-08-14 11:03:05,108 - core.enhanced_trader - INFO - 📊 BNBUSDT Final Status: Action=HOLD, Confidence=0.0%, ML=NEUTRAL, Volume_Ratio=0.00
+2025-08-14 11:03:05,536 - core.enhanced_trader - INFO - 📊 ADAUSDT Final Status: Action=HOLD, Confidence=0.0%, ML=NEUTRAL, Volume_Ratio=0.02
+2025-08-14 11:03:05,912 - core.enhanced_trader - INFO - 📊 ETHUSDT Final Status: Action=HOLD, Confidence=0.0%, ML=NEUTRAL, Volume_Ratio=0.00
+2025-08-14 11:03:06,578 - core.enhanced_trader - INFO - 🔍 SOLUSDT Volume Debug: current=5.59, sma=307.82, ratio=0.0182
+2025-08-14 11:03:06,578 - core.enhanced_trader - INFO - 🔍 SOLUSDT Signal-Debug:
+2025-08-14 11:03:06,578 - core.enhanced_trader - INFO -    RSI: 49.9 (Oversold<35.0, Overbought>70.0)
+2025-08-14 11:03:06,578 - core.enhanced_trader - INFO -    EMA: Fast=203.1738, Slow=203.1947
+2025-08-14 11:03:06,578 - core.enhanced_trader - INFO -    MACD: -0.0834 vs Signal=-0.1412
+2025-08-14 11:03:06,578 - core.enhanced_trader - INFO -    Volume Ratio: 0.02 (Threshold=1.5)
+2025-08-14 11:03:06,578 - core.enhanced_trader - INFO -    ML: Enabled=False, Features=No
+2025-08-14 11:03:06,578 - core.enhanced_trader - INFO -    Sentiment: NEUTRAL, Score=0.00
+2025-08-14 11:03:06,578 - core.enhanced_trader - INFO -    🎯 RESULT: buy_signals=0, confidence=0.100, threshold=0.6
+2025-08-14 11:03:06,578 - core.enhanced_trader - INFO -    Reasons: EMA Bearish, MACD Bullish
+2025-08-14 11:03:06,578 - core.enhanced_trader - INFO - ⏸️ SOLUSDT: No signal - buy_signals=0 (need ≥1), confidence=10.0% (need ≥60.0%)
+2025-08-14 11:03:06,986 - core.enhanced_trader - INFO - 🔍 XRPUSDT Volume Debug: current=0.00, sma=2625.88, ratio=0.0000
+2025-08-14 11:03:06,986 - core.enhanced_trader - INFO - 🔍 XRPUSDT Signal-Debug:
+2025-08-14 11:03:06,986 - core.enhanced_trader - INFO -    RSI: 46.0 (Oversold<35.0, Overbought>70.0)
+2025-08-14 11:03:07,002 - core.enhanced_trader - INFO -    EMA: Fast=3.2305, Slow=3.2309
+2025-08-14 11:03:07,002 - core.enhanced_trader - INFO -    MACD: -0.0008 vs Signal=-0.0011
+2025-08-14 11:03:07,002 - core.enhanced_trader - INFO -    Volume Ratio: 0.00 (Threshold=1.5)
+2025-08-14 11:03:07,002 - core.enhanced_trader - INFO -    ML: Enabled=False, Features=No
+2025-08-14 11:03:07,002 - core.enhanced_trader - INFO -    Sentiment: NEUTRAL, Score=0.00
+2025-08-14 11:03:07,002 - core.enhanced_trader - INFO -    🎯 RESULT: buy_signals=0, confidence=0.100, threshold=0.6
+2025-08-14 11:03:07,002 - core.enhanced_trader - INFO -    Reasons: EMA Bearish, MACD Bullish
+2025-08-14 11:03:07,002 - core.enhanced_trader - INFO - ⏸️ XRPUSDT: No signal - buy_signals=0 (need ≥1), confidence=10.0% (need ≥60.0%)
+2025-08-14 11:03:07,446 - core.enhanced_trader - INFO - 🔍 LINKUSDT Volume Debug: current=0.00, sma=10.97, ratio=0.0000
+2025-08-14 11:03:07,446 - core.enhanced_trader - INFO - 🔍 LINKUSDT Signal-Debug:
+2025-08-14 11:03:07,446 - core.enhanced_trader - INFO -    RSI: 36.5 (Oversold<35.0, Overbought>70.0)
+2025-08-14 11:03:07,446 - core.enhanced_trader - INFO -    EMA: Fast=23.3063, Slow=23.3217
+2025-08-14 11:03:07,446 - core.enhanced_trader - INFO -    MACD: -0.0117 vs Signal=-0.0058
+2025-08-14 11:03:07,446 - core.enhanced_trader - INFO -    Volume Ratio: 0.00 (Threshold=1.5)
+2025-08-14 11:03:07,446 - core.enhanced_trader - INFO -    ML: Enabled=False, Features=No
+2025-08-14 11:03:07,446 - core.enhanced_trader - INFO -    Sentiment: NEUTRAL, Score=0.00
+2025-08-14 11:03:07,446 - core.enhanced_trader - INFO -    🎯 RESULT: buy_signals=-1, confidence=0.000, threshold=0.6
+2025-08-14 11:03:07,446 - core.enhanced_trader - INFO -    Reasons: EMA Bearish
+2025-08-14 11:03:07,446 - core.enhanced_trader - INFO - ⏸️ LINKUSDT: No signal - buy_signals=-1 (need ≥1), confidence=0.0% (need ≥60.0%)
+2025-08-14 11:03:07,791 - core.enhanced_trader - INFO - 📊 SOLUSDT Final Status: Action=HOLD, Confidence=0.0%, ML=NEUTRAL, Volume_Ratio=0.02
+2025-08-14 11:03:08,643 - core.enhanced_trader - INFO - 📊 XRPUSDT Final Status: Action=HOLD, Confidence=0.0%, ML=NEUTRAL, Volume_Ratio=0.00
+2025-08-14 11:03:08,659 - core.enhanced_trader - INFO - 📊 LINKUSDT Final Status: Action=HOLD, Confidence=0.0%, ML=NEUTRAL, Volume_Ratio=0.00
+2025-08-14 11:03:09,052 - core.enhanced_trader - INFO - 📊 AVAXUSDT Final Status: Action=HOLD, Confidence=0.0%, ML=NEUTRAL, Volume_Ratio=0.00
+2025-08-14 11:03:09,057 - core.enhanced_trader - INFO - Active positions: ['AVAXUSDT']
+2025-08-14 11:03:09,057 - core.enhanced_trader - INFO - Daily PnL: 0.00
+2025-08-14 11:03:09,057 - core.enhanced_trader - INFO - Session: 0 trades, 0.0% win
