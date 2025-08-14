@@ -167,22 +167,29 @@ def main():
                     use_symbol_specific = False
                     
                 elif optimization_choice == "3":
-                    # ÜBERSPRINGEN – gespeicherte Einstellungen laden
-                    print("⏭️ Optimierung übersprungen – lade gespeicherte Parameter…")
+                    # ► ÜBERSPRINGEN – gespeicherte Optimierungen verwenden
+                    print("⏭️ Optimierung übersprungen – verwende gespeicherte Parameter")
                     try:
+                        # Priorität: symbol-spezifische vor Standard
                         for symbol in config['trading']['symbols']:
-                            best = symbol_optimizer.get_best_params_for_symbol(symbol)
-                            if best:
-                                optimized_params[symbol] = best
-                        if optimized_params:
-                            print(f"✅ {len(optimized_params)} gespeicherte Parameter geladen")
+                            params = symbol_optimizer.get_best_params_for_symbol(symbol)
+                            if params:
+                                optimized_params[symbol] = params
+                        if not optimized_params:
+                            # Fallback auf Standard-Optimierung
+                            std = run_parameter_optimization_threaded(config, client)
+                            if std and 'parameters' in std:
+                                optimized_params = std['parameters']
+                                print("⚙️ Standard-Optimierung als Fallback geladen")
                     except Exception as e:
-                        logging.warning(f"Fehler beim Laden gespeicherter Parameter: {e}")
-                        use_symbol_specific = False
-                else:
-                    # Fallback: Normale Analyse ohne Optimierung
-                    print("❌ Ungültige Auswahl – keine Optimierung wird angewendet")
-                    use_symbol_specific = False
+                        logging.warning(f"Skip-Modus Fehler: {e}")
+                        optimized_params = {}  # Keine Optimierungen
+
+    if optimized_params:
+        print(f"✅ Gesamtladen fertiger Parameter: {len(optimized_params)} Sets")
+    else:
+        print("⚠️ Keine Parameter verfügbar – starte mit Default-Konfiguration")
+
             else:
                 print("\n✅ Alle Symbole sind aktuell optimiert (≤24h)")
                 # Lade alle gespeicherten Parameter
@@ -370,5 +377,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
