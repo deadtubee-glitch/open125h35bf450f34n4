@@ -1,0 +1,102 @@
+api:
+  key: ""
+  secret: ""
+  testnet: true                         # Auf false setzen für Live Trading (VORSICHT!)
+
+trading:
+  # Handels-Symbole (mindestens 3-5 empfohlen)
+  symbols: 
+    - 'BTCUSDT'
+    - 'ETHUSDT' 
+    - 'BNBUSDT'
+    - 'ADAUSDT'
+    - 'SOLUSDT'
+    - 'XRPUSDT'
+    - 'LINKUSDT'
+    - 'AVAXUSDT'
+  
+
+  
+  # Zeitintervall für Kerzendaten
+  interval: '1m'                        # 1m, 3m, 5m, 15m, 1h
+  
+  # Risikomanagement
+  max_risk_per_trade: 0.10         # Nur 3% Risiko pro Trade
+  min_usdt_balance: 50.0          # 200 USDT Minimum
+  max_concurrent_positions: 10      # 5 gleichzeitige Positionen
+  
+  # Kapitalschutz (20% Regel)
+  capital_protection_threshold: 0.5
+  emergency_stop_loss: 0.3
+  daily_loss_limit: 0.25
+  cooldown_period: 10              # Nur 30 sek Cooldown
+
+  # Parameter-Optimierung
+optimization:
+  enabled: true
+  test_duration_hours: 48           # Kürzer für schnellere Tests
+  min_trades_for_validity: 3        # Weniger Trades nötig
+  optimization_runs: 10            # Mehr Kombinationen
+  historical_data_days: 14          # mehr Daten für mehr Trades
+
+  # Parameter-Bereiche für Optimierung
+parameter_ranges:
+  # RSI Einstellungen
+  rsi_period: [7,10, 14]
+  rsi_oversold: [20, 25,30]       # HÖHER = mehr Kaufsignale bei RSI 47-53
+  rsi_overbought: [70, 75, 80]     # NIEDRIGER = mehr Verkaufssignale
+  
+  # EMA Einstellungen  
+  ema_fast: [5, 8]
+  ema_slow: [12, 16,]
+  
+  # Profit/Loss Einstellungen
+  take_profit_pct: [0.005, 0.01]  # Früher Gewinn mitnehmen
+  stop_loss_pct: [0.0005, 0.001]    # Weniger Verlust zulassen  
+  trailing_sl_pct: [0.002, 0.005]  # Engere Trailing Stops
+  
+  # Technische Indikatoren
+  volume_threshold: [1.0,1.2]     # Niedrigere Volume-Filter
+  bb_period: [14,16]
+  confidence_threshold: [0.1,0.15] # VIEL NIEDRIGER = mehr Trades
+
+  # Risikomanagement
+risk_management:
+  max_drawdown: 0.15
+  position_correlation_limit: 0.7
+  adaptive_risk: true
+  capital_preservation_mode: false  # DEAKTIVIERT für mehr Trades
+
+  # Oder Symbol-spezifische Minimum-Beträge:
+symbol_minimums:
+  BTCUSDT: 20.0    # Minimum 20 USDT für BTC
+  ETHUSDT: 15.0    # Minimum 15 USDT für ETH  
+  BNBUSDT: 12.0    # Minimum 12 USDT für BNB
+  ADAUSDT: 10.0    # Minimum 10 USDT für ADA 
+#  EURUSDT: 5.0
+  
+news_api:
+  newsapi_key: ""           # Kostenlos bei newsapi.org registrieren
+  cryptonews_key: ""        # Optional: weitere API keys
+
+  # Erweiterte Features (optional)
+advanced:
+  #Machine Learning
+  use_machine_learning: false            # ML-Features
+  ml_retrain_interval: 100              # Nach 100 Samples neu trainieren  
+  ml_min_samples: 500                   # Mindest-Samples für Training
+  ml_lookback_periods: [5, 10, 20, 50]  # Feature-Zeitfenster
+  ml_prediction_horizon: 5              # Vorhersage für 5 Minuten
+  ml_ensemble_weight: 0.3               # Gewichtung ML vs. technische Indikatoren
+  ml_confidence_threshold: 0.6          # Mindest-Konfidenz für ML-Signale
+  ml_cleanup_days: 30                   # Daten älter als 30 Tage löschen
+  
+  #Sentiment Analyse
+  news_sentiment: false                  # Sentiment-Analyse 
+  sentiment_weight: 0.03                 # Gewichtung von Sentiment vs. technischen Indikatoren
+  min_articles: 3                       # Mindestanzahl Artikel für Signale
+  sentiment_cache_minutes: 5            # Cache-Dauer für News
+  
+  multi_timeframe: true                 # Multi-Timeframe-Analyse
+  order_book_analysis: false            # Orderbook-Analyse
+  volume_profile: true                  # Volume-Profile-Analyse
