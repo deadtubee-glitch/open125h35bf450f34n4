@@ -180,8 +180,6 @@ def main():
                     except Exception as e:
                         logging.warning(f"Überspringen-Modus Fehler: {e}")
                         print("🔄 Verwende Default-Konfiguration...")
-                else:
-                    use_symbol_specific = False
             else:
                 print("\n✅ Alle Symbole aktuell optimiert")
                 for s in config['trading']['symbols']:
@@ -284,6 +282,7 @@ def _get_default_parameters(config):
 
 if __name__ == "__main__":
     main()
+
 
 
 
