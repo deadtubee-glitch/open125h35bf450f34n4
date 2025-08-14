@@ -7,6 +7,8 @@ import sys
 import time
 import logging
 from pathlib import Path
+import json
+import os
 
 # Add project root to path
 sys.path.append(str(Path(__file__).parent))
@@ -167,23 +169,120 @@ def main():
                     use_symbol_specific = False
                     
                 elif optimization_choice == "3":
-                    # ► ÜBERSPRINGEN – gespeicherte Optimierungen verwenden
-                    print("⏭️ Optimierung übersprungen – verwende gespeicherte Parameter")
+                    # ► ÜBERSPRINGEN – gespeicherte Optimierungen verwenden mit Prioritätensystem
+                    print("⏭️ Optimierung übersprungen – lade gespeicherte Parameter...")
+                    print("📋 Prioritätensystem: 1) Symbol-spezifisch → 2) Standard Multi-Threading → 3) Default")
+                    
+                    # Dateipfade definieren
+                    data_dir = "data"
+                    symbol_optimization_file = os.path.join(data_dir, "optimization_results_per_symbol.json")
+                    standard_optimization_file = os.path.join(data_dir, "standard_multi_threading_optimization.json")
+                    
                     try:
-                        # Priorität: symbol-spezifische vor Standard
+                        # ► PRIORITÄT 1: Symbol-spezifische Optimierungen laden
+                        print("\n🔍 Suche symbol-spezifische Optimierungen...")
+                        symbol_params_loaded = 0
                         for symbol in config['trading']['symbols']:
-                            params = symbol_optimizer.get_best_params_for_symbol(symbol)
-                            if params:
-                                optimized_params[symbol] = params
-                        if not optimized_params:
-                            # Fallback auf Standard-Optimierung
-                            std = run_parameter_optimization_threaded(config, client)
-                            if std and 'parameters' in std:
-                                optimized_params = std['parameters']
-                                print("⚙️ Standard-Optimierung als Fallback geladen")
+                            try:
+                                params = symbol_optimizer.get_best_params_for_symbol(symbol)
+                                if params:
+                                    optimized_params[symbol] = params
+                                    symbol_params_loaded += 1
+                                    print(f"   ✅ {symbol}: Symbol-spezifische Parameter geladen")
+                                else:
+                                    print(f"   ⚠️  {symbol}: Keine symbol-spezifischen Parameter gefunden")
+                            except Exception as symbol_error:
+                                print(f"   ❌ {symbol}: Fehler beim Laden - {symbol_error}")
+                        
+                        print(f"📊 Symbol-spezifische Parameter: {symbol_params_loaded}/{len(config['trading']['symbols'])} geladen")
+                        
+                        # ► PRIORITÄT 2: Standard Multi-Threading Optimierung als Fallback
+                        if symbol_params_loaded < len(config['trading']['symbols']):
+                            print(f"\n🔍 Lade Standard Multi-Threading Optimierung als Fallback...")
+                            
+                            if os.path.exists(standard_optimization_file):
+                                try:
+                                    with open(standard_optimization_file, 'r', encoding='utf-8') as f:
+                                        standard_data = json.load(f)
+                                    
+                                    # Prüfe Datenstruktur und extrahiere Parameter
+                                    if 'parameters' in standard_data:
+                                        standard_params = standard_data['parameters']
+                                        optimization_info = standard_data.get('optimization_info', {})
+                                        performance = standard_data.get('performance', {})
+                                        
+                                        print(f"   ✅ Standard-Optimierung gefunden!")
+                                        print(f"   📅 Erstellt: {optimization_info.get('created_date', 'Unbekannt')}")
+                                        print(f"   🏆 Score: {optimization_info.get('score', 0):.4f}")
+                                        print(f"   💰 Avg Profit: {performance.get('avg_profit', 0):.2%}")
+                                        print(f"   🎯 Win Rate: {performance.get('win_rate', 0):.2%}")
+                                        
+                                        # Verwende Standard-Parameter für Symbole ohne symbol-spezifische Parameter
+                                        symbols_using_standard = []
+                                        for symbol in config['trading']['symbols']:
+                                            if symbol not in optimized_params:
+                                                optimized_params[symbol] = standard_params
+                                                symbols_using_standard.append(symbol)
+                                        
+                                        if symbols_using_standard:
+                                            print(f"   📋 Standard-Parameter angewandt auf: {', '.join(symbols_using_standard)}")
+                                        
+                                    else:
+                                        print(f"   ❌ Ungültige Struktur in Standard-Optimierung")
+                                        
+                                except Exception as standard_error:
+                                    print(f"   ❌ Fehler beim Laden der Standard-Optimierung: {standard_error}")
+                            else:
+                                print(f"   ⚠️  Standard-Optimierung nicht gefunden: {standard_optimization_file}")
+                                print(f"   💡 Tipp: Führe zuerst Option [2] aus, um Standard-Optimierung zu erstellen")
+                        
+                        # ► PRIORITÄT 3: Default-Parameter für verbleibende Symbole
+                        symbols_without_params = [symbol for symbol in config['trading']['symbols'] if symbol not in optimized_params]
+                        if symbols_without_params:
+                            print(f"\n⚠️  Keine Parameter für {len(symbols_without_params)} Symbole gefunden")
+                            print(f"📝 Verwende Default-Parameter für: {', '.join(symbols_without_params)}")
+                            
+                            # Default-Parameter setzen (falls verfügbar)
+                            default_params = _get_default_parameters(config)
+                            if default_params and 'parameters' in default_params:
+                                for symbol in symbols_without_params:
+                                    optimized_params[symbol] = default_params['parameters']
+                        
+                        # ► ERGEBNIS ANZEIGEN
+                        if optimized_params:
+                            total_symbols = len(config['trading']['symbols'])
+                            print(f"\n✅ PARAMETER-ÜBERSICHT:")
+                            print(f"   📊 Symbole gesamt: {total_symbols}")
+                            print(f"   🎯 Mit symbol-spezifischen Parametern: {symbol_params_loaded}")
+                            print(f"   ⚙️  Mit Standard-Parametern: {total_symbols - symbol_params_loaded}")
+                            print(f"   🚀 Bereit für optimiertes Trading!")
+                            
+                            # Detaillierte Parameter-Übersicht (optional)
+                            print(f"\n📋 PARAMETER-DETAILS PRO SYMBOL:")
+                            for symbol in config['trading']['symbols']:
+                                if symbol in optimized_params:
+                                    params = optimized_params[symbol]
+                                    param_type = "Symbol-spezifisch" if symbol_params_loaded > 0 and symbol in [s for s in config['trading']['symbols'][:symbol_params_loaded]] else "Standard"
+                                    
+                                    # Zeige wichtige Parameter
+                                    tp = params.get('take_profit_pct', 0) * 100 if isinstance(params.get('take_profit_pct'), (int, float)) else 'N/A'
+                                    sl = params.get('stop_loss_pct', 0) * 100 if isinstance(params.get('stop_loss_pct'), (int, float)) else 'N/A'
+                                    rsi_os = params.get('rsi_oversold', 'N/A')
+                                    
+                                    print(f"   • {symbol} ({param_type}): TP={tp}%, SL={sl}%, RSI<{rsi_os}")
+                                else:
+                                    print(f"   • {symbol}: ❌ Keine Parameter geladen")
+                        else:
+                            print(f"\n❌ KEINE PARAMETER GEFUNDEN!")
+                            print(f"💡 Empfehlung: Führe zuerst Option [1] oder [1] aus")
+                            print(f"🔄 Starte mit Default-Konfiguration...")
+                            
                     except Exception as e:
-                        logging.warning(f"Skip-Modus Fehler: {e}")
-                        optimized_params = {}  # Keine Optimierungen
+                        logging.warning(f"Überspringen-Modus Fehler: {e}")
+                        print(f"❌ Fehler beim Laden gespeicherter Parameter: {e}")
+                        print(f"🔄 Verwende Default-Konfiguration...")
+                        optimized_params = {}
+
 
     if optimized_params:
         print(f"✅ Gesamtladen fertiger Parameter: {len(optimized_params)} Sets")
@@ -377,6 +476,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
