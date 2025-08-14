@@ -94,16 +94,16 @@ DASHBOARD_HTML = MACRO_DISPLAY_VALUE + """
             <div class="status-card">
                 <h3>💰 Profit & Loss</h3>
                 <div class="metric-value profit-{{ 'positive' if profit_tracking.total_profit > 0 else 'negative' }}">
-                    {{ "+" if profit_tracking.total_profit > 0 else "" }}{{ profit_tracking.total_profit|round(2) }} USDT
+                    {{ "+" if profit_tracking.total_profit > 0 else "" }}{{ profit_tracking.total_profit|display_value(2) }} USDT
                 </div>
-                <p>Balance: {{ profit_tracking.current_balance|round(2) }} USDT</p>
-                <p>ROI: {{ ((profit_tracking.current_balance / profit_tracking.start_balance - 1) * 100)|round(2) if profit_tracking.start_balance > 0 else 0 }}%</p>
+                <p>Balance: {{ profit_tracking.current_balance|display_value(2) }} USDT</p>
+                <p>ROI: {{ ((profit_tracking.current_balance / profit_tracking.start_balance - 1) * 100)|display_value(2) if profit_tracking.start_balance > 0 else 0 }}%</p>
             </div>
             
             <div class="status-card">
                 <h3>📊 Trade Statistics</h3>
                 <div class="metric-value">{{ profit_tracking.total_trades }} Trades</div>
-                <p>Win Rate: {{ ((profit_tracking.winning_trades / profit_tracking.total_trades) * 100)|round(1) if profit_tracking.total_trades > 0 else 0 }}%</p>
+                <p>Win Rate: {{ ((profit_tracking.winning_trades / profit_tracking.total_trades) * 100)|display_value(1) if profit_tracking.total_trades > 0 else 0 }}%</p>
                 <p>Winning: {{ profit_tracking.winning_trades }} | Losing: {{ profit_tracking.total_trades - profit_tracking.winning_trades }}</p>
             </div>
 
@@ -120,7 +120,7 @@ DASHBOARD_HTML = MACRO_DISPLAY_VALUE + """
                 <h3>⚙️ Optimization Status</h3>
                 <div class="metric-value">{{ optimization_status.get('progress', 0) }}%</div>
                 <p>{{ 'Running...' if optimization_status.get('running', False) else 'Completed' }}</p>
-                <p>Best Score: {{ optimization_status.get('best_score', 0)|round(4) }}</p>
+                <p>Best Score: {{ optimization_status.get('best_score', 0)|display_value(4) }}</p>
             </div>
         </div>
 
@@ -137,24 +137,24 @@ DASHBOARD_HTML = MACRO_DISPLAY_VALUE + """
                 <div class="symbol-status" style="background: #1a5c47; border-left: 3px solid #02c076;">
                     <div>
                         <strong style="color: #02c076;">{{ symbol }} - IN POSITION</strong>
-                        <span style="color: #f0b90b;">{{ data.price|round(6) }} USDT</span>
+                        <span style="color: #f0b90b;">{{ data.price|display_value(6) }} USDT</span>
                     </div>
                     <div>
                         <span style="color: #02c076; font-weight: bold;">
-                            Entry: {{ data.entry_price|round(6) }} → 
-                            P/L: {{ ((data.price / data.entry_price - 1) * 100)|round(2) }}%
-                            ({{ (((data.price / data.entry_price - 1) * data.get('position_value', 0))|round(2)) }} USDT)
+                            Entry: {{ data.entry_price|display_value(6) }} → 
+                            P/L: {{ ((data.price / data.entry_price - 1) * 100)|display_value(2) }}%
+                            ({{ (((data.price / data.entry_price - 1) * data.get('position_value', 0))|display_value(2)) }} USDT)
                         </span>
                         {% if data.get('trailing_stop') %}
                         <span style="color: #f39c12; margin-left: 15px;">
-                            Trailing Stop: {{ data.trailing_stop|round(6) }}
+                            Trailing Stop: {{ data.trailing_stop|display_value(6) }}
                         </span>
                         {% endif %}
                     </div>
                     <div>
                         <span style="font-size: 0.9em; color: #bdc3c7;">
                             Duration: {{ data.get('position_duration', 'N/A') }} | 
-                            RSI: {{ data.get('rsi', 0)|round(1) }} | 
+                            RSI: {{ data.get('rsi', 0)|display_value(1) }} | 
                             Reason: {{ data.get('entry_reason', 'N/A') }}
                         </span>
                     </div>
@@ -175,7 +175,7 @@ DASHBOARD_HTML = MACRO_DISPLAY_VALUE + """
             <div class="symbol-status {% if data.get('in_position', False) %}active-position{% endif %}">
                 <div>
                     <strong>{{ symbol }}</strong>
-                    <span style="color: #f0b90b;">{{ data.price|round(6) }} USDT</span>
+                    <span style="color: #f0b90b;">{{ data.price|display_value(6) }} USDT</span>
                     {% if data.get('price_change_24h') %}
                     <span style="color: {{ '#02c076' if data.price_change_24h > 0 else '#f6465d' }}; margin-left: 10px;">
                         {{ "+" if data.price_change_24h > 0 else "" }}{{ data.price_change_24h|round(2) }}%
@@ -187,11 +187,11 @@ DASHBOARD_HTML = MACRO_DISPLAY_VALUE + """
                         {{ data.get('signal', 'HOLD') }}
                     </span>
                     <span style="margin-left: 10px; color: #bdc3c7;">
-                        Confidence: {{ (data.get('confidence', 0) * 100)|round(1) }}%
+                        Confidence: {{ (data.get('confidence', 0) * 100)|display_value(1) }}%
                     </span>
                     {% if data.get('in_position', False) %}
                     <span style="color: #02c076; font-weight: bold; margin-left: 10px;">
-                        🎯 TRADING ({{ ((data.price / data.entry_price - 1) * 100)|round(2) }}%)
+                        🎯 TRADING ({{ ((data.price / data.entry_price - 1) * 100)|display_value(2) }}%)
                     </span>
                     {% else %}
                     <span style="color: #7f8c8d; margin-left: 10px;">
@@ -204,8 +204,8 @@ DASHBOARD_HTML = MACRO_DISPLAY_VALUE + """
                     {% endif %}
                 </div>
                 <div>
-                    RSI: {{ data.get('rsi', 0)|round(1) }} | 
-                    ML: {{ data.get('ml_confidence', 0)|round(3) }} |
+                    RSI: {{ data.get('rsi', 0)|display_value(1) }} | 
+                    ML: {{ data.get('ml_confidence', 0)|display_value(3) }} |
                     Volume: {{ data.get('volume_status', 'NORMAL') }}
                     {% if data.get('reasons') %}
                     <br><small style="color: #95a5a6;">{{ data.get('reasons', [])|join(', ') }}</small>
@@ -218,11 +218,11 @@ DASHBOARD_HTML = MACRO_DISPLAY_VALUE + """
         <!-- Best Parameters -->
         {% if optimization_status.get('best_params') %}
         <div class="chart-container">
-            <h3>🏆 Optimized Parameters ({{ optimization_status.get('best_score', 0)|round(4) }} Score)</h3>
+            <h3>🏆 Optimized Parameters ({{ optimization_status.get('best_score', 0)|display_value(4) }} Score)</h3>
             <div class="performance-highlight">
-                <p><strong>Profit Expectation:</strong> {{ (optimization_status.get('expected_profit', 0) * 100)|round(2) }}% per trade</p>
-                <p><strong>Win Rate:</strong> {{ (optimization_status.get('expected_winrate', 0) * 100)|round(1) }}%</p>
-                <p><strong>Risk/Reward:</strong> {{ optimization_status.get('avg_risk_reward', 0)|round(2) }}:1</p>
+                <p><strong>Profit Expectation:</strong> {{ (optimization_status.get('expected_profit', 0) * 100)|display_value(2) }}% per trade</p>
+                <p><strong>Win Rate:</strong> {{ (optimization_status.get('expected_winrate', 0) * 100)|display_value(1) }}%</p>
+                <p><strong>Risk/Reward:</strong> {{ optimization_status.get('avg_risk_reward', 0)|display_value(2) }}:1</p>
             </div>
             <div class="parameter-grid">
                 {% for key, value in optimization_status.get('best_params', {}).items() %}
@@ -256,15 +256,15 @@ DASHBOARD_HTML = MACRO_DISPLAY_VALUE + """
                     <tr>
                         <td>{{ trade.timestamp.strftime('%H:%M:%S') if trade.get('timestamp') else 'N/A' }}</td>
                         <td>{{ trade.symbol }}</td>
-                        <td>{{ trade.entry_price|round(6) }}</td>
-                        <td>{{ trade.exit_price|round(6) }}</td>
+                        <td>{{ trade.entry_price|display_value(6) }}</td>
+                        <td>{{ trade.exit_price|display_value(6) }}</td>
                         <td class="profit-{{ 'positive' if trade.profit_pct > 0 else 'negative' }}">
-                            {{ (trade.profit_pct * 100)|round(2) }}%
+                            {{ (trade.profit_pct * 100)|display_value(2) }}%
                         </td>
                         <td class="profit-{{ 'positive' if trade.profit_usdt > 0 else 'negative' }}">
-                            {{ "+" if trade.profit_usdt > 0 else "" }}{{ trade.profit_usdt|round(2) }}
+                            {{ "+" if trade.profit_usdt > 0 else "" }}{{ trade.profit_usdt|display_value(2) }}
                         </td>
-                        <td>{{ trade.get('duration_minutes', 0)|round(1) }}m</td>
+                        <td>{{ trade.get('duration_minutes', 0)|display_value(1) }}m</td>
                         <td>{{ trade.exit_reason }}</td>
                     </tr>
                     {% endfor %}
@@ -426,5 +426,6 @@ def update_performance_metrics(metrics):
     """Update performance metrics"""
     global performance_metrics
     performance_metrics.update(metrics)
+
 
 
