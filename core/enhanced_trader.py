@@ -766,19 +766,45 @@ class EnhancedAdvancedBinanceTrader(AdvancedBinanceTrader):
             return None
 
     def close_all_positions(self):
-            for symbol in self.symbols:
-                try:
-                    pos = self.client.get_position(symbol=symbol)
-                    if float(pos['positionAmt']) != 0:
-                        side = 'SELL' if float(pos['positionAmt']) > 0 else 'BUY'
-                        qty = abs(float(pos['positionAmt']))
-                        self.client.create_order(
-                            symbol=symbol,
-                            side=side,
-                            type='MARKET',
-                            quantity=qty
-                        )
-                        logging.info(f"Geschlossen: {symbol} {side} {qty}")
-                except Exception as e:
-                    logging.error(f"Fehler beim Schließen von {symbol}: {e}")
+        """
+        Schließt alle offenen Futures-Positionen für die gehandelten Symbole.
+        Verwendet die korrekte Methode futures_position_information().
+        """
+        logging.info("ℹ️ Beginne mit dem Schließen aller offenen Positionen...")
+        for symbol in self.symbols:
+            try:
+                # KORREKTE METHODE: futures_position_information() statt get_position()
+                # Diese Methode gibt eine Liste von Positionen zurück.
+                positions = self.client.futures_position_information(symbol=symbol)
+                
+                # Finde die relevante Position aus der Liste (für den Fall, dass mehrere zurückgegeben werden)
+                position_info = next((p for p in positions if p['symbol'] == symbol), None)
+    
+                # Prüfen, ob eine Position existiert und die Menge nicht Null ist
+                if position_info and float(position_info['positionAmt']) != 0:
+                    amount = float(position_info['positionAmt'])
+                    
+                    # Die entgegengesetzte Seite zum Schließen wählen
+                    side = 'SELL' if amount > 0 else 'BUY'
+                    quantity = abs(amount)
+    
+                    logging.info(f"ACTION: Schließe Position für {symbol}: {side} {quantity}")
+                    
+                    # KORREKTE ORDER-FUNKTION: futures_create_order für Futures verwenden
+                    # reduceOnly=True ist eine Sicherheitsmaßnahme, um nur zu schließen
+                    self.client.futures_create_order(
+                        symbol=symbol,
+                        side=side,
+                        type='MARKET',
+                        quantity=quantity,
+                        reduceOnly=True 
+                    )
+                    logging.info(f"✅ Position für {symbol} erfolgreich geschlossen.")
+                
+            except Exception as e:
+                # Logge den Fehler, damit er im Terminal sichtbar ist
+                logging.getLogger("root").error(f"Fehler beim Schließen von {symbol}: {e}")
+    
+
+
 
