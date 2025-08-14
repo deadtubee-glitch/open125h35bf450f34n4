@@ -765,3 +765,20 @@ class EnhancedAdvancedBinanceTrader(AdvancedBinanceTrader):
             logger.warning(f"price fetch failed {symbol}: {e}")
             return None
 
+    def close_all_positions(self):
+            for symbol in self.symbols:
+                try:
+                    pos = self.client.get_position(symbol=symbol)
+                    if float(pos['positionAmt']) != 0:
+                        side = 'SELL' if float(pos['positionAmt']) > 0 else 'BUY'
+                        qty = abs(float(pos['positionAmt']))
+                        self.client.create_order(
+                            symbol=symbol,
+                            side=side,
+                            type='MARKET',
+                            quantity=qty
+                        )
+                        logging.info(f"Geschlossen: {symbol} {side} {qty}")
+                except Exception as e:
+                    logging.error(f"Fehler beim Schließen von {symbol}: {e}")
+
