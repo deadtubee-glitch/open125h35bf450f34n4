@@ -1,0 +1,32 @@
+trading_bot/
+├── main.py                    # Haupt-Entry-Point (statt daytrading_bot.py)
+├── config/
+│   ├── __init__.py
+│   ├── config_loader.py       # Config-Management
+│   └── config.yaml            # Deine Config-Datei
+├── core/
+│   ├── __init__.py
+│   ├── base_trader.py         # AdvancedBinanceTrader
+│   └── enhanced_trader.py     # EnhancedAdvancedBinanceTrader
+├── ml/
+│   ├── __init__.py
+│   ├── ml_system.py           # MLDaytradingSystem
+│   └── models/                # ML-Model Storage
+├── analysis/
+│   ├── __init__.py
+│   ├── performance.py         # PerformanceAnalyzer
+│   ├── sentiment.py           # NewsSentimentAnalyzer
+│   └── technical.py           # Technische Indikatoren
+├── optimization/
+│   ├── __init__.py
+│   ├── optimizer.py           # ParameterOptimizer
+│   ├── threaded_optimizer.py  # ThreadedParameterOptimizer
+│   └── backtest.py            # BacktestTrader, OptimizedBacktestTrader
+├── utils/
+│   ├── __init__.py
+│   ├── flask_app.py           # Flask Web Interface
+│   └── logging_setup.py       # Logging Configuration
+├── data/
+│   ├── ml_trading_data.db     # SQLite Datenbank
+│   └── logs/                  # Log-Dateien
+└── requirements.txt           # Dependencies
