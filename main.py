@@ -167,18 +167,21 @@ def main():
                     use_symbol_specific = False
                     
                 elif optimization_choice == "3":
-                    print("⏭️ Optimierung übersprungen")
-                    # Lade existierende symbol-spezifische Parameter falls vorhanden
+                    # ÜBERSPRINGEN – gespeicherte Einstellungen laden
+                    print("⏭️ Optimierung übersprungen – lade gespeicherte Parameter…")
                     try:
                         for symbol in config['trading']['symbols']:
-                            best_params = symbol_optimizer.get_best_params_for_symbol(symbol)
-                            if best_params:
-                                optimized_params[symbol] = best_params
+                            best = symbol_optimizer.get_best_params_for_symbol(symbol)
+                            if best:
+                                optimized_params[symbol] = best
                         if optimized_params:
-                            print(f"✅ {len(optimized_params)} gespeicherte symbol-spezifische Parameter geladen")
-                    except:
+                            print(f"✅ {len(optimized_params)} gespeicherte Parameter geladen")
+                    except Exception as e:
+                        logging.warning(f"Fehler beim Laden gespeicherter Parameter: {e}")
                         use_symbol_specific = False
                 else:
+                    # Fallback: Normale Analyse ohne Optimierung
+                    print("❌ Ungültige Auswahl – keine Optimierung wird angewendet")
                     use_symbol_specific = False
             else:
                 print("\n✅ Alle Symbole sind aktuell optimiert (≤24h)")
@@ -367,4 +370,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
