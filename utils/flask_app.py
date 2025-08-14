@@ -26,9 +26,18 @@ profit_tracking = {
     'current_balance': 0.0,
     'start_balance': 0.0
 }
+MACRO_DISPLAY_VALUE = """
+{% macro display_value(v) -%}
+  {%- if v is number -%}
+    {{ v|round(2) }}
+  {%- else -%}
+    {{ v }}
+  {%- endif -%}
+{%- endmacro %}
+"""
 
 # HTML Template für das Dashboard
-DASHBOARD_HTML = """
+DASHBOARD_HTML = MACRO_DISPLAY_VALUE + """
 <!DOCTYPE html>
 <html>
 <head>
@@ -417,4 +426,5 @@ def update_performance_metrics(metrics):
     """Update performance metrics"""
     global performance_metrics
     performance_metrics.update(metrics)
+
 
