@@ -245,6 +245,13 @@ def main():
         print(f"❌ Unerwarteter Fehler: {e}")
     finally:
         if trader:
+            print("🛑 Bot wird beendet...")
+            # SICHERHEITSABFRAGE: Alle offenen Positionen glattstellen
+            try:
+                trader.close_all_positions()  # Muss in deinem Trader implementiert sein
+                print("✅ Alle offenen Positionen wurden verkauft.")
+            except Exception as e:
+                print(f"❌ Fehler beim Schließen der Positionen: {e}")
             trader.stop()
             optimization_status['running'] = False
             print("✅ Bot sicher beendet")
@@ -275,6 +282,7 @@ def _get_default_parameters(config):
 
 if __name__ == "__main__":
     main()
+
 
 
 
