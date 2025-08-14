@@ -80,9 +80,6 @@ def main():
         try:
             from optimization.symbol_optimizer import SymbolSpecificOptimizer
             symbol_optimizer = SymbolSpecificOptimizer(config, client)
-        except ImportError as e:
-            logging.warning(f"Symbol-Optimizer nicht verfügbar: {e}")
-            use_symbol_specific = False
         else:
             # Prüfe Optimierungs-Status
             needs_opt = False
@@ -282,6 +279,7 @@ def _get_default_parameters(config):
 
 if __name__ == "__main__":
     main()
+
 
 
 
