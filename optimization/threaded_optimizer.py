@@ -1,6 +1,8 @@
 import threading
 import time
 import logging
+import json
+import os
 from typing import Dict, List, Tuple, Any
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import numpy as np
@@ -193,7 +195,9 @@ class ThreadedParameterOptimizer(ParameterOptimizer):
 def run_parameter_optimization_threaded(config, client):
     """
     Hauptfunktion für Multi-threaded Parameter-Optimierung
+    ERWEITERT: Speichert Ergebnisse in data/standard_multi_threading_optimization.json
     """
+    
     logger = logging.getLogger(__name__)
     logger.info("🧵 Starte MULTI-THREADED Parameter-Optimierung...")
     
@@ -213,11 +217,49 @@ def run_parameter_optimization_threaded(config, client):
         })
         
         # Optimierung starten
+        start_time = datetime.now()
         best_params = optimizer.optimize_parameters_threaded()
+        end_time = datetime.now()
+        optimization_time = (end_time - start_time).total_seconds()
         
         if best_params:
             logger.info(f"✅ Optimierung abgeschlossen! Beste Parameter gefunden.")
             logger.info(f"🏆 Score: {best_params.get('score', 0):.4f}")
+            
+            # ► NEU: Speichere in data/standard_multi_threading_optimization.json
+            data_dir = "data"
+            os.makedirs(data_dir, exist_ok=True)
+            
+            standard_optimization_file = os.path.join(data_dir, "standard_multi_threading_optimization.json")
+            
+            # Vollständige Optimierungsdaten zusammenstellen
+            optimization_data = {
+                "parameters": best_params,
+                "optimization_info": {
+                    "method": "MULTI-THREADED",
+                    "threads_used": optimizer.max_workers,
+                    "optimization_time_seconds": optimization_time,
+                    "created_date": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+                    "score": best_params.get('score', 0),
+                    "total_tests": optimization_status.get('progress', 0),
+                    "valid_results": len(test_results.get('top_results', [])),
+                },
+                "performance": {
+                    "avg_profit": best_params.get('avg_profit', 0),
+                    "win_rate": best_params.get('win_rate', 0),
+                    "sharpe_ratio": best_params.get('sharpe_ratio', 0),
+                    "max_drawdown": best_params.get('max_drawdown', 0)
+                },
+                "top_results": test_results.get('top_results', [])[:5]  # Top 5 für Referenz
+            }
+            
+            # Speichere in JSON-Datei
+            try:
+                with open(standard_optimization_file, 'w', encoding='utf-8') as f:
+                    json.dump(optimization_data, f, indent=4, ensure_ascii=False)
+                logger.info(f"✅ Standard-Optimierung gespeichert: {standard_optimization_file}")
+            except Exception as save_error:
+                logger.error(f"❌ Fehler beim Speichern der Standard-Optimierung: {save_error}")
             
             # Update final status
             update_optimization_status({
@@ -230,7 +272,7 @@ def run_parameter_optimization_threaded(config, client):
         else:
             logger.warning("⚠️ Keine optimalen Parameter gefunden - verwende Standard-Parameter")
             return _get_default_parameters(config)
-            
+    
     except Exception as e:
         logger.error(f"❌ Fehler bei Parameter-Optimierung: {e}")
         logger.info("🔄 Verwende Standard-Parameter...")
@@ -240,7 +282,7 @@ def run_parameter_optimization_threaded(config, client):
             update_optimization_status({'running': False, 'error': str(e)})
         except:
             pass
-            
+        
         return _get_default_parameters(config)
 
 def _get_default_parameters(config):
@@ -282,3 +324,4 @@ def _get_default_parameters(config):
         'best_profit': 0.0,
         'optimization_time': 0.0
     }
+
