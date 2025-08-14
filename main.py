@@ -185,10 +185,6 @@ def main():
                         optimized_params[s] = bp
                 if optimized_params:
                     symbol_optimizer.print_optimization_summary()
-        except ImportError as e:
-            logging.warning(f"Symbol-Optimizer nicht verfügbar: {e}")
-            print("⚠️ Keine symbol-spezifische Optimierung, verwende Standard")
-            use_symbol_specific = False
         except Exception as e:
             logging.error(f"Symbol-Optimizer Fehler: {e}")
             use_symbol_specific = False
@@ -279,6 +275,7 @@ def _get_default_parameters(config):
 
 if __name__ == "__main__":
     main()
+
 
 
 
