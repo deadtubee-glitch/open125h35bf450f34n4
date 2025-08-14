@@ -173,6 +173,9 @@ def main():
                     print("⏭️ Optimierung übersprungen – lade gespeicherte Parameter...")
                     print("📋 Prioritätensystem: 1) Symbol-spezifisch → 2) Standard Multi-Threading → 3) Default")
                     
+                    import json
+                    import os
+                    
                     # Dateipfade definieren
                     data_dir = "data"
                     symbol_optimization_file = os.path.join(data_dir, "optimization_results_per_symbol.json")
@@ -236,18 +239,6 @@ def main():
                                 print(f"   ⚠️  Standard-Optimierung nicht gefunden: {standard_optimization_file}")
                                 print(f"   💡 Tipp: Führe zuerst Option [2] aus, um Standard-Optimierung zu erstellen")
                         
-                        # ► PRIORITÄT 3: Default-Parameter für verbleibende Symbole
-                        symbols_without_params = [symbol for symbol in config['trading']['symbols'] if symbol not in optimized_params]
-                        if symbols_without_params:
-                            print(f"\n⚠️  Keine Parameter für {len(symbols_without_params)} Symbole gefunden")
-                            print(f"📝 Verwende Default-Parameter für: {', '.join(symbols_without_params)}")
-                            
-                            # Default-Parameter setzen (falls verfügbar)
-                            default_params = _get_default_parameters(config)
-                            if default_params and 'parameters' in default_params:
-                                for symbol in symbols_without_params:
-                                    optimized_params[symbol] = default_params['parameters']
-                        
                         # ► ERGEBNIS ANZEIGEN
                         if optimized_params:
                             total_symbols = len(config['trading']['symbols'])
@@ -256,25 +247,9 @@ def main():
                             print(f"   🎯 Mit symbol-spezifischen Parametern: {symbol_params_loaded}")
                             print(f"   ⚙️  Mit Standard-Parametern: {total_symbols - symbol_params_loaded}")
                             print(f"   🚀 Bereit für optimiertes Trading!")
-                            
-                            # Detaillierte Parameter-Übersicht (optional)
-                            print(f"\n📋 PARAMETER-DETAILS PRO SYMBOL:")
-                            for symbol in config['trading']['symbols']:
-                                if symbol in optimized_params:
-                                    params = optimized_params[symbol]
-                                    param_type = "Symbol-spezifisch" if symbol_params_loaded > 0 and symbol in [s for s in config['trading']['symbols'][:symbol_params_loaded]] else "Standard"
-                                    
-                                    # Zeige wichtige Parameter
-                                    tp = params.get('take_profit_pct', 0) * 100 if isinstance(params.get('take_profit_pct'), (int, float)) else 'N/A'
-                                    sl = params.get('stop_loss_pct', 0) * 100 if isinstance(params.get('stop_loss_pct'), (int, float)) else 'N/A'
-                                    rsi_os = params.get('rsi_oversold', 'N/A')
-                                    
-                                    print(f"   • {symbol} ({param_type}): TP={tp}%, SL={sl}%, RSI<{rsi_os}")
-                                else:
-                                    print(f"   • {symbol}: ❌ Keine Parameter geladen")
                         else:
                             print(f"\n❌ KEINE PARAMETER GEFUNDEN!")
-                            print(f"💡 Empfehlung: Führe zuerst Option [1] oder [1] aus")
+                            print(f"💡 Empfehlung: Führe zuerst Option [1] oder [2] aus")
                             print(f"🔄 Starte mit Default-Konfiguration...")
                             
                     except Exception as e:
@@ -282,6 +257,7 @@ def main():
                         print(f"❌ Fehler beim Laden gespeicherter Parameter: {e}")
                         print(f"🔄 Verwende Default-Konfiguration...")
                         optimized_params = {}
+
 
 
     if optimized_params:
@@ -518,6 +494,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
