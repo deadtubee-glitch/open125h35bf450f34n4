@@ -188,9 +188,6 @@ def main():
                         optimized_params[s] = bp
                 if optimized_params:
                     symbol_optimizer.print_optimization_summary()
-        except Exception as e:
-            logging.error(f"Symbol-Optimizer Fehler: {e}")
-            use_symbol_specific = False
 
     # Fallback Standard-Optimierung
     if not use_symbol_specific and config['optimization']['enabled']:
@@ -285,6 +282,7 @@ def _get_default_parameters(config):
 
 if __name__ == "__main__":
     main()
+
 
 
 
